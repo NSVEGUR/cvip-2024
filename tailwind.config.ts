@@ -9,16 +9,48 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        text: "var(--text-color)",
-        background: "var(--background-color)",
-        primary: "var(--primary-color)",
-        secondary: "var(--secondary-color)",
         accent: "var(--accent-color)",
+        dominant: "var(--bg-dominant-color)",
+        complement: "var(--bg-complement-color)",
+      },
+      backgroundColor: {
+        dominant: "var(--bg-dominant-color)",
+        complement: "var(--bg-complement-color)",
+      },
+      textColor: {
+        dominant: "var(--text-dominant-color)",
+        complement: "var(--text-complement-color)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      screens: {
+        "-3xl": { max: "1635px" },
+        "-2xl": { max: "1535px" },
+        "-xl": { max: "1279px" },
+        "-lg": { max: "1023px" },
+        "-md": { max: "767px" },
+        "-sm": { max: "639px" },
+        mobile: { max: "1250px" },
+        "-xs": { max: "425px" },
+        "-2xs": { max: "300px" },
+        "-mobile": { min: "1251px" },
+        "@md": { min: "640px", max: "767px" },
+        "@lg": { min: "768px", max: "1023px" },
+        "@xl": { min: "1024px", max: "1279px" },
+        "@2xl": { min: "1280px", max: "1535px" },
+      },
+      animation: {
+        fade: "fade 250ms ease-in-out",
+        "slide-right": "slide-right 300ms ease-out",
+        "slide-down": "slide-down 300ms ease-out",
+        hamburger:
+          "stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1)",
+      },
+      maxWidth: {
+        container: "1250px",
       },
     },
   },
