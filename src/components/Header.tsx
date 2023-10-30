@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "@images/logo-reversed.webp";
+import Logo from "@images/logo.webp";
 import Image from "next/image";
 import Navigation from "./Navigation";
 import { useState } from "react";
@@ -9,8 +9,8 @@ import "./header.css";
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <header className="-sm:px-3 sticky top-0 h-20 w-screen px-10 py-2">
-      <div className="max-w-container mx-auto flex items-center justify-between">
+    <header className="sticky top-0 h-20 w-screen px-10 py-2 -sm:px-3 -mobile:border-b">
+      <div className="mx-auto flex max-w-container items-center justify-between">
         <div className="flex items-center gap-1">
           <Image src={Logo} alt="logo" width="60" height="60" />
           <div>
@@ -20,7 +20,7 @@ export default function Header() {
         </div>
         <Navigation toggleMenu={toggleMenu} />
         <button
-          className="menu -mobile:hidden flex cursor-pointer rounded-md bg-complement p-1"
+          className="menu flex cursor-pointer rounded-md bg-complement p-1 -mobile:hidden"
           aria-label="Main Menu"
           onClick={(e) => {
             setToggleMenu((previous) => !previous);

@@ -15,11 +15,16 @@ const config: Config = {
       },
       backgroundColor: {
         dominant: "var(--bg-dominant-color)",
+        secondary: "var(--bg-secondary-color)",
         complement: "var(--bg-complement-color)",
       },
       textColor: {
         dominant: "var(--text-dominant-color)",
+        secondary: "var(--text-secondary-color)",
         complement: "var(--text-complement-color)",
+      },
+      borderColor: {
+        dominant: "var(--border-dominant-color)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

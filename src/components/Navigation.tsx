@@ -8,11 +8,11 @@ export default function Navigation({ toggleMenu }: { toggleMenu: boolean }) {
   const path = usePathname();
   return (
     <nav
-      className={`mobile:fixed mobile:w-screen mobile:transition-transform mobile:duration-300 mobile:py-10 mobile:h-screen mobile:overflow-scroll mobile:top-20 mobile:-right-0 -xs:pl-2 mobile:pl-10 bg-dominant ${
+      className={`bg-dominant mobile:fixed mobile:-right-0 mobile:top-20 mobile:h-screen mobile:w-screen mobile:overflow-scroll mobile:py-10 mobile:pl-10 mobile:transition-transform mobile:duration-300 -xs:pl-2 ${
         toggleMenu ? "mobile:-translate-x-0" : "mobile:translate-x-full"
       }`}
     >
-      <ul className="mobile:flex-col mobile:items-start mobile:h-full flex items-end gap-3">
+      <ul className="flex items-end gap-3 mobile:h-full mobile:flex-col mobile:items-start">
         {Object.values(header).map((link, index) => {
           return <Hyperlink link={link} path={path} key={index} />;
         })}
@@ -36,7 +36,9 @@ function Hyperlink({
         <menu className="group relative">
           <button
             className={`flex cursor-pointer items-center gap-[2px] rounded-md px-2 py-1 ${
-              active ? "bg-complement text-accent" : "hover:bg-complement"
+              active
+                ? "bg-complement text-complement"
+                : "text-secondary group-hover:bg-complement group-hover:text-complement"
             }`}
             onClick={() => setToggleMenu((previous) => !previous)}
           >
@@ -46,11 +48,11 @@ function Hyperlink({
             </span>
           </button>
           <div
-            className={`group-hover:animate-slide-down -mobile:absolute -mobile:top-8 hidden origin-top bg-transparent pt-3 group-hover:block ${
+            className={`hidden origin-top bg-transparent pt-3 group-hover:block group-hover:animate-slide-down -mobile:absolute -mobile:top-8 ${
               toggleMenu ? "block" : "hidden"
             }`}
           >
-            <ul className="flex min-w-max flex-col gap-2 rounded-md bg-complement p-1">
+            <ul className="flex min-w-max flex-col gap-2 rounded-md bg-complement p-1 text-complement">
               {Object.values(children).map((link, index) => {
                 return <Link link={link} key={`main-${index}`} />;
               })}
@@ -61,7 +63,9 @@ function Hyperlink({
         <a
           href={href}
           className={`flex items-center rounded-md px-2 py-1 ${
-            active ? "bg-complement" : "hover:bg-complement"
+            active
+              ? "bg-complement text-complement"
+              : "text-secondary hover:bg-complement hover:text-complement"
           }`}
         >
           {title}
@@ -78,7 +82,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
       {children ? (
         <menu className="group/sub relative">
           <button
-            className="flex w-full cursor-pointer items-center gap-1 rounded-md px-2 py-1 hover:bg-dominant hover:text-accent"
+            className="group-hover/sub:text-secondary flex w-full cursor-pointer items-center gap-1 rounded-md px-2 py-1 group-hover/sub:bg-dominant"
             onClick={() => setToggleMenu((previous) => !previous)}
           >
             {title}{" "}
@@ -87,7 +91,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
             </span>
           </button>
           <div
-            className={`group-hover/sub:animate-slide-right mobile:group-hover/sub:animate-slide-down mobile:origin-top -mobile:absolute -mobile:left-full -mobile:-top-3 hidden origin-top-left bg-transparent pl-3 group-hover/sub:block ${
+            className={`hidden origin-top-left bg-transparent pl-3 group-hover/sub:block group-hover/sub:animate-slide-right mobile:origin-top mobile:group-hover/sub:animate-slide-down -mobile:absolute -mobile:-top-3 -mobile:left-full ${
               toggleMenu ? "block" : "hidden"
             }`}
           >
@@ -97,7 +101,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
                   <li key={`sub-${index}`}>
                     <a
                       href={link.href}
-                      className="m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant hover:text-accent"
+                      className="hover:text-secondary m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
                     >
                       {link.title}
                     </a>
@@ -110,7 +114,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
       ) : (
         <a
           href={href}
-          className="m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant hover:text-accent"
+          className="hover:text-secondary m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
         >
           {title}
         </a>

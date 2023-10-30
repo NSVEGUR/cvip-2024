@@ -3,16 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --bg-dominant-color: #000000;
-  --bg-complement-color: #404040;
-  --text-dominant-color: #ffffff;
-  --text-complement-color: #888888;
-  --accent-color: #ed6d68;
+  --bg-dominant-color: #ffffff;
+  --bg-secondary-color: #8e8c98;
+  --bg-complement-color: #211f26;
+  --text-dominant-color: #211f25;
+  --text-secondary-color: #8e8c98;
+  --text-complement-color: #ffffff;
+  --accent-color: #d45453;
+  --border-dominant-color: #e2dfe6;
 }
 
 body {
   color: var(--text-dominant-color);
   background: var(--bg-dominant-color);
+  border-color: var(--border-dominant-color);
 }
 
 @keyframes slide-right {
