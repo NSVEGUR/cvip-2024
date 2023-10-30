@@ -35,15 +35,15 @@ export default function Home() {
   return (
     <Main>
       {/* Landing */}
-      <section className="flex min-h-[calc(100vh-theme(spacing.16))] flex-col justify-evenly">
-        <div className="flex min-h-[50vh] items-center justify-evenly gap-5 -lg:flex-col">
+      <section className="min-h-container flex flex-col justify-evenly">
+        <div className="-sm:min-h-container flex min-h-[50vh] items-center justify-evenly gap-5 -lg:flex-col-reverse">
           <div className="flex flex-col items-start gap-1 text-left -lg:items-center -lg:text-center">
             <p className="text-muted">9th International Conference on</p>
             <h1 className="text-4xl font-bold -sm:text-2xl">
               Computer Vision & Image Processing
             </h1>
             <p className="font-medium text-accent">
-              04-06 November, 2024 | IIITDM Kancheepuram, Chennai - 600127,
+              20-22 December, 2024 | IIITDM Kancheepuram, Chennai - 600127,
               India
             </p>
             <Link href="#about" className="mt-4">
@@ -55,7 +55,7 @@ export default function Home() {
               src={InstitutePoster}
               alt="institute-image"
               height="350"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg object-cover shadow-lg -sm:h-80"
             />
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function Home() {
             <p className="text-muted">
               IIITDM Kancheepuram, Chennai - 600127, India
             </p>
-            <p className="mt-2">04-06 November, 2024</p>
+            <p className="mt-2">20-22 December, 2024</p>
             <Counter />
           </div>
         </div>

@@ -59,6 +59,12 @@ const config: Config = {
       maxWidth: {
         container: "1400px",
       },
+      minHeight: {
+        container: "calc(100vh - 4rem/* 64px */)",
+      },
+      height: {
+        container: "calc(100vh - 4rem/* 64px */)",
+      },
     },
   },
   plugins: [],

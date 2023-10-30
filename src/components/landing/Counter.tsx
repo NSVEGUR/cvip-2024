@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function Counter() {
-  const target = new Date("04/11/2024");
+  const target = new Date("12/20/2024");
   const [time, setTime] = useState({
     days: 0,
     hours: 0,
