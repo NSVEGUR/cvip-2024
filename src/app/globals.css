@@ -4,12 +4,13 @@
 
 :root {
   --bg-dominant-color: #ffffff;
-  --bg-secondary-color: #8e8c98;
-  --bg-complement-color: #211f26;
-  --text-dominant-color: #211f25;
-  --text-secondary-color: #8e8c98;
-  --text-complement-color: #ffffff;
+  --bg-muted-color: #e8e8e8;
+  --bg-inverted-color: #121212;
+  --text-dominant-color: #121212;
+  --text-muted-color: #8e8c98;
+  --text-inverted-color: #ffffff;
   --accent-color: #d45453;
+  --complement-color: #bfa678;
   --border-dominant-color: #e2dfe6;
 }
 

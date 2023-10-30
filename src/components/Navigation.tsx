@@ -8,7 +8,7 @@ export default function Navigation({ toggleMenu }: { toggleMenu: boolean }) {
   const path = usePathname();
   return (
     <nav
-      className={`bg-dominant mobile:fixed mobile:-right-0 mobile:top-20 mobile:h-screen mobile:w-screen mobile:overflow-scroll mobile:py-10 mobile:pl-10 mobile:transition-transform mobile:duration-300 -xs:pl-2 ${
+      className={`bg-dominant mobile:fixed mobile:-right-0 mobile:top-16 mobile:h-screen mobile:w-screen mobile:overflow-scroll mobile:py-10 mobile:pl-10 mobile:transition-transform mobile:duration-300 -xs:pl-2 ${
         toggleMenu ? "mobile:-translate-x-0" : "mobile:translate-x-full"
       }`}
     >
@@ -37,8 +37,8 @@ function Hyperlink({
           <button
             className={`flex cursor-pointer items-center gap-[2px] rounded-md px-2 py-1 ${
               active
-                ? "bg-complement text-complement"
-                : "text-secondary group-hover:bg-complement group-hover:text-complement"
+                ? "bg-inverted text-inverted"
+                : "group-hover:bg-inverted group-hover:text-inverted text-muted"
             }`}
             onClick={() => setToggleMenu((previous) => !previous)}
           >
@@ -52,7 +52,7 @@ function Hyperlink({
               toggleMenu ? "block" : "hidden"
             }`}
           >
-            <ul className="flex min-w-max flex-col gap-2 rounded-md bg-complement p-1 text-complement">
+            <ul className="bg-inverted text-inverted flex min-w-max flex-col gap-2 rounded-md p-1">
               {Object.values(children).map((link, index) => {
                 return <Link link={link} key={`main-${index}`} />;
               })}
@@ -64,8 +64,8 @@ function Hyperlink({
           href={href}
           className={`flex items-center rounded-md px-2 py-1 ${
             active
-              ? "bg-complement text-complement"
-              : "text-secondary hover:bg-complement hover:text-complement"
+              ? "bg-inverted text-inverted"
+              : "hover:bg-inverted hover:text-inverted text-muted"
           }`}
         >
           {title}
@@ -82,7 +82,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
       {children ? (
         <menu className="group/sub relative">
           <button
-            className="group-hover/sub:text-secondary flex w-full cursor-pointer items-center gap-1 rounded-md px-2 py-1 group-hover/sub:bg-dominant"
+            className="group-hover/sub:text-muted flex w-full cursor-pointer items-center gap-1 rounded-md px-2 py-1 group-hover/sub:bg-dominant"
             onClick={() => setToggleMenu((previous) => !previous)}
           >
             {title}{" "}
@@ -95,13 +95,13 @@ function Link({ link: { title, href, children } }: { link: Link }) {
               toggleMenu ? "block" : "hidden"
             }`}
           >
-            <ul className="flex min-w-max flex-col gap-2 rounded-md bg-complement p-1">
+            <ul className="bg-inverted flex min-w-max flex-col gap-2 rounded-md p-1">
               {Object.values(children).map((link, index) => {
                 return (
                   <li key={`sub-${index}`}>
                     <a
                       href={link.href}
-                      className="hover:text-secondary m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
+                      className="hover:text-muted m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
                     >
                       {link.title}
                     </a>
@@ -114,7 +114,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
       ) : (
         <a
           href={href}
-          className="hover:text-secondary m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
+          className="hover:text-muted m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
         >
           {title}
         </a>

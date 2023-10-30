@@ -10,18 +10,20 @@ const config: Config = {
     extend: {
       colors: {
         accent: "var(--accent-color)",
+        complement: "var(--complement-color)",
         dominant: "var(--bg-dominant-color)",
-        complement: "var(--bg-complement-color)",
+        inverted: "var(--bg-inverted-color",
+        muted: "var(--bg-muted-color)",
       },
       backgroundColor: {
         dominant: "var(--bg-dominant-color)",
-        secondary: "var(--bg-secondary-color)",
-        complement: "var(--bg-complement-color)",
+        muted: "var(--bg-muted-color)",
+        inverted: "var(--bg-inverted-color)",
       },
       textColor: {
         dominant: "var(--text-dominant-color)",
-        secondary: "var(--text-secondary-color)",
-        complement: "var(--text-complement-color)",
+        muted: "var(--text-muted-color)",
+        inverted: "var(--text-inverted-color)",
       },
       borderColor: {
         dominant: "var(--border-dominant-color)",
@@ -55,7 +57,7 @@ const config: Config = {
           "stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1)",
       },
       maxWidth: {
-        container: "1250px",
+        container: "1400px",
       },
     },
   },

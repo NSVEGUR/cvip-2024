@@ -14,7 +14,7 @@ export default function Footer() {
               <p>Kancheepuram</p>
             </div>
           </div>
-          <div className="text-secondary mt-2">
+          <div className="text-muted mt-2">
             <p>Off Vandalur-Kelambakkam Road</p>
             <p>Chennai-600127</p>
           </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                     return (
                       <li
                         key={index}
-                        className="text-secondary transition-transform hover:scale-110 hover:text-dominant"
+                        className="text-muted transition-transform hover:scale-110 hover:text-dominant"
                       >
                         <a href={href}>{title}</a>
                       </li>
