@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import Favicon from "@/components/landing/Favicon";
+import Favicon from "@/components/marginals/Favicon";
 
 export const size = {
   width: 32,

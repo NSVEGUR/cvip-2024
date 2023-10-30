@@ -8,13 +8,13 @@ export default function Navigation({ toggleMenu }: { toggleMenu: boolean }) {
   const path = usePathname();
   return (
     <nav
-      className={`mobile:h-container bg-dominant mobile:fixed mobile:-right-0 mobile:top-16 mobile:w-screen mobile:overflow-scroll mobile:py-10 mobile:pl-10 mobile:transition-transform mobile:duration-300 -xs:pl-2 ${
+      className={`bg-dominant mobile:fixed mobile:-right-0 mobile:top-16 mobile:h-container mobile:w-screen mobile:overflow-scroll mobile:py-10 mobile:pl-10 mobile:transition-transform mobile:duration-300 -xs:pl-2 ${
         toggleMenu ? "mobile:-translate-x-0" : "mobile:translate-x-full"
       }`}
     >
       <ul className="flex items-end gap-3 pr-3 mobile:h-full mobile:flex-col mobile:items-end mobile:text-right">
         {Object.values(header).map((link, index) => {
-          return <Hyperlink link={link} path={path} key={index} />;
+          return <Hyperlink {...{ link, path, index }} key={index} />;
         })}
       </ul>
     </nav>
@@ -22,13 +22,15 @@ export default function Navigation({ toggleMenu }: { toggleMenu: boolean }) {
 }
 
 function Hyperlink({
-  link: { title, href, children },
+  link: { title, href, children, base },
   path,
+  index,
 }: {
   link: Hyperlink;
   path: string;
+  index: number;
 }) {
-  const active = href == "/" ? path.includes(href) : path == href;
+  const active = href == "/" ? href == path : path.includes(base);
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <li>
@@ -50,7 +52,7 @@ function Hyperlink({
           <div
             className={`hidden origin-top bg-transparent pt-3 group-hover:block group-hover:animate-slide-down -mobile:absolute -mobile:top-8 ${
               toggleMenu ? "block" : "hidden"
-            }`}
+            } ${index < 7 ? "left-auto" : "-left-8"}`}
           >
             <ul className="flex min-w-max flex-col gap-2 rounded-md bg-inverted p-1 text-inverted mobile:min-w-min mobile:items-end">
               {Object.values(children).map((link, index) => {

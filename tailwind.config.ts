@@ -43,11 +43,11 @@ const config: Config = {
         mobile: { max: "1250px" },
         "-xs": { max: "425px" },
         "-2xs": { max: "300px" },
-        "-mobile": { min: "1251px" },
         "@md": { min: "640px", max: "767px" },
         "@lg": { min: "768px", max: "1023px" },
         "@xl": { min: "1024px", max: "1279px" },
         "@2xl": { min: "1280px", max: "1535px" },
+        "-mobile": { min: "1251px" },
       },
       animation: {
         fade: "fade 250ms ease-in-out",

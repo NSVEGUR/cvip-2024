@@ -13,6 +13,7 @@ export type Link = {
 export type Hyperlink = {
   href?: string;
   title: string;
+  base: string;
   children: null | {
     [key: string]: Link;
   };
@@ -24,10 +25,12 @@ export const header: {
   Home: {
     href: "/",
     title: "Home",
+    base: "/",
     children: null,
   },
   Committee: {
     title: "Committee",
+    base: "/committee",
     children: {
       "Organizing Committee": {
         title: "Organizing Committee",
@@ -36,33 +39,26 @@ export const header: {
       },
       "Advisory Committee": {
         title: "Advisory Committee",
-        children: {
-          "International Advisory Committee": {
-            title: "International Advisory Committee",
-            href: "/committee/international-advisory-committee",
-            children: null,
-          },
-          "National Advisory Committee": {
-            title: "National Advisory Committee",
-            href: "/committee/national-advisory-committee",
-            children: null,
-          },
-        },
+        href: "/committee/advisory-committee",
+        children: null,
       },
     },
   },
   Keynotes: {
     title: "Keynotes",
     href: "/keynotes",
+    base: "/keynotes",
     children: null,
   },
   Awards: {
     title: "Awards",
     href: "/awards",
+    base: "/awards",
     children: null,
   },
   Calls: {
     title: "Calls",
+    base: "/calls",
     children: {
       "Call for Papers": {
         title: "Call for Papers",
@@ -78,6 +74,7 @@ export const header: {
   },
   Submission: {
     title: "Submission",
+    base: "/submission",
     children: {
       "Program Schedule & Oral Presentation": {
         title: "Program Schedule & Oral Presentation",
@@ -91,28 +88,8 @@ export const header: {
       },
       "Author Guidelines": {
         title: "Author Guidelines",
-        children: {
-          "Call for Papers": {
-            title: "Call for Papers",
-            href: "/submission/author-guidelines/call-for-papers",
-            children: null,
-          },
-          "Submission Guidelines": {
-            title: "Submission Guidelines",
-            href: "/submission/author-guidelines/submission-guidelines",
-            children: null,
-          },
-          "Author's CMT Registration": {
-            title: "Author's CMT Registration",
-            href: "/submission/author-guidelines/authors-cmt-registration",
-            children: null,
-          },
-          "Camera Ready Submission": {
-            title: "Camera Ready Submission",
-            href: "/submission/author-guidelines/camera-ready-submission",
-            children: null,
-          },
-        },
+        href: "/submission/author-guidelines",
+        children: null,
       },
       "Accepted Paper List": {
         title: "Accepted Paper List",
@@ -128,6 +105,7 @@ export const header: {
   },
   "Venue & Travel": {
     title: "Venue & Travel",
+    base: "/venue-and-travel",
     children: {
       "Conference Venue": {
         title: "Conference Venue",
@@ -149,10 +127,12 @@ export const header: {
   Registration: {
     title: "Registration",
     href: "/registration",
+    base: "/registration",
     children: null,
   },
   Expo: {
     title: "Expo",
+    base: "/expo",
     children: {
       Sponsorship: {
         title: "Sponsorship",
@@ -163,45 +143,46 @@ export const header: {
   },
   Years: {
     title: "Years",
+    base: "/years",
     children: {
       "CVIP 2023": {
         title: "CVIP 2023",
-        href: "/years/cvip-2023",
+        href: "https://iitjammu.ac.in/cvip2023/index.html",
         children: null,
       },
       "CVIP 2022": {
         title: "CVIP 2022",
-        href: "/years/cvip-2022",
+        href: "https://vnit.ac.in/cvip2022/",
         children: null,
       },
       "CVIP 2021": {
         title: "CVIP 2021",
-        href: "/years/cvip-2021",
+        href: "https://iitrpr.cvip2021.com/",
         children: null,
       },
       "CVIP 2020": {
         title: "CVIP 2020",
-        href: "/years/cvip-2020",
+        href: "https://cvip2020.iiita.ac.in/",
         children: null,
       },
       "CVIP 2019": {
         title: "CVIP 2019",
-        href: "/years/cvip-2019",
+        href: "https://mnit.ac.in/",
         children: null,
       },
       "CVIP 2018": {
         title: "CVIP 2018",
-        href: "/years/cvip-2018",
+        href: "https://www.iiitdmj.ac.in/CVIP-2018/",
         children: null,
       },
       "CVIP 2017": {
         title: "CVIP 2017",
-        href: "/years/cvip-2017",
+        href: "https://www.iitr.ac.in/cvip2017/index.html",
         children: null,
       },
       "CVIP 2016": {
         title: "CVIP 2016",
-        href: "/years/cvip-2016",
+        href: "https://www.iitr.ac.in/cvip2016/",
         children: null,
       },
     },

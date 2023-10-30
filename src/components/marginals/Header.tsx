@@ -9,10 +9,10 @@ import "./header.css";
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <header className="sticky top-0 h-16 w-screen border-b bg-dominant px-3 py-2">
+    <header className="sticky top-0 z-30 h-16 w-screen border-b bg-dominant px-3 py-2">
       <div className="mx-auto flex max-w-container items-center justify-between">
         <a className="flex items-center gap-1" href="/">
-          <Image src={Logo} alt="logo" width="50" height="50" />
+          <Image src={Logo} alt="logo" width="50" priority />
           <div>
             <h1 className="text-2xl font-bold text-accent">CVIP</h1>
             <p className="text-light -mt-1 text-sm font-normal">2024</p>

@@ -20,11 +20,11 @@ const linkVariants = cva(
   }
 );
 
-interface LinkProps
+interface Props
   extends AnchorHTMLAttributes<HTMLAnchorElement>,
     VariantProps<typeof linkVariants> {}
 
-const Link: FC<LinkProps> = function ({ className, size, intent, ...props }) {
+const Link: FC<Props> = function ({ className, size, intent, ...props }) {
   return (
     <a className={cn(linkVariants({ className, intent, size }))} {...props}></a>
   );

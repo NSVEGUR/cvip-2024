@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@components/landing/Header";
-import Footer from "@components/landing/Footer";
+import Header from "@components/marginals/Header";
+import Footer from "@components/marginals/Footer";
+import { headers } from "next/headers";
+import { getMetadata } from "@/lib/utils/sitemap";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "CVIP 2024 | IIITDM",
-  description:
-    "9th International Conference on Computer Vision & Image Processing, 2024",
-};
+export function generateMetadata(): Metadata {
+  const pathname = headers().get("x-next-pathname") || "/";
+  const { title, description } = getMetadata(pathname);
+  return { title, description };
+}
 
 export const viewport = {
   themeColor: "white",
