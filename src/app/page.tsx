@@ -6,7 +6,7 @@ import IAPR from "@images/logos/iapr.png";
 import IIITDM from "@images/logo.webp";
 import Springer from "@images/logos/springer.png";
 import CCIS from "@images/logos/ccis.png";
-import Counter from "./Counter";
+import Counter from "@components/landing/Counter";
 
 const endorsers = [
   {

@@ -13,11 +13,9 @@ export default function Header() {
       <div className="mx-auto flex max-w-container items-center justify-between">
         <a className="flex items-center gap-1" href="/">
           <Image src={Logo} alt="logo" width="50" height="50" />
-          <div className="flex items-baseline">
+          <div>
             <h1 className="text-2xl font-bold text-accent">CVIP</h1>
-            <p className="text-light ml-1 text-sm font-normal text-muted">
-              2024
-            </p>
+            <p className="text-light -mt-1 text-sm font-normal">2024</p>
           </div>
         </a>
         <Navigation toggleMenu={toggleMenu} />

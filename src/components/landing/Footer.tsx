@@ -14,7 +14,7 @@ export default function Footer() {
               <p>Kancheepuram</p>
             </div>
           </div>
-          <div className="text-muted mt-2">
+          <div className="mt-2 text-muted">
             <p>Off Vandalur-Kelambakkam Road</p>
             <p>Chennai-600127</p>
           </div>

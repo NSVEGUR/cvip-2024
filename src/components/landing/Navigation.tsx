@@ -38,7 +38,7 @@ function Hyperlink({
             className={`flex cursor-pointer items-center gap-[2px] rounded-md px-2 py-1 ${
               active
                 ? "bg-inverted text-inverted"
-                : "group-hover:bg-inverted group-hover:text-inverted text-muted"
+                : "text-muted group-hover:bg-inverted group-hover:text-inverted"
             }`}
             onClick={() => setToggleMenu((previous) => !previous)}
           >
@@ -52,7 +52,7 @@ function Hyperlink({
               toggleMenu ? "block" : "hidden"
             }`}
           >
-            <ul className="bg-inverted text-inverted flex min-w-max flex-col gap-2 rounded-md p-1">
+            <ul className="flex min-w-max flex-col gap-2 rounded-md bg-inverted p-1 text-inverted">
               {Object.values(children).map((link, index) => {
                 return <Link link={link} key={`main-${index}`} />;
               })}
@@ -65,7 +65,7 @@ function Hyperlink({
           className={`flex items-center rounded-md px-2 py-1 ${
             active
               ? "bg-inverted text-inverted"
-              : "hover:bg-inverted hover:text-inverted text-muted"
+              : "text-muted hover:bg-inverted hover:text-inverted"
           }`}
         >
           {title}
@@ -82,7 +82,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
       {children ? (
         <menu className="group/sub relative">
           <button
-            className="group-hover/sub:text-muted flex w-full cursor-pointer items-center gap-1 rounded-md px-2 py-1 group-hover/sub:bg-dominant"
+            className="flex w-full cursor-pointer items-center gap-1 rounded-md px-2 py-1 group-hover/sub:bg-dominant group-hover/sub:text-muted"
             onClick={() => setToggleMenu((previous) => !previous)}
           >
             {title}{" "}
@@ -95,13 +95,13 @@ function Link({ link: { title, href, children } }: { link: Link }) {
               toggleMenu ? "block" : "hidden"
             }`}
           >
-            <ul className="bg-inverted flex min-w-max flex-col gap-2 rounded-md p-1">
+            <ul className="flex min-w-max flex-col gap-2 rounded-md bg-inverted p-1">
               {Object.values(children).map((link, index) => {
                 return (
                   <li key={`sub-${index}`}>
                     <a
                       href={link.href}
-                      className="hover:text-muted m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
+                      className="m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant hover:text-muted"
                     >
                       {link.title}
                     </a>
@@ -114,7 +114,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
       ) : (
         <a
           href={href}
-          className="hover:text-muted m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant"
+          className="m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant hover:text-muted"
         >
           {title}
         </a>
