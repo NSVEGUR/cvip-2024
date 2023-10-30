@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="border-t p-5">
-      <section className="flex flex-wrap items-start justify-center gap-20">
-        <div className="text-right">
-          <div className="flex flex-row-reverse items-center gap-1">
+      <section className="flex flex-wrap items-start justify-center gap-20 -md:flex-col-reverse -md:items-center -md:justify-center -md:gap-10">
+        <div className=" text-right -md:text-center">
+          <div className="flex flex-row-reverse items-center gap-1 -md:flex-col">
             <Image src={Logo} alt="logo" width="60" height="60" />
             <div>
               <h1 className="text-3xl font-bold text-accent">IIITDM</h1>
@@ -19,7 +19,7 @@ export default function Footer() {
             <p>Chennai-600127</p>
           </div>
         </div>
-        <div className="flex flex-wrap gap-10">
+        <div className="flex flex-wrap gap-10 -md:items-center -md:justify-center -md:text-center">
           {Object.values(footer).map(({ title, children }, index) => {
             return (
               <div key={index}>

@@ -9,7 +9,7 @@ import "./header.css";
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <header className="sticky top-0 h-20 w-screen px-10 py-2 -sm:px-3 -mobile:border-b">
+    <header className="sticky top-0 h-20 w-screen border-b px-10 py-2 -sm:px-3">
       <div className="mx-auto flex max-w-container items-center justify-between">
         <div className="flex items-center gap-1">
           <Image src={Logo} alt="logo" width="60" height="60" />
@@ -20,7 +20,7 @@ export default function Header() {
         </div>
         <Navigation toggleMenu={toggleMenu} />
         <button
-          className="menu flex cursor-pointer rounded-md bg-complement p-1 -mobile:hidden"
+          className="menu flex cursor-pointer rounded-md bg-complement p-1 text-complement -mobile:hidden"
           aria-label="Main Menu"
           onClick={(e) => {
             setToggleMenu((previous) => !previous);
