@@ -2,7 +2,8 @@ import { Main } from "@ui/Main";
 import { Link } from "@ui/Link";
 import InstitutePoster from "@images/institute.webp";
 import Image from "next/image";
-import DateCounter from "@/components/DateCounter";
+import DateCounter from "@/app/DateCounter";
+import Video from "@/app/Video";
 
 export default function Home() {
   return (
@@ -24,13 +25,14 @@ export default function Home() {
               Explore More
             </Link>
           </div>
-          <div>
+          <div className="group relative">
             <Image
               src={InstitutePoster}
               alt="institute-image"
               height="350"
               className="rounded-lg object-cover shadow-lg -sm:h-80"
             />
+            <Video />
           </div>
         </div>
         <div className="my-10 grid grid-cols-2 gap-5 rounded-lg bg-muted p-5 text-center shadow-md -md:grid-cols-1">
