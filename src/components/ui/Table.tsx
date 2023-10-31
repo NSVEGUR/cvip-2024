@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { VariantProps, cva } from "class-variance-authority";
 import { FC, HTMLAttributes } from "react";
 
-const tableVariants = cva("relative overflow-x-auto shadow rounded-lg", {
+const tableVariants = cva("relative overflow-x-auto shadow rounded-lg border", {
   variants: {
     intent: {
       primary: "",
@@ -40,24 +40,31 @@ const Table: FC<Props> = function ({
           </tr>
         </thead>
         <tbody>
-          {rows.map((row, i) => (
-            <tr className="border-b bg-white" key={i}>
-              {row.map((cell, j) =>
-                j == 0 ? (
-                  <th
-                    scope="row"
-                    className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 "
-                  >
-                    {cell}
-                  </th>
-                ) : (
-                  <td className="px-6 py-4" key={j}>
-                    {cell}
-                  </td>
-                )
-              )}
-            </tr>
-          ))}
+          {rows.map((row, i) => {
+            const last = rows.length - 1;
+            return (
+              <tr
+                className={"bg-white " + (i != last) ? "border-b" : ""}
+                key={i}
+              >
+                {row.map((cell, j) =>
+                  j == 0 ? (
+                    <th
+                      scope="row"
+                      className="whitespace-nowrap px-6 py-4 font-medium text-dominant"
+                      key={j}
+                    >
+                      {cell}
+                    </th>
+                  ) : (
+                    <td className="px-6 py-4" key={j}>
+                      {cell}
+                    </td>
+                  )
+                )}
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>

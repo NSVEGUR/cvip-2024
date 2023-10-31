@@ -8,7 +8,7 @@ interface Props {
 
 const ImageCard: FC<Props> = function ({ member }) {
   return (
-    <div className="flex w-64 flex-col items-center justify-start rounded-lg border p-2 text-center shadow">
+    <div className="flex w-64 flex-col items-center justify-start rounded-lg border p-2 text-center">
       <Image
         src={member.image}
         alt={member.name}
