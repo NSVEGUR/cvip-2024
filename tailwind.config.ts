@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         accent: "var(--accent-color)",
+        "accent-soft": "var(--accent-soft-color)",
         complement: "var(--complement-color)",
         dominant: "var(--bg-dominant-color)",
         inverted: "var(--bg-inverted-color",
@@ -21,6 +22,7 @@ const config: Config = {
         inverted: "var(--bg-inverted-color)",
       },
       textColor: {
+        heading: "var(--text-heading-color)",
         dominant: "var(--text-dominant-color)",
         muted: "var(--text-muted-color)",
         inverted: "var(--text-inverted-color)",

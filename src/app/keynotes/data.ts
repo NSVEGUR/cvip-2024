@@ -1,17 +1,16 @@
-import ProfIshwarKSethi from "@images/people/ProfIshwarKSethi.jpeg";
+import ProfPKBiswas from "@images/people/ProfPKBiswas.jpeg";
 import ProfTomGedeon from "@images/people/ProfTomGedeon.jpeg";
 import ProfSvethaVenkatesh from "@images/people/ProfSvetaVenkatesh.webp";
 import ProfSukhenduDas from "@images/people/ProfSukhenduDas.jpeg";
 import ProfRVenkateshBabu from "@images/people/ProfRVenkateshBabu.jpeg";
 import ProfANRajagopalan from "@images/people/ProfANRajagopalan.jpeg";
-import { ImageCard } from "@/lib/types";
+import { ProfileCard } from "@/lib/types";
 
-export const speakers: ImageCard[] = [
+export const speakers: ProfileCard[] = [
   {
-    name: "Prof. Ishwar K. Sethi",
-    image: ProfIshwarKSethi,
-    description:
-      "Department of Electronics & Electrical Communication Engineering IIT Kharagpur, India",
+    name: "Prof. P K Biswas",
+    image: ProfPKBiswas,
+    description: "IIT Kharagpur, India",
   },
   {
     name: "Prof. Tom Gedeon",

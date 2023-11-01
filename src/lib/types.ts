@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-export type ImageCard = {
+export type ProfileCard = {
   name: string;
   image: StaticImageData;
   description: string;

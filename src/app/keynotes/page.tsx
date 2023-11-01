@@ -1,6 +1,6 @@
 import { Main } from "@ui/Main";
 import { speakers } from "./data";
-import { ImageCard } from "@ui/ImageCard";
+import { ProfileCard } from "@/components/ui/ProfileCard";
 import { Cover } from "@ui/Cover.Heading";
 
 export default function Page() {
@@ -10,7 +10,7 @@ export default function Page() {
       <Main className="pt-0">
         <div className="flex h-max flex-wrap items-stretch justify-center gap-5">
           {speakers.map((member) => {
-            return <ImageCard member={member} key={member.name} />;
+            return <ProfileCard member={member} key={member.name} />;
           })}
         </div>
       </Main>

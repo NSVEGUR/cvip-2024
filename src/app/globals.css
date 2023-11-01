@@ -6,10 +6,12 @@
   --bg-dominant-color: #ffffff;
   --bg-muted-color: #f0f0f0;
   --bg-inverted-color: #121212;
-  --text-dominant-color: #121212;
+  --text-heading-color: #121212;
+  --text-dominant-color: #666666;
   --text-muted-color: #8e8c98;
   --text-inverted-color: #ffffff;
   --accent-color: #d45453;
+  --accent-soft-color: #faf2eb;
   --complement-color: #bfa678;
   --border-dominant-color: #e2dfe6;
 }
@@ -18,6 +20,10 @@ body {
   color: var(--text-dominant-color);
   background: var(--bg-dominant-color);
   border-color: var(--border-dominant-color);
+}
+
+h1 {
+  color: var(--text-heading-color);
 }
 
 @keyframes slide-right {

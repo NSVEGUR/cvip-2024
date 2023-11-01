@@ -122,6 +122,11 @@ export const header: {
         href: "/venue-and-travel/travel-information",
         children: null,
       },
+      "Chennai Tours Information": {
+        title: "Chennai Tours Information",
+        href: "/venue-and-travel/chennai-tours-information",
+        children: null,
+      },
     },
   },
   Registration: {

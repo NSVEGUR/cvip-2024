@@ -58,6 +58,126 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section id="more" className="my-3">
+        <h1 className="mb-10 text-center text-3xl font-bold">Introduction</h1>
+        <p className="text-justify text-lg text-dominant">
+          CVIP 2024, the 9th International Conference on Computer Vision & Image
+          Processing will be held at Indian Institute of Information Technology
+          Design and Manufacturing ( IIITDM), Chennai, Tamilnadu, INDIA from
+          December 20-22, 2024. CVIP is a premier annual conference focused on
+          Computer Vision and Image Processing, with its high quality; it
+          provides a great platform to students, academia, researchers and
+          industry persons. Previous editions of CVIP were held at IIT Jammu
+          (2023), VNIT Nagpur ( 2022), IIT Ropar (CVIP 2021), IIIT Allahabad
+          (CVIP 2020), MNIT Jaipur (CVIP 2019), IIIT Jabalpur (CVIP 2018), and
+          IIT Roorkee (CVIP 2017 and CVIP 2016). Papers in the main technical
+          program must describe high-quality original research. Prospective
+          authors are invited to submit their original research contribution in
+          the following tracks:
+        </p>
+      </section>
+      <section className="mt-10 rounded-lg bg-muted p-5 shadow-md">
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="text-center text-2xl font-bold">Conference Talks</h1>
+          <div className="mb-3 mt-1 h-[2px] w-20 bg-accent"></div>
+        </div>
+        <div className="my-6 grid grid-cols-2 text-lg text-muted -sm:grid-cols-1">
+          <ul className=" ml-5 list-disc space-y-2">
+            <li>Biometrics, Forensics, Content Protection</li>
+            <li>Medical Image Analysis</li>
+            <li>3D Image/ Video Processing</li>
+            <li>Image Enhancement /Super Resolution / Restoration</li>
+            <li>Image/ Video Processing for Autonomous Vehicles</li>
+            <li>Activity Detection/ Recognition</li>
+            <li>Segmentation and Shape Representation</li>
+            <li>Human Computer Interaction</li>
+            <li>Computational Imaging</li>
+            <li>Visual Sensor Hardware</li>
+          </ul>
+          <ul className=" ml-5 list-disc space-y-2">
+            <li>Document Image Analysis</li>
+            <li>Motion and Tracking</li>
+            <li>Image/ Video Scene Understanding</li>
+            <li>Image/ Video Retrieval</li>
+            <li>Image/ Video Security</li>
+            <li>Vision based Human GAIT Analysis</li>
+            <li>Document and Synthetic Visual Processing</li>
+            <li>Remote Sensing, Hyperspectral Image Processing</li>
+            <li>Datasets and Evaluation</li>
+            <li>Compressed Image/ Video Analytics</li>
+            <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
+          </ul>
+        </div>
+      </section>
+      <section className="my-10 flex flex-col items-center justify-center">
+        <h1 className="mb-10 text-center text-3xl font-bold text-accent">
+          Important Dates
+        </h1>
+        <div className="relative mt-3 max-w-[600px] overflow-x-auto rounded-lg border border-gray-400 shadow">
+          <table className="w-full text-left text-sm text-muted">
+            <thead className=" bg-muted text-xs uppercase text-dominant">
+              <tr>
+                <th scope="col" className="px-6 py-3" colSpan={2}>
+                  Paper Submission Starts
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  February 15, 2024
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b bg-white">
+                <th
+                  scope="row"
+                  className="whitespace-nowrap px-6 py-4 font-medium text-dominant"
+                  rowSpan={2}
+                >
+                  First Round
+                </th>
+                <td className="px-6 py-4">Paper Submission Deadline</td>
+                <td className="px-6 py-4">April 1st, 2024</td>
+              </tr>
+              <tr className="border-b bg-white">
+                <td className="px-6 py-4">Notification of Paper Acceptance</td>
+                <td className="px-6 py-4">June 1st, 2024</td>
+              </tr>
+              <tr className="border-b bg-muted">
+                <th
+                  scope="row"
+                  className="whitespace-nowrap px-6 py-4 font-medium text-dominant"
+                  rowSpan={2}
+                >
+                  Second Round
+                </th>
+                <td className="px-6 py-4">Paper Submission Deadline</td>
+                <td className="px-6 py-4">August 15, 2024</td>
+              </tr>
+              <tr className="border-b bg-muted">
+                <td className="px-6 py-4">Notification of Paper Acceptance</td>
+                <td className="px-6 py-4">October 15, 2024</td>
+              </tr>
+              <tr className="border-b bg-white">
+                <td className="px-6 py-4" colSpan={2}>
+                  Camera Ready Submission Deadline
+                </td>
+                <td className="px-6 py-4">October 30, 2024</td>
+              </tr>
+              <tr className="border-b bg-muted">
+                <td className="px-6 py-4" colSpan={2}>
+                  Early Bird Registration Deadline
+                </td>
+                <td className="px-6 py-4">November 15, 2024</td>
+              </tr>
+              <tr className="border-b bg-white">
+                <td className="px-6 py-4" colSpan={2}>
+                  Conference Dates
+                </td>
+                <td className="px-6 py-4">December 20-22, 2024</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </Main>
   );
 }

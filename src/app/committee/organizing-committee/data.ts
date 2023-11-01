@@ -19,10 +19,17 @@ import DrParthaPratimRoy from "@images/people/DrParthaPratimRoy.jpeg";
 import DrDeepGupta from "@images/people/DrDeepGupta.jpeg";
 import DrNoorMahammad from "@images/people/DrNoorMahammad.jpeg";
 import DrKrishnaPriya from "@images/people/DrKrishnaPriya.jpeg";
-import { ImageCard } from "@/lib/types";
+import DrUmaraniJayaraman from "@images/people/DrUmaraniJayaraman.jpeg";
+import DrSanjeethKumarNayak from "@images/people/DrSanjeetKumarNayak.webp";
+import DrRaghavanS from "@images/people/DrRaghavanS.webp";
+import DrPreethR from "@images/people/DrPreethR.webp";
+import DrPandiriVenkatesh from "@images/people/DrPandiriVenkatesh.webp";
+import DrJaishreeMayank from "@images/people/DrJaishreeMayank.webp";
+
+import { ProfileCard } from "@/lib/types";
 
 export const members: {
-  [key: string]: ImageCard[];
+  [key: string]: ProfileCard[];
 } = {
   Patron: [
     {
@@ -140,6 +147,38 @@ export const members: {
     {
       name: "Dr. Krishna Priya",
       image: DrKrishnaPriya,
+      description: "IIITDM Kancheepuram, India",
+    },
+  ],
+  "Local Organizing Committee": [
+    {
+      name: "Dr. Umarani Jayaraman",
+      image: DrUmaraniJayaraman,
+      description: "IIITDM Kancheepuram, India",
+    },
+    {
+      name: "Dr. Sanjeet Kumar Nayak",
+      image: DrSanjeethKumarNayak,
+      description: "IIITDM Kancheepuram, India",
+    },
+    {
+      name: "Dr. Santhanam Raghavan",
+      image: DrRaghavanS,
+      description: "IIITDM Kancheepuram, India",
+    },
+    {
+      name: "Dr. Preeth R",
+      image: DrPreethR,
+      description: "IIITDM Kancheepuram, India",
+    },
+    {
+      name: "Dr. Pandiri Venkatesh",
+      image: DrPandiriVenkatesh,
+      description: "IIITDM Kancheepuram, India",
+    },
+    {
+      name: "Dr. Jaishree Mayank",
+      image: DrJaishreeMayank,
       description: "IIITDM Kancheepuram, India",
     },
   ],
