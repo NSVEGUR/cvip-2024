@@ -16,7 +16,7 @@ export default function Home() {
               Computer Vision & Image Processing
             </h1>
             <p className="font-bold text-accent">
-              20-22 December, 2024{" "}
+              06-08 December, 2024{" "}
               <span className="font-normal text-muted">
                 | IIITDM Kancheepuram, Chennai - 600127, India
               </span>
@@ -53,7 +53,7 @@ export default function Home() {
             <p className="text-muted">
               IIITDM Kancheepuram, Chennai - 600127, India
             </p>
-            <p className="mt-2">20-22 December, 2024</p>
+            <p className="mt-2">06-08 December, 2024</p>
             <DateCounter />
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
           CVIP 2024, the 9th International Conference on Computer Vision & Image
           Processing will be held at Indian Institute of Information Technology
           Design and Manufacturing ( IIITDM), Chennai, Tamilnadu, INDIA from
-          December 20-22, 2024. CVIP is a premier annual conference focused on
+          December 06-08, 2024. CVIP is a premier annual conference focused on
           Computer Vision and Image Processing, with its high quality; it
           provides a great platform to students, academia, researchers and
           industry persons. Previous editions of CVIP were held at IIT Jammu
@@ -172,7 +172,7 @@ export default function Home() {
                 <td className="px-6 py-4" colSpan={2}>
                   Conference Dates
                 </td>
-                <td className="px-6 py-4">December 20-22, 2024</td>
+                <td className="px-6 py-4">December 06-08, 2024</td>
               </tr>
             </tbody>
           </table>
