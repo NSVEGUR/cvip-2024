@@ -15,12 +15,14 @@ export default function Home() {
             <h1 className="text-4xl font-bold -sm:text-2xl">
               Computer Vision & Image Processing
             </h1>
-            <p className="font-bold text-accent">
+            <div className="font-bold text-accent">
               06-08 December, 2024{" "}
-              <span className="font-normal text-muted">
-                | IIITDM Kancheepuram, Chennai - 600127, India
-              </span>
-            </p>
+              <p className="font-normal text-muted">
+                | IIITDM Kancheepuram,{" "}
+                <span className="font-bold text-heading">Chennai</span> -
+                600127, India
+              </p>
+            </div>
             <Link href="#about" className="mt-4">
               Explore More
             </Link>
