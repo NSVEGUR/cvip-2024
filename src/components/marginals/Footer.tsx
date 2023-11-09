@@ -11,7 +11,10 @@ export default function Footer() {
             <Image src={Logo} alt="logo" width="60" height="60" />
             <div>
               <h1 className="text-3xl font-bold text-accent">IIITDM</h1>
-              <p>Kancheepuram</p>
+              <p>
+                Kancheepuram,{" "}
+                <span className="font-bold text-heading">Chennai</span>
+              </p>
             </div>
           </div>
           <div className="mt-2 text-muted">
