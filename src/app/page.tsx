@@ -11,7 +11,7 @@ export default function Home() {
       <section className="flex min-h-container flex-col justify-evenly">
         <div className="flex min-h-[50vh] items-center justify-evenly gap-5 -lg:flex-col-reverse -sm:min-h-container">
           <div className="flex flex-col items-start gap-1 text-left text-lg -lg:items-center -lg:text-center">
-            <p className="text-3xl text-muted">
+            <p className="text-3xl text-accent">
               9th International Conference on
             </p>
             <h1 className="text-5xl font-bold -sm:text-2xl">
@@ -20,10 +20,12 @@ export default function Home() {
             <div className="font-bold text-accent">
               06-08 December, 2024{" "}
               <p className="font-normal text-muted">
-                | <span className="font-bold text-heading">IIITDM</span>{" "}
-                Kancheepuram,{" "}
-                <span className="font-bold text-heading">Chennai</span> -
-                600127, India
+                |{" "}
+                <span className="font-bold text-heading">
+                  IIITDM Kancheepuram,
+                </span>{" "}
+                <span className="font-bold text-accent">Chennai</span> - 600127,
+                India
               </p>
             </div>
             <Link href="#more" className="mt-4">
@@ -40,9 +42,9 @@ export default function Home() {
             <Video />
           </div>
         </div>
-        <div className=" my-10 grid grid-cols-2 gap-5 rounded-lg bg-accent-soft p-5 text-center shadow-md -md:grid-cols-1">
+        <div className=" my-10 grid grid-cols-2 gap-5 rounded-lg bg-accent-soft p-5 text-center text-lg shadow-md -md:grid-cols-1">
           <div className="flex flex-col items-center">
-            <h1 className="mb-1 text-xl font-medium">About CVIP 2024</h1>
+            <h1 className="mb-1 text-2xl font-medium">About CVIP 2024</h1>
             <div className="mb-3 h-[2px] w-20 bg-accent"></div>
             <p>
               CVIP is a premier annual conference focused on Computer Vision and
@@ -53,10 +55,11 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <h1 className="mb-1 text-xl font-medium">Venue</h1>
+            <h1 className="mb-1 text-2xl font-medium">Venue</h1>
             <div className="mb-3 h-[2px] w-8 bg-accent"></div>
             <p className="font-bold text-heading">
-              <span className="text-accent">IIITDM Kancheepuram,</span> Chennai
+              <span className="text-heading">IIITDM Kancheepuram,</span>{" "}
+              <span className="text-accent">Chennai</span>
               <span className="font-normal text-dominant">
                 {" "}
                 - 600127, India
@@ -120,7 +123,7 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="my-10 flex flex-col items-center justify-center"
+        className="my-10 flex flex-col items-center justify-center px-3"
         id="more"
       >
         <h1 className="mb-10 text-center text-3xl font-bold text-accent">
@@ -197,7 +200,9 @@ export default function Home() {
                 <td className="border-r border-accent px-6 py-4" colSpan={2}>
                   Conference Dates
                 </td>
-                <td className="px-6 py-4 font-bold">December 06-08, 2024</td>
+                <td className="whitespace-nowrap px-6 py-4 font-bold">
+                  December 06-08, 2024
+                </td>
               </tr>
             </tbody>
           </table>
