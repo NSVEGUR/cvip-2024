@@ -7,8 +7,8 @@ export default function Page() {
   return (
     <>
       <Cover heading="Organizing Committee" />
-      <Main>
-        <ul className="flex flex-col items-center gap-10">
+      <Main className="mb-10">
+        <ul className="flex flex-col items-center gap-20">
           {Object.entries(members).map(([heading, members], index) => {
             return (
               <li key={index}>
