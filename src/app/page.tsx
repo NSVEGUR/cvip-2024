@@ -10,9 +10,11 @@ export default function Home() {
     <Main className="scroll-smooth">
       <section className="flex min-h-container flex-col justify-evenly">
         <div className="flex min-h-[50vh] items-center justify-evenly gap-5 -lg:flex-col-reverse -sm:min-h-container">
-          <div className="flex flex-col items-start gap-1 text-left -lg:items-center -lg:text-center">
-            <p className="text-muted">9th International Conference on</p>
-            <h1 className="text-4xl font-bold -sm:text-2xl">
+          <div className="flex flex-col items-start gap-1 text-left text-lg -lg:items-center -lg:text-center">
+            <p className="text-3xl text-muted">
+              9th International Conference on
+            </p>
+            <h1 className="text-5xl font-bold -sm:text-2xl">
               Computer Vision & Image Processing
             </h1>
             <div className="font-bold text-accent">
@@ -125,7 +127,7 @@ export default function Home() {
           Important Dates
         </h1>
         <div className="relative mt-3 max-w-[600px] overflow-x-auto rounded-lg border border-accent text-heading shadow-lg">
-          <table className="w-full text-left text-sm">
+          <table className="w-full text-left text-base">
             <thead className="border-b border-accent bg-accent-soft text-heading">
               <tr>
                 <th
@@ -136,7 +138,7 @@ export default function Home() {
                   Paper Submission Starts
                 </th>
                 <th scope="col" className="px-6 py-3 font-bold">
-                  February 15, 2024
+                  February 1st, 2024
                 </th>
               </tr>
             </thead>
@@ -171,7 +173,7 @@ export default function Home() {
                 <td className="border-r border-accent px-6 py-4">
                   Paper Submission Deadline
                 </td>
-                <td className="px-6 py-4 font-bold">August 15, 2024</td>
+                <td className="px-6 py-4 font-bold">August 1st, 2024</td>
               </tr>
               <tr className="border-b border-accent bg-accent-soft">
                 <td className="border-r border-accent px-6 py-4">

@@ -45,8 +45,7 @@ export default function Footer() {
         </div>
       </section>
       <h1 className="mt-3 text-center">
-        Developed by{" "}
-        <span className="text-accent">Automation Web Team IIITDM</span>
+        Developed by <span className="text-accent">Web Team, CVIP 2024</span>
       </h1>
     </footer>
   );
