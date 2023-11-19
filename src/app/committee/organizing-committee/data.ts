@@ -38,9 +38,9 @@ import DrAnandaSChowdhury from "@images/people/DrAnandaSChowdhury.jpg";
 import ProfNidhiGoel from "@images/people/ProfNidhiGoel.jpg";
 import DrVinitJakhetiya from "@images/people/DrVinitJakhetiya.png";
 import DrShitalaPrasad from "@images/people/DrShitalaPrasad.jpg";
+import ProfSanjeevMalik from "@images/people/ProfSanjeevMalik.png";
 import DrSuryaPrakash from "@images/people/DrSuryaPrakash.jpg";
-
-import { ProfileCard } from "@/lib/types";
+import type { ProfileCard } from "@/lib/types";
 
 export const members: {
   [key: string]: ProfileCard[];
@@ -83,7 +83,7 @@ export const members: {
       name: "Prof. R. Balasubramanian",
       image: ProfRBalasubramanian,
       description: "IIT Roorkee, India",
-      href: "https://www.iitr.ac.in/~CSE/Balasubramanian_R_",
+      href: "https://faculty.iitr.ac.in/cs/bala/",
     },
   ],
   "Conference Chairs": [
@@ -104,11 +104,12 @@ export const members: {
     //   image: DrHarkeeratKaur,
     //   description: "IIT Jammu, India",
     // },
-    // {
-    //   name: "Prof. Sanjeev Malik",
-    //   image: ProfSanjeevMalik,
-    //   description: "IIT Roorkee, India",
-    // },
+    {
+      name: "Prof. Sanjeev Malik",
+      image: ProfSanjeevMalik,
+      description: "IIT Roorkee, India",
+      href: "https://www.iitr.ac.in/~MA/Malikfma",
+    },
   ],
   "Conference Co-chair": [
     {
