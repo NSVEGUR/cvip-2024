@@ -40,6 +40,7 @@ import DrVinitJakhetiya from "@images/people/DrVinitJakhetiya.png";
 import DrShitalaPrasad from "@images/people/DrShitalaPrasad.jpg";
 import ProfSanjeevMalik from "@images/people/ProfSanjeevMalik.png";
 import DrSuryaPrakash from "@images/people/DrSuryaPrakash.jpg";
+import DrHarkeeratKaur from "@images/people/DrHarkeeratKaur.jpg";
 import type { ProfileCard } from "@/lib/types";
 
 export const members: {
@@ -99,11 +100,6 @@ export const members: {
       description: "Trinity College Dubin, Ireland",
       href: "https://www.scss.tcd.ie/~muralas/",
     },
-    // {
-    //   name: "Dr. Harkeerat Kaur",
-    //   image: DrHarkeeratKaur,
-    //   description: "IIT Jammu, India",
-    // },
     {
       name: "Prof. Sanjeev Malik",
       image: ProfSanjeevMalik,
@@ -179,6 +175,12 @@ export const members: {
       image: DrParthaPratimRoy,
       description: "IIT Roorkee, India",
       href: "https://iitr.ac.in/Departments/Computer%20Science%20and%20Engineering%20Department/People/Faculty/100681.html",
+    },
+    {
+      name: "Dr. Harkeerat Kaur",
+      image: DrHarkeeratKaur,
+      description: "IIT Jammu, India",
+      href: "https://iitjammu.ac.in/computer_science_engineering/faculty-list/~harkeeratkaur",
     },
   ],
   "Sponsorship Chairs": [

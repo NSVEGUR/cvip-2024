@@ -1,3 +1,5 @@
 import { Resend } from "resend";
 
-export const resend = new Resend(process.env.RESEND_API_KEY!);
+const RESEND_API_KEY = process.env.RESEND_API_KEY ?? "random-key";
+
+export const resend = new Resend(RESEND_API_KEY);

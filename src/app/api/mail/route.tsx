@@ -3,7 +3,6 @@ import { resend } from "@/lib/server/resend";
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
-  const random = request.nextUrl.searchParams.get("random");
   const data = await resend.emails.send({
     from: process.env.SENDER_MAIL ?? "",
     to: body.email,
