@@ -41,6 +41,8 @@ import DrShitalaPrasad from "@images/people/DrShitalaPrasad.jpg";
 import ProfSanjeevMalik from "@images/people/ProfSanjeevMalik.png";
 import DrSuryaPrakash from "@images/people/DrSuryaPrakash.jpg";
 import DrHarkeeratKaur from "@images/people/DrHarkeeratKaur.jpg";
+import DrRamakrishnaGorti from "@images/people/DrRamakrishnaGorti.jpeg";
+import DrMaheshKumar from "@images/people/DrMaheshkumarHKolekar.jpg";
 import type { ProfileCard } from "@/lib/types";
 
 export const members: {
@@ -295,6 +297,18 @@ export const members: {
       image: DrSuryaPrakash,
       description: "IIT Indore, India",
       href: "https://iiti.irins.org/profile/89889",
+    },
+    {
+      name: "Dr. Rama Krishna Sai Gorthi",
+      image: DrRamakrishnaGorti,
+      description: "IIT Tirupati, India",
+      href: "https://iittp.ac.in/dr-rama-krishna-sai-subrahmanyam-gorthi",
+    },
+    {
+      name: "Dr. Maheshkumar H. Kolekar",
+      image: DrMaheshKumar,
+      description: "IIT Patna, India",
+      href: "https://www.iitp.ac.in/index.php/2-uncategorised/193-view-profile-7",
     },
   ],
   "Local Organizing Committee": [
