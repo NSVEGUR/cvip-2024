@@ -4,6 +4,10 @@ import InstitutePoster from "@images/institute.webp";
 import Image from "next/image";
 import DateCounter from "@/app/DateCounter";
 import Video from "@/app/Video";
+import ImportantDates from "@/components/ImportantDates";
+import Envelope from "@/components/svg/Envelope";
+import MapPin from "@components/svg/MapPin";
+import Form from "./Form";
 
 export default function Home() {
   return (
@@ -123,89 +127,57 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="my-10 flex flex-col items-center justify-center px-3"
+        className="my-10 flex flex-col items-center justify-center"
         id="more"
       >
         <h1 className="mb-10 text-center text-3xl font-bold text-accent">
           Important Dates
         </h1>
-        <div className="relative mt-3 max-w-[600px] overflow-x-auto rounded-lg border border-accent text-heading shadow-lg">
-          <table className="w-full text-left text-base">
-            <thead className="border-b border-accent bg-accent-soft text-heading">
-              <tr>
-                <th
-                  scope="col"
-                  className="border-r border-accent px-6 py-3 font-normal"
-                  colSpan={2}
-                >
-                  Paper Submission Starts
-                </th>
-                <th scope="col" className="px-6 py-3 font-bold">
-                  February 1st, 2024
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-accent">
-                <th
-                  scope="row"
-                  className="whitespace-nowrap border-r border-accent px-6 py-4 font-medium"
-                  rowSpan={2}
-                >
-                  First Round
-                </th>
-                <td className="border-r border-accent px-6 py-4">
-                  Paper Submission Deadline
-                </td>
-                <td className="px-6 py-4 font-bold">April 1st, 2024</td>
-              </tr>
-              <tr className="border-b border-accent">
-                <td className="border-r border-accent px-6 py-4">
-                  Notification of Paper Acceptance
-                </td>
-                <td className="px-6 py-4 font-bold">June 1st, 2024</td>
-              </tr>
-              <tr className="border-b border-accent bg-accent-soft">
-                <th
-                  scope="row"
-                  className="whitespace-nowrap border-r border-accent px-6 py-4 font-medium"
-                  rowSpan={2}
-                >
-                  Second Round
-                </th>
-                <td className="border-r border-accent px-6 py-4">
-                  Paper Submission Deadline
-                </td>
-                <td className="px-6 py-4 font-bold">August 1st, 2024</td>
-              </tr>
-              <tr className="border-b border-accent bg-accent-soft">
-                <td className="border-r border-accent px-6 py-4">
-                  Notification of Paper Acceptance
-                </td>
-                <td className="px-6 py-4 font-bold">October 15, 2024</td>
-              </tr>
-              <tr className="border-b border-accent">
-                <td className="border-r border-accent px-6 py-4" colSpan={2}>
-                  Camera Ready Submission Deadline
-                </td>
-                <td className="px-6 py-4 font-bold">October 30, 2024</td>
-              </tr>
-              <tr className="border-b border-accent bg-accent-soft">
-                <td className="border-r border-accent px-6 py-4" colSpan={2}>
-                  Early Bird Registration Deadline
-                </td>
-                <td className="px-6 py-4 font-bold">November 15, 2024</td>
-              </tr>
-              <tr>
-                <td className="border-r border-accent px-6 py-4" colSpan={2}>
-                  Conference Dates
-                </td>
-                <td className="whitespace-nowrap px-6 py-4 font-bold">
-                  December 06-08, 2024
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="w-[90vw] max-w-[600px]">
+          <ImportantDates />
+        </div>
+      </section>
+      <section
+        className="my-10 flex flex-col items-center justify-center px-3"
+        id="more"
+      >
+        <h1 className="mb-10 text-center text-3xl font-bold text-accent">
+          Contact Us
+        </h1>
+        <div className="flex w-full gap-4 -lg:flex-col">
+          <div className="flex w-1/2 flex-col gap-5 rounded-md border border-muted p-10 shadow-lg -lg:w-full">
+            <div className="flex items-center gap-2">
+              <div className="rounded-full bg-muted p-2 text-accent">
+                <MapPin />
+              </div>
+              <div>
+                <h2 className="text-lg font-semibold text-heading">
+                  Address:{" "}
+                </h2>
+                <p>IIITDM Kancheepuram, Chennai-600127, INDIA</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2 break-all">
+              <div className="rounded-full bg-muted p-2 text-accent">
+                <Envelope />
+              </div>
+              <div>
+                <h2 className="text-lg font-semibold text-heading">Email: </h2>
+                <a href="mailto:cvip2024@iiitdm.ac.in">cvip2024@iiitdm.ac.in</a>
+              </div>
+            </div>
+            <iframe
+              className="h-[300px] w-[300px] self-center rounded-md -sm:h-[200px] -sm:w-[200px]"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.082669873115!2d80.13515541485613!3d12.837934290943645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525851fbcd3b6b%3A0x9f1067aa71e3898e!2sIndian%20Institute%20of%20Information%20Technology%2C%20Design%20and%20Manufacturing%2C%20Kancheepuram!5e0!3m2!1sen!2sin!4v1680886526323!5m2!1sen!2sin"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="IIITDM Institute Map"
+              allowFullScreen
+            />
+          </div>
+          <div className="w-1/2 rounded-md border border-muted p-10 shadow-lg -lg:w-full">
+            <Form />
+          </div>
         </div>
       </section>
     </Main>
