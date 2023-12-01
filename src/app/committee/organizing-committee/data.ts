@@ -43,6 +43,10 @@ import DrSuryaPrakash from "@images/people/DrSuryaPrakash.jpg";
 import DrHarkeeratKaur from "@images/people/DrHarkeeratKaur.jpg";
 import DrRamakrishnaGorti from "@images/people/DrRamakrishnaGorti.jpeg";
 import DrMaheshKumar from "@images/people/DrMaheshkumarHKolekar.jpg";
+import DrVivekKanhangad from "@images/people/DrVivekKanhangad.jpg";
+import DrAnilBGonde from "@images/people/DrAnilBGonde.jpg";
+import Vivekraj from "@images/people/DrVivekrajVK.jpg";
+import DrAmiteshRajput from "@images/people/DrAmiteshSinghRajput.jpg";
 import type { ProfileCard } from "@/lib/types";
 
 export const members: {
@@ -309,6 +313,30 @@ export const members: {
       image: DrMaheshKumar,
       description: "IIT Patna, India",
       href: "https://www.iitp.ac.in/index.php/2-uncategorised/193-view-profile-7",
+    },
+    {
+      name: "Dr. Vivek Kanhangad",
+      image: DrVivekKanhangad,
+      description: "IIT Indore, India",
+      href: "https://www.iiti.ac.in/people/~kvivek/",
+    },
+    {
+      name: "Dr. Anil B. Gonde",
+      image: DrAnilBGonde,
+      description: "Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded, India",
+      href: "https://www.sggs.ac.in/home/page/electronics-and-telecommunication-engineering",
+    },
+    {
+      name: "Dr. Vivekraj V K",
+      image: Vivekraj,
+      description: "IIT Dharwad, India",
+      href: "https://www.iiitdwd.ac.in/Dr.vivekraj.php",
+    },
+    {
+      name: "Dr. Amitesh Singh Rajput",
+      image: DrAmiteshRajput,
+      description: "BITS Pilani, India",
+      href: "https://www.bits-pilani.ac.in/pilani/amitesh-singh-rajput/",
     },
   ],
   "Local Organizing Committee": [
