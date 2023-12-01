@@ -28,13 +28,13 @@ export default function ImportantDates() {
             <td className="border-r border-accent px-6 py-4">
               Paper Submission Deadline
             </td>
-            <td className="px-6 py-4 font-bold">April 1st, 2024</td>
+            <td className="px-6 py-4 font-bold">April 15, 2024</td>
           </tr>
           <tr className="border-b border-accent">
             <td className="border-r border-accent px-6 py-4">
               Notification of Paper Acceptance
             </td>
-            <td className="px-6 py-4 font-bold">June 1st, 2024</td>
+            <td className="px-6 py-4 font-bold">June 15, 2024</td>
           </tr>
           <tr className="border-b border-accent bg-accent-soft">
             <th
@@ -47,7 +47,7 @@ export default function ImportantDates() {
             <td className="border-r border-accent px-6 py-4">
               Paper Submission Deadline
             </td>
-            <td className="px-6 py-4 font-bold">August 1st, 2024</td>
+            <td className="px-6 py-4 font-bold">August 15, 2024</td>
           </tr>
           <tr className="border-b border-accent bg-accent-soft">
             <td className="border-r border-accent px-6 py-4">

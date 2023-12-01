@@ -1,15 +1,4 @@
 import type { ProfileCard } from "@/lib/types";
-import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
-import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
-import ProfFabio from "@images/people/ProfFabio.jpg";
-import DrYongminLi from "@images/people/DrYongminLi.jpg";
-import ProfRangarajMRangayyan from "@images/people/ProfRangarajMRangayyan.jpg";
-import ProfGauravSharma from "@images/people/ProfGauravSharma.jpg";
-import DanielPLopresti from "@images/people/DanielPLopresti.jpg";
-import NaliniKRatna from "@images/people/NaliniKRatha.jpg";
-import SatishEVishwanath from "@images/people/SatishEViswanath.jpg";
-import PaulaBrito from "@images/people/PaulaBrito.jpg";
-import HenryLeung from "@images/people/HenryLeung.png";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import ProfRamBilasPachori from "@images/people/ProfRamBilasPachori.jpg";
 import ProfJayantaMukhopadhyay from "@images/people/ProfJayantaMukhopadhyay.png";
@@ -17,6 +6,7 @@ import ProfSushmitaMitra from "@images/people/ProfSushmitaMitra.jpeg";
 import ProfPalguniGupta from "@images/people/ProfPhalguniGupta.jpg";
 import SundarBalakrishna from "@images/people/SundarBalakrishna.png";
 import VMGadre from "@images/people/VMGadre.jpg";
+import AnilKumarSingh from "@images/people/AnilKumarSingh.jpg";
 
 export const members: ProfileCard[] = [
     {
@@ -62,4 +52,10 @@ export const members: ProfileCard[] = [
       description: "IIT Bombay, India",
       href: "https://www.ee.iitb.ac.in/wiki/faculty/vmgadre",
     },
+    {
+      name: "Anil Kumar Singh",
+      image: AnilKumarSingh,
+      description: "IIITDM Jabalpur, India",
+      href: "http://faculty.iiitdmj.ac.in/faculty/anilk"
+    }
   ]

@@ -10,6 +10,13 @@ import NaliniKRatna from "@images/people/NaliniKRatha.jpg";
 import SatishEVishwanath from "@images/people/SatishEViswanath.jpg";
 import PaulaBrito from "@images/people/PaulaBrito.jpg";
 import HenryLeung from "@images/people/HenryLeung.png";
+import ProfBSManjunath from "@images/people/ProfBSManjunath.jpeg";
+import KiranRaja from "@images/people/KiranRaja.jpg";
+import VishalMPatel from '@images/people/DrVishalMPatel.jpg';
+import RichardHartley from "@images/people/RichardHartley.jpg";
+import Birbanu from "@images/people/ProfBirBhanu.png";
+import SudeepSarkar from "@images/people/ProfSudeepSarkar.jpg";
+import XiaoyiJiang from "@images/people/ProfXiaoyiJiang.jpg";
 
 export const members: ProfileCard[] = [
     {
@@ -77,5 +84,47 @@ export const members: ProfileCard[] = [
       image: HenryLeung,
       description: "University of Calgary, Alberta, Canada",
       href: "https://www.ucalgary.ca/aerospace/leung",
+    },
+    {
+      name: "Prof. B.S. Manjunath",
+      image: ProfBSManjunath,
+      description: "University of California. Santa Barbara",
+      href: "https://vision.ece.ucsb.edu/"
+    },
+    {
+      name: "Prof. Kiran Raja",
+      image: KiranRaja,
+      description: "NTNU, Norway",
+      href: "https://www.ntnu.edu/employees/kiran.raja"
+    },
+    {
+      name: "Dr. Vishal M Patel",
+      image: VishalMPatel,
+      description: "Johns Hopkins University, USA",
+      href: "https://engineering.jhu.edu/vpatel36/vishal-patel/"
+    },
+    {
+      name: "Richard Hartley",
+      image: RichardHartley,
+      description: "Australian National University, AUSTRALIA",
+      href: "https://users.cecs.anu.edu.au/~hartley/"
+    },
+    {
+      name: "Prof. Bir Bhanu",
+      image: Birbanu,
+      description: "University of California, Riverside, USA",
+      href: "https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php"
+    },
+    {
+      name: "Prof. Sudeep Sarkar",
+      image: SudeepSarkar,
+      description: "University of South florida, USA",
+      href: "https://www.usf.edu/engineering/cse/people/sarkar-sudeep.aspx"
+    },
+    {
+      name: "Prof. Xiaoyi Jiang",
+      image: XiaoyiJiang,
+      description: "University of Münster, Germany",
+      href: "https://www.uni-muenster.de/PRIA/en/personen/jiang.shtml"
     },
   ];

@@ -80,9 +80,9 @@ function Hyperlink({
 function Link({ link: { title, href, children } }: { link: Link }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <li>
+    <li className="relative">
       {children ? (
-        <menu className="group/sub relative overflow-hidden mobile:flex mobile:flex-col mobile:items-end mobile:rounded-md">
+        <menu className="group/sub overflow-hidden mobile:flex mobile:flex-col mobile:items-end mobile:rounded-md">
           <button
             className="flex w-full cursor-pointer items-center gap-1 rounded-md px-2 py-1 group-hover/sub:bg-dominant group-hover/sub:text-muted mobile:justify-end mobile:rounded-none"
             onClick={() => setToggleMenu((previous) => !previous)}
@@ -93,7 +93,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
             </span>
           </button>
           <div
-            className={`hidden origin-top-left bg-transparent pl-3 group-hover/sub:block group-hover/sub:animate-slide-right mobile:origin-top mobile:pl-0 mobile:group-hover/sub:animate-slide-down -mobile:absolute -mobile:-top-3 -mobile:left-full ${
+            className={`hidden origin-top-left bg-transparent pl-3 group-hover/sub:block -mobile:group-hover/sub:animate-slide-right mobile:origin-top mobile:pl-0 mobile:group-hover/sub:animate-slide-down -mobile:absolute -mobile:-top-3 -mobile:left-full ${
               toggleMenu ? "block" : "hidden"
             }`}
           >

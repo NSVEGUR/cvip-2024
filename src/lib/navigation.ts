@@ -37,16 +37,21 @@ export const header: {
         href: "/committee/organizing-committee",
         children: null,
       },
-      "International Advisory Committee": {
-        title: "International Advisory Committee",
-        href: "/committee/international-advisory-committee",
-        children: null,
-      },
-      "National Advisory Committee": {
-        title: "National Advisory Committee",
-        href: "/committee/national-advisory-committee",
-        children: null,
-      },
+     "Advisory Committe": {
+      title: "Advisory Committee",
+      children: {
+        "International Advisory Committee": {
+          title: "International Advisory Committee",
+          href: "/committee/international-advisory-committee",
+          children: null,
+        },
+        "National Advisory Committee": {
+          title: "National Advisory Committee",
+          href: "/committee/national-advisory-committee",
+          children: null,
+        },
+      }
+     }
     },
   },
   Keynotes: {

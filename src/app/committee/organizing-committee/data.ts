@@ -47,6 +47,7 @@ import DrVivekKanhangad from "@images/people/DrVivekKanhangad.jpg";
 import DrAnilBGonde from "@images/people/DrAnilBGonde.jpg";
 import Vivekraj from "@images/people/DrVivekrajVK.jpg";
 import DrAmiteshRajput from "@images/people/DrAmiteshSinghRajput.jpg";
+import RVenkateshBabu from "@images/people/RVenkateshBabu.jpg";
 import type { ProfileCard } from "@/lib/types";
 
 export const members: {
@@ -92,6 +93,12 @@ export const members: {
       description: "IIT Roorkee, India",
       href: "https://faculty.iitr.ac.in/cs/bala/",
     },
+    {
+      name: "R. Venkatesh Babu",
+      description: "Indian Institute of Science, Bangalore, India",
+      href: "https://cds.iisc.ac.in/faculty/venky/",
+      image: RVenkateshBabu,
+    }
   ],
   "Conference Chairs": [
     {

@@ -35,6 +35,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         waves: "url('/waves.svg')",
+        poster: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('/poster.jpeg')",
       },
       screens: {
         "-3xl": { max: "1635px" },
