@@ -37,9 +37,14 @@ export const header: {
         href: "/committee/organizing-committee",
         children: null,
       },
-      "Advisory Committee": {
-        title: "Advisory Committee",
-        href: "/committee/advisory-committee",
+      "International Advisory Committee": {
+        title: "International Advisory Committee",
+        href: "/committee/international-advisory-committee",
+        children: null,
+      },
+      "National Advisory Committee": {
+        title: "National Advisory Committee",
+        href: "/committee/national-advisory-committee",
         children: null,
       },
     },
