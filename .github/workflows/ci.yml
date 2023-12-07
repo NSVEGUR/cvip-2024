@@ -1,0 +1,27 @@
+#This action will execute whenver a push is occured to main branch to reflect it in our vps
+
+name: deployment
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build and deploy website using SSH
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd ~/cvip2024.iiitdm.ac.in
+            git pull origin main
+            git status
+            source ~/.bashrc
+            nvm use v18.17.0
+            pnpm install
+            pnpm deploy:prod

@@ -48,6 +48,7 @@ import DrAnilBGonde from "@images/people/DrAnilBGonde.jpg";
 import Vivekraj from "@images/people/DrVivekrajVK.jpg";
 import DrAmiteshRajput from "@images/people/DrAmiteshSinghRajput.jpg";
 import RVenkateshBabu from "@images/people/RVenkateshBabu.jpg";
+import DrPushpendraKumar from "@images/people/DrPushpendraKumar.jpeg";
 import type { ProfileCard } from "@/lib/types";
 
 export const members: {
@@ -98,7 +99,7 @@ export const members: {
       description: "Indian Institute of Science, Bangalore, India",
       href: "https://cds.iisc.ac.in/faculty/venky/",
       image: RVenkateshBabu,
-    }
+    },
   ],
   "Conference Chairs": [
     {
@@ -330,7 +331,8 @@ export const members: {
     {
       name: "Dr. Anil B. Gonde",
       image: DrAnilBGonde,
-      description: "Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded, India",
+      description:
+        "Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded, India",
       href: "https://www.sggs.ac.in/home/page/electronics-and-telecommunication-engineering",
     },
     {
@@ -344,6 +346,13 @@ export const members: {
       image: DrAmiteshRajput,
       description: "BITS Pilani, India",
       href: "https://www.bits-pilani.ac.in/pilani/amitesh-singh-rajput/",
+    },
+    {
+      name: "Dr. Pushpendra Kumar",
+      image: DrPushpendraKumar,
+      description:
+        "Maulana Azad National Institute of Technology, Bhopal, India",
+      href: "http://www.manit.ac.in/content/dr-pushpendra-kumar",
     },
   ],
   "Local Organizing Committee": [
