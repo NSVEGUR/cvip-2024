@@ -24,4 +24,4 @@ jobs:
             source ~/.bashrc
             nvm use v18.17.0
             pnpm install
-            pnpm deploy:prod
+            pnpm deploy:restart
