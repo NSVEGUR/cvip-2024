@@ -95,7 +95,7 @@ export const members: {
       href: "https://faculty.iitr.ac.in/cs/bala/",
     },
     {
-      name: "R. Venkatesh Babu",
+      name: "Prof. R. Venkatesh Babu",
       description: "Indian Institute of Science, Bangalore, India",
       href: "https://cds.iisc.ac.in/faculty/venky/",
       image: RVenkateshBabu,
@@ -115,7 +115,7 @@ export const members: {
       href: "https://www.scss.tcd.ie/~muralas/",
     },
     {
-      name: "Prof. Sanjeev Malik",
+      name: "Prof. Sanjeev Kumar",
       image: ProfSanjeevMalik,
       description: "IIT Roorkee, India",
       href: "https://www.iitr.ac.in/~MA/Malikfma",
@@ -155,7 +155,7 @@ export const members: {
   ],
   "Conference Convener": [
     {
-      name: "Dr. Aparajita Ojha",
+      name: "Prof. Aparajita Ojha",
       image: DrAparajitaOjha,
       description: "IIITDM Jabalpur, India",
       href: "https://cse-iiitdmj-ac-in.translate.goog/faculty_page.php?id=aojha@iiitdmj.ac.in&_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc",
@@ -173,7 +173,7 @@ export const members: {
       href: "https://it.iiita.ac.in/?pg=facultypage&uid=srdubey",
     },
     {
-      name: "Prof Pritee Khanna",
+      name: "Prof. Pritee Khanna",
       image: ProfPriteeKhanna,
       description: "IIITDM Jabalpur, India",
       href: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
@@ -275,13 +275,13 @@ export const members: {
   ],
   "TPC Chairs": [
     {
-      name: "Dr. Deepak Mishra",
+      name: "Prof. Deepak Mishra",
       image: DrDeepakMishra,
       description: "IIST Trivanduram, India",
       href: "https://www.iist.ac.in/avionics/deepak.mishra",
     },
     {
-      name: "Dr. Ananda S. Chowdhury",
+      name: "Prof. Ananda S. Chowdhury",
       image: DrAnandaSChowdhury,
       description: "Jadavpur University, India",
       href: "https://sites.google.com/site/anandachowdhury/",
@@ -338,7 +338,7 @@ export const members: {
     {
       name: "Dr. Vivekraj V K",
       image: Vivekraj,
-      description: "IIT Dharwad, India",
+      description: "IIIT Dharwad, India",
       href: "https://www.iiitdwd.ac.in/Dr.vivekraj.php",
     },
     {
