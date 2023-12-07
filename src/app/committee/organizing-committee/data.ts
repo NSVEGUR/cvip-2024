@@ -76,7 +76,7 @@ export const members: {
       href: "https://www.iitkgp.ac.in/department/EC/faculty/ec-pkb",
     },
     {
-      name: "Prof Umapada Pal",
+      name: "Prof. Umapada Pal",
       image: ProfUmapadaPal,
       description: "Indian Statistical Institute, KolKata",
       href: "https://www.isical.ac.in/~umapada/",
