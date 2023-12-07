@@ -87,7 +87,7 @@ export const members: {
     //   description: "Distinguished Professor, University of California",
     // },
   ],
-  "General Co-chairs": [
+  "General Co-Chairs": [
     {
       name: "Prof. R. Balasubramanian",
       image: ProfRBalasubramanian,
@@ -111,7 +111,7 @@ export const members: {
     {
       name: "Dr. Subrahmanyam Murala",
       image: DrSubramanyamMurala,
-      description: "Trinity College Dubin, Ireland",
+      description: "Trinity College Dublin, Ireland",
       href: "https://www.scss.tcd.ie/~muralas/",
     },
     {
@@ -121,7 +121,7 @@ export const members: {
       href: "https://www.iitr.ac.in/~MA/Malikfma",
     },
   ],
-  "Conference Co-chair": [
+  "Conference Co-Chair": [
     {
       name: "Dr. Ram Prasad Padhy",
       image: DrRamPrasadPadhy,
@@ -153,7 +153,7 @@ export const members: {
       href: "https://www.iitrpr.ac.in/hi/node/2045",
     },
   ],
-  "Conference Convener": [
+  "Conference Conveners": [
     {
       name: "Prof. Aparajita Ojha",
       image: DrAparajitaOjha,
