@@ -49,6 +49,7 @@ import Vivekraj from "@images/people/DrVivekrajVK.jpg";
 import DrAmiteshRajput from "@images/people/DrAmiteshSinghRajput.jpg";
 import RVenkateshBabu from "@images/people/RVenkateshBabu.jpg";
 import DrPushpendraKumar from "@images/people/DrPushpendraKumar.jpeg";
+import DrRaghavanS from "@images/people/DrRaghavanS.webp";
 import type { ProfileCard } from "@/lib/types";
 
 export const members: {
@@ -379,11 +380,12 @@ export const members: {
       description: "IIITDM Kancheepuram, India",
       href: "https://www.iiitdm.ac.in/people/faculty/sanjeetn@iiitdm.ac.in",
     },
-    // {
-    //   name: "Dr. Santhanam Raghavan",
-    //   image: DrRaghavanS,
-    //   description: "IIITDM Kancheepuram, India",
-    // },
+    {
+      name: "Dr. Santhanam Raghavan",
+      image: DrRaghavanS,
+      description: "IIITDM Kancheepuram, India",
+      href: "https://iiitdm.ac.in/people/faculty/raghavans@iiitdm.ac.in",
+    },
     {
       name: "Dr. Preeth R",
       image: DrPreethR,

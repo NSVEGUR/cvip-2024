@@ -41,26 +41,26 @@ export const members: ProfileCard[] = [
     href: "https://www.cse.iitk.ac.in/users/pg/",
   },
   {
-    name: "Sundar Balakrishna",
+    name: "Dr. Sundar Balakrishna",
     image: SundarBalakrishna,
     description:
       "Special Secretary, Department of Information Technology, IIMA, India",
     href: "https://www.icegov.org/people/sundar-balakrishna/",
   },
   {
-    name: "V M Gadre",
+    name: "Prof. V M Gadre",
     image: VMGadre,
     description: "IIT Bombay, India",
     href: "https://www.ee.iitb.ac.in/wiki/faculty/vmgadre",
   },
   {
-    name: "Anil Kumar Singh",
+    name: "Prof. Anil Kumar Singh",
     image: AnilKumarSingh,
     description: "IIITDM Jabalpur, India",
     href: "http://faculty.iiitdmj.ac.in/faculty/anilk",
   },
   {
-    name: "Sumohana S. Channappayya",
+    name: "Prof. Sumohana S. Channappayya",
     image: Channappayya,
     description: "IIT Hyderabad, India",
     href: "https://people.iith.ac.in/sumohana/",
