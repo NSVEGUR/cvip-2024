@@ -121,7 +121,7 @@ export const members: {
       href: "https://www.iitr.ac.in/~MA/Malikfma",
     },
   ],
-  "Conference Co-Chair": [
+  "Conference Co-Chairs": [
     {
       name: "Dr. Ram Prasad Padhy",
       image: DrRamPrasadPadhy,
@@ -261,13 +261,13 @@ export const members: {
       href: "https://www.nitt.edu/home/academics/departments/ca/facultymca/dr_u_srinivasulu_reddy/",
     },
     {
-      name: "Dr. Yogameena",
+      name: "Prof. Yogameena",
       image: DrYogameena,
       description: "Thiagarajar College of Engineering, India",
       href: "https://www.tce.edu/staff_profile/faculty/BEECE/ymece.html",
     },
     {
-      name: "Dr. P. Uma Maheswari",
+      name: "Prof. P. Uma Maheswari",
       image: DrPUmaMaheswari,
       description: "Anna University, India",
       href: "https://annauniv.irins.org/profile/117747",
@@ -350,8 +350,7 @@ export const members: {
     {
       name: "Dr. Pushpendra Kumar",
       image: DrPushpendraKumar,
-      description:
-        "Maulana Azad National Institute of Technology, Bhopal, India",
+      description: "MANIT Bhopal, India",
       href: "http://www.manit.ac.in/content/dr-pushpendra-kumar",
     },
   ],
