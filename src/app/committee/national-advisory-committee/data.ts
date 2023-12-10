@@ -11,13 +11,13 @@ import Channappayya from "@images/people/Sumohana.S.Channappayya.jpeg";
 
 export const members: ProfileCard[] = [
   {
-    name: "Prof A G Ramakrishnan",
+    name: "Prof. A. G. Ramakrishnan",
     image: ProfAGRamakrishnan,
     description: "IISC Banglore, India",
     href: "http://mile.ee.iisc.ac.in/AGR/index.htm",
   },
   {
-    name: "Prof Ram Bilas Pachori",
+    name: "Prof. Ram Bilas Pachori",
     image: ProfRamBilasPachori,
     description: "IIT Indore, India",
     href: "https://www.iiti.ac.in/people/~pachori/",
