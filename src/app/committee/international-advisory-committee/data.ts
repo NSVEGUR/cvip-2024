@@ -38,7 +38,7 @@ export const members: ProfileCard[] = [
     href: "http://tlcrs.unipv.it/index.php/people/the-team/23-people/75-fabio-dell-acqua",
   },
   {
-    name: "Dr Yongmin Li",
+    name: "Dr. Yongmin Li",
     image: DrYongminLi,
     description: "Brunel University, London",
     href: "https://www.brunel.ac.uk/people/yongmin-li",
@@ -104,7 +104,7 @@ export const members: ProfileCard[] = [
     href: "https://engineering.jhu.edu/vpatel36/vishal-patel/",
   },
   {
-    name: "Richard Hartley",
+    name: "Dr. Richard Hartley",
     image: RichardHartley,
     description: "Australian National University, AUSTRALIA",
     href: "https://users.cecs.anu.edu.au/~hartley/",
