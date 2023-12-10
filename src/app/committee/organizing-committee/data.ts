@@ -1,4 +1,5 @@
 import ProfBBChaudhuri from "@images/people/ProfBBChaudhuri.jpeg";
+import sathyababu from "@images/people/sathyababu.jpeg";
 import ProfMVKarthikeyan from "@images/people/ProfMVKartikeyan.webp";
 import ProfPKBiswas from "@images/people/ProfPKBiswas.jpeg";
 import ProfUmapadaPal from "@images/people/ProfUmapadaPal.jpeg";
@@ -162,6 +163,12 @@ export const members: {
       href: "https://cse-iiitdmj-ac-in.translate.goog/faculty_page.php?id=aojha@iiitdmj.ac.in&_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc",
     },
     {
+      name: "Prof. Pritee Khanna",
+      image: ProfPriteeKhanna,
+      description: "IIITDM Jabalpur, India",
+      href: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
+    },
+    {
       name: "Dr. Masilamani V",
       image: DrMasilamaniV,
       description: "IIITDM Kancheepuram, India",
@@ -173,12 +180,7 @@ export const members: {
       description: "IIIT Allahabad, India",
       href: "https://it.iiita.ac.in/?pg=facultypage&uid=srdubey",
     },
-    {
-      name: "Prof. Pritee Khanna",
-      image: ProfPriteeKhanna,
-      description: "IIITDM Jabalpur, India",
-      href: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
-    },
+    
     {
       name: "Dr. Deep Gupta",
       image: DrDeepGupta,
@@ -341,6 +343,13 @@ export const members: {
       image: Vivekraj,
       description: "IIIT Dharwad, India",
       href: "https://www.iiitdwd.ac.in/Dr.vivekraj.php",
+    },
+    
+    {
+      name: "Dr. Korra Sathya Babu",
+      image: sathyababu,
+      description: "IIITDM Kurnool, India",
+      href: "https://iiitk.ac.in/Dr.-K.-Sathya-Babu/page",
     },
     {
       name: "Dr. Amitesh Singh Rajput",
