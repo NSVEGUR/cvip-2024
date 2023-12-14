@@ -1,5 +1,6 @@
 import ProfBBChaudhuri from "@images/people/ProfBBChaudhuri.jpeg";
 import sathyababu from "@images/people/sathyababu.jpeg";
+import sriparna from "@images/people/sriparna.jpg";
 import ProfMVKarthikeyan from "@images/people/ProfMVKartikeyan.webp";
 import ProfPKBiswas from "@images/people/ProfPKBiswas.jpeg";
 import ProfUmapadaPal from "@images/people/ProfUmapadaPal.jpeg";
@@ -121,6 +122,12 @@ export const members: {
       image: ProfSanjeevMalik,
       description: "IIT Roorkee, India",
       href: "https://www.iitr.ac.in/~MA/Malikfma",
+    },
+    {
+      name: "Dr. Sriparna Saha",
+      image: sriparna,
+      description: "IIT Patna, India",
+      href: "https://www.iitp.ac.in/~sriparna/",
     },
   ],
   "Conference Co-Chairs": [
