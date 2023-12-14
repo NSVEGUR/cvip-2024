@@ -132,17 +132,18 @@ export const members: {
   ],
   "Conference Co-Chairs": [
     {
-      name: "Dr. Ram Prasad Padhy",
-      image: DrRamPrasadPadhy,
-      description: "IIITDM Kancheepuram, India",
-      href: "https://www.iiitdm.ac.in/people/faculty/rampadhy@iiitdm.ac.in",
-    },
-    {
       name: "Dr. Priyanka Kokil",
       image: DrPriyankaKokil,
       description: "IIITDM Kancheepuram, India",
       href: "https://www.iiitdm.ac.in/people/faculty/priyanka@iiitdm.ac.in",
     },
+    {
+      name: "Dr. Ram Prasad Padhy",
+      image: DrRamPrasadPadhy,
+      description: "IIITDM Kancheepuram, India",
+      href: "https://www.iiitdm.ac.in/people/faculty/rampadhy@iiitdm.ac.in",
+    },
+    
     {
       name: "Dr. Santosh Vipparthi",
       image: DrSantoshVipparthi,
