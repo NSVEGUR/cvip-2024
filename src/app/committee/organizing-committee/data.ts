@@ -266,13 +266,13 @@ export const members: {
       href: "https://sites.google.com/view/surendiran/home",
     },
     {
-      name: "Dr. U.Srinivasulu Reddy",
+      name: "Dr. U. Srinivasulu Reddy",
       image: DrUSrinivasuluReddy,
       description: "NIT Tiruchirappalli, India",
       href: "https://www.nitt.edu/home/academics/departments/ca/facultymca/dr_u_srinivasulu_reddy/",
     },
     {
-      name: "Prof. Yogameena",
+      name: "Prof. B. Yogameena",
       image: DrYogameena,
       description: "Thiagarajar College of Engineering, Madurai, India",
       href: "https://www.tce.edu/staff_profile/faculty/BEECE/ymece.html",
@@ -288,7 +288,7 @@ export const members: {
     {
       name: "Prof. Deepak Mishra",
       image: DrDeepakMishra,
-      description: "IIST Trivanduram, India",
+      description: "IIST Trivandrum, India",
       href: "https://www.iist.ac.in/avionics/deepak.mishra",
     },
     {
@@ -347,7 +347,7 @@ export const members: {
       href: "https://www.sggs.ac.in/home/page/electronics-and-telecommunication-engineering",
     },
     {
-      name: "Dr. Vivekraj V K",
+      name: "Dr. Vivekraj V.  K.",
       image: Vivekraj,
       description: "IIIT Dharwad, India",
       href: "https://www.iiitdwd.ac.in/Dr.vivekraj.php",
