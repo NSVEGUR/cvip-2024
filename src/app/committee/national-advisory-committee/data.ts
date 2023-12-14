@@ -13,7 +13,7 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. A. G. Ramakrishnan",
     image: ProfAGRamakrishnan,
-    description: "IISC Banglore, India",
+    description: "IISc Banglore, India",
     href: "http://mile.ee.iisc.ac.in/AGR/index.htm",
   },
   {
