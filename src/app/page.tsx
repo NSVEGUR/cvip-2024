@@ -154,7 +154,7 @@ export default function Home() {
                 <h2 className="text-lg font-semibold text-heading">
                   Address:{" "}
                 </h2>
-                <p>IIITDM Kancheepuram, Chennai-600127, India</p>
+                <p>Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kancheepuram (An Institute of National Importance established by GoI), Melakottaiyur, Off Vandalur-Kelambakkam Road, Chennai - 600 127, India</p>
               </div>
             </div>
             <div className="flex items-center gap-2 break-all">
