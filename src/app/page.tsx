@@ -85,7 +85,7 @@ export default function Home() {
           provides a great platform to students, academia, researchers and
           industry persons. Previous editions of CVIP were held at IIT Jammu
           (2023), VNIT Nagpur ( 2022), IIT Ropar (CVIP 2021), IIIT Allahabad
-          (CVIP 2020), MNIT Jaipur (CVIP 2019), IIIT Jabalpur (CVIP 2018), and
+          (CVIP 2020), MNIT Jaipur (CVIP 2019), IIITDM Jabalpur (CVIP 2018), and
           IIT Roorkee (CVIP 2017 and CVIP 2016). Papers in the main technical
           program must describe high-quality original research. Prospective
           authors are invited to submit their original research contribution in
@@ -154,7 +154,7 @@ export default function Home() {
                 <h2 className="text-lg font-semibold text-heading">
                   Address:{" "}
                 </h2>
-                <p>IIITDM Kancheepuram, Chennai-600127, INDIA</p>
+                <p>IIITDM Kancheepuram, Chennai-600127, India</p>
               </div>
             </div>
             <div className="flex items-center gap-2 break-all">

@@ -81,7 +81,7 @@ export const members: {
     {
       name: "Prof. Umapada Pal",
       image: ProfUmapadaPal,
-      description: "Indian Statistical Institute, KolKata",
+      description: "Indian Statistical Institute, Kolkata, India",
       href: "https://www.isical.ac.in/~umapada/",
     },
     // {
@@ -260,7 +260,7 @@ export const members: {
       href: "https://www.cit.ac.in/profile-cse-dr-pankaj-pratap-singh",
     },
     {
-      name: "Dr. Surendiran . B",
+      name: "Dr. B. Surendiran",
       image: DrSurendrianB,
       description: "NIT Puducherry, India",
       href: "https://sites.google.com/view/surendiran/home",
@@ -268,7 +268,7 @@ export const members: {
     {
       name: "Dr. U.Srinivasulu Reddy",
       image: DrUSrinivasuluReddy,
-      description: "NIT Trichy, India",
+      description: "NIT Tiruchirappalli, India",
       href: "https://www.nitt.edu/home/academics/departments/ca/facultymca/dr_u_srinivasulu_reddy/",
     },
     {
