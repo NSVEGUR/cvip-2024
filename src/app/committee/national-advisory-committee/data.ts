@@ -48,7 +48,7 @@ export const members: ProfileCard[] = [
     href: "https://www.icegov.org/people/sundar-balakrishna/",
   },
   {
-    name: "Prof. V M Gadre",
+    name: "Prof. V. M. Gadre",
     image: VMGadre,
     description: "IIT Bombay, India",
     href: "https://www.ee.iitb.ac.in/wiki/faculty/vmgadre",
