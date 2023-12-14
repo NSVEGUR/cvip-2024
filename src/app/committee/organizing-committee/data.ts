@@ -274,13 +274,13 @@ export const members: {
     {
       name: "Prof. Yogameena",
       image: DrYogameena,
-      description: "Thiagarajar College of Engineering, India",
+      description: "Thiagarajar College of Engineering, Madurai, India",
       href: "https://www.tce.edu/staff_profile/faculty/BEECE/ymece.html",
     },
     {
       name: "Prof. P. Uma Maheswari",
       image: DrPUmaMaheswari,
-      description: "Anna University, India",
+      description: "Anna University, Chennai, India",
       href: "https://annauniv.irins.org/profile/117747",
     },
   ],
