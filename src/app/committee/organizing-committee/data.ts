@@ -88,7 +88,7 @@ export const members: {
      {
        name: "Prof. Mohan Kankanhalli",
        image: mohan,
-       description: "Provost's Chair Professor of Computer Science, National University of Singapore",
+       description: "National University of Singapore, Singapore",
        href: "https://www.comp.nus.edu.sg/cs/people/mohan/",
      },
   ],
