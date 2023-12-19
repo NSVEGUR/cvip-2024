@@ -1,4 +1,5 @@
 import ProfBBChaudhuri from "@images/people/ProfBBChaudhuri.jpeg";
+import mohan from "@images/people/mohan.jpg";
 import sathyababu from "@images/people/sathyababu.jpeg";
 import sriparna from "@images/people/sriparna.jpg";
 import ProfMVKarthikeyan from "@images/people/ProfMVKartikeyan.webp";
@@ -84,11 +85,12 @@ export const members: {
       description: "Indian Statistical Institute, Kolkata, India",
       href: "https://www.isical.ac.in/~umapada/",
     },
-    // {
-    //   name: "Prof. B. S. Manjunath",
-    //   image: ProfBSManjunath,
-    //   description: "Distinguished Professor, University of California",
-    // },
+     {
+       name: "Prof. Mohan Kankanhalli",
+       image: mohan,
+       description: "Provost's Chair Professor of Computer Science, National University of Singapore",
+       href: "https://www.comp.nus.edu.sg/cs/people/mohan/",
+     },
   ],
   "General Co-Chairs": [
     {
