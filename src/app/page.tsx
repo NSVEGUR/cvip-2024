@@ -100,29 +100,29 @@ export default function Home() {
         </div>
         <div className="my-6 grid grid-cols-2 text-lg -sm:grid-cols-1">
           <ul className=" ml-5 list-disc space-y-2">
+           <li>Activity Detection/ Recognition</li>
             <li>Biometrics, Forensics, Content Protection</li>
-            <li>Medical Image Analysis</li>
-            <li>3D Image/ Video Processing</li>
+            <li>Compressed Image/ Video Analytics</li>
+            <li>Computational Imaging</li>
+            <li>Datasets and Evaluation</li>
+            <li>Document and Synthetic Visual Processing</li>
+            <li>Document Image Analysis</li>
+            <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
+            <li>Human Computer Interaction</li>
             <li>Image Enhancement /Super Resolution / Restoration</li>
             <li>Image/ Video Processing for Autonomous Vehicles</li>
-            <li>Activity Detection/ Recognition</li>
-            <li>Segmentation and Shape Representation</li>
-            <li>Human Computer Interaction</li>
-            <li>Computational Imaging</li>
-            <li>Visual Sensor Hardware</li>
           </ul>
           <ul className=" ml-5 list-disc space-y-2">
-            <li>Document Image Analysis</li>
-            <li>Motion and Tracking</li>
-            <li>Image/ Video Scene Understanding</li>
-            <li>Image/ Video Retrieval</li>
-            <li>Image/ Video Security</li>
-            <li>Vision based Human GAIT Analysis</li>
-            <li>Document and Synthetic Visual Processing</li>
-            <li>Remote Sensing, Hyperspectral Image Processing</li>
-            <li>Datasets and Evaluation</li>
-            <li>Compressed Image/ Video Analytics</li>
-            <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
+          <li>Image/ Video Retrieval</li>
+          <li>Image/ Video Scene Understanding</li>
+          <li>Image/ Video Security</li>
+          <li>Medical Image Analysis</li>
+          <li>Motion and Tracking</li>
+          <li>Remote Sensing, Hyperspectral Image Processing</li>
+          <li>Segmentation and Shape Representation</li>
+          <li>Vision based Human GAIT Analysis</li>
+          <li>Visual Sensor Hardware</li>
+          <li>3D Image/ Video Processing</li>
           </ul>
         </div>
       </section>
