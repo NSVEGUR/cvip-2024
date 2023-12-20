@@ -95,7 +95,7 @@ export default function Home() {
       <section className="mt-10 rounded-lg bg-muted p-5 shadow-md">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-center text-2xl font-bold text-accent">
-            Conference Talks
+            Conference Tracks
           </h1>
         </div>
         <div className="my-6 grid grid-cols-2 text-lg -sm:grid-cols-1">
