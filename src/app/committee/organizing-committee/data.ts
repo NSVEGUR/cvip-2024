@@ -1,5 +1,6 @@
 import ProfBBChaudhuri from "@images/people/ProfBBChaudhuri.jpeg";
 import mohan from "@images/people/mohan.jpg";
+import satish from "@images/people/Satish.png";
 import sathyababu from "@images/people/sathyababu.jpeg";
 import sriparna from "@images/people/sriparna.jpg";
 import ProfMVKarthikeyan from "@images/people/ProfMVKartikeyan.webp";
@@ -177,6 +178,12 @@ export const members: {
       image: ProfPriteeKhanna,
       description: "IIITDM Jabalpur, India",
       href: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
+    },
+    {
+      name: "Dr.Satish Kumar Singh",
+      image: satish,
+      description: "IIIT Allahabad, India",
+      href: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
     },
     {
       name: "Dr. Masilamani V",
