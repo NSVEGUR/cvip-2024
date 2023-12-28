@@ -120,8 +120,8 @@ export default function Home() {
           <li>Motion and Tracking</li>
           <li>Remote Sensing, Hyperspectral Image Processing</li>
           <li>Segmentation and Shape Representation</li>
-          <li>Vision based Human GAIT Analysis</li>
-          <li>Visual Sensor Hardware</li>
+          <li>Vision based Human Gait Analysis</li>
+          <li>Visual Sensor Hardware, Visual Surveillance</li>
           <li>3D Image/ Video Processing</li>
           </ul>
         </div>
