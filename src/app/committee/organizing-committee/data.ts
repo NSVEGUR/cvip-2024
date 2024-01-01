@@ -77,7 +77,7 @@ export const members: {
     {
       name: "Prof. P. K. Biswas",
       image: ProfPKBiswas,
-      description: "IIT Khargpur, India",
+      description: "IIT Kharagpur, India",
       href: "https://www.iitkgp.ac.in/department/EC/faculty/ec-pkb",
     },
     {

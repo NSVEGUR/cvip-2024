@@ -25,7 +25,7 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. Jayanta Mukhopadhyay",
     image: ProfJayantaMukhopadhyay,
-    description: "IIT Khargpur, India",
+    description: "IIT Kharagpur, India",
     href: "https://www.iitkgp.ac.in/department/CS/faculty/cs-jay",
   },
   {

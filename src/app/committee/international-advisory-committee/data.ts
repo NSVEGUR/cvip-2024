@@ -32,7 +32,7 @@ export const members: ProfileCard[] = [
     href: "http://zoi.utia.cas.cz/zitova",
   },
   {
-    name: "Prof. Fabio DELL'ACQUA",
+    name: "Prof. Fabio Dellacqua",
     image: ProfFabio,
     description: "University of Pavia, Pavia",
     href: "http://tlcrs.unipv.it/index.php/people/the-team/23-people/75-fabio-dell-acqua",
@@ -88,7 +88,7 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. B.S. Manjunath",
     image: ProfBSManjunath,
-    description: "University of California. Santa Barbara",
+    description: "University of California, Santa Barbara, USA",
     href: "https://vision.ece.ucsb.edu/",
   },
   {
