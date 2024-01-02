@@ -1,5 +1,6 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
+import sanjaykumarsingh from "@images/people/sanjaykumarsingh.jpg";
 import ProfRamBilasPachori from "@images/people/ProfRamBilasPachori.jpg";
 import ProfJayantaMukhopadhyay from "@images/people/ProfJayantaMukhopadhyay.png";
 import ProfSushmitaMitra from "@images/people/ProfSushmitaMitra.jpeg";
@@ -64,5 +65,11 @@ export const members: ProfileCard[] = [
     image: Channappayya,
     description: "IIT Hyderabad, India",
     href: "https://people.iith.ac.in/sumohana/",
+  },
+  {
+    name: "Prof. Sanjay Kumar Singh",
+    image: sanjaykumarsingh,
+    description: "IIT BHU, India",
+    href: "https://iitbhu.ac.in/dept/cse/people/skscse",
   },
 ];
