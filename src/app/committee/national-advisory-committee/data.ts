@@ -1,5 +1,6 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
+import gpanda from "@images/people/gpanda.jpg";
 import sanjaykumarsingh from "@images/people/sanjaykumarsingh.jpg";
 import ProfRamBilasPachori from "@images/people/ProfRamBilasPachori.jpg";
 import ProfJayantaMukhopadhyay from "@images/people/ProfJayantaMukhopadhyay.png";
@@ -11,6 +12,12 @@ import AnilKumarSingh from "@images/people/AnilKumarSingh.jpg";
 import Channappayya from "@images/people/Sumohana.S.Channappayya.jpeg";
 
 export const members: ProfileCard[] = [
+  {
+    name: "Prof. Ganapati Panda",
+    image: gpanda,
+    description: "IIT Bhubaneswar, India",
+    href: "https://scholar.google.fi/citations?user=ooCsX-UAAAAJ&hl=fi",
+  },
   {
     name: "Prof. A. G. Ramakrishnan",
     image: ProfAGRamakrishnan,
