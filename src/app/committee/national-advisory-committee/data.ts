@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import ss from "@images/people/ss.jpg";
 import sanjaykumarsingh from "@images/people/sanjaykumarsingh.jpg";
 import ProfRamBilasPachori from "@images/people/ProfRamBilasPachori.jpg";
 import ProfJayantaMukhopadhyay from "@images/people/ProfJayantaMukhopadhyay.png";
@@ -12,6 +13,12 @@ import AnilKumarSingh from "@images/people/AnilKumarSingh.jpg";
 import Channappayya from "@images/people/Sumohana.S.Channappayya.jpeg";
 
 export const members: ProfileCard[] = [
+  {
+    name: "Prof. S Sadagopan",
+    image: ss,
+    description: "Former Director, IIIT Bangalore, India",
+    href: "https://www.iiitb.ac.in/prof-s-sadagopan",
+  },
   {
     name: "Prof. Ganapati Panda",
     image: gpanda,
