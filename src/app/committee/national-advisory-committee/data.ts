@@ -16,7 +16,7 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. S Sadagopan",
     image: ss,
-    description: "Former Director, IIIT Bangalore, India",
+    description: "Founder Director, IIIT-Bangalore, India",
     href: "https://www.iiitb.ac.in/prof-s-sadagopan",
   },
   {
