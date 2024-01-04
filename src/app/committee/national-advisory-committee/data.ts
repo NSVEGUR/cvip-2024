@@ -1,6 +1,6 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
-import gpanda from "@images/people/gpanda.jpg";
+import gpanda from "@images/people/PandaSir.jpg";
 import sanjaykumarsingh from "@images/people/sanjaykumarsingh.jpg";
 import ProfRamBilasPachori from "@images/people/ProfRamBilasPachori.jpg";
 import ProfJayantaMukhopadhyay from "@images/people/ProfJayantaMukhopadhyay.png";
