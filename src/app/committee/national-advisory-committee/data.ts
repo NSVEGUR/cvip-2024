@@ -2,6 +2,8 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import ss from "@images/people/ss.jpg";
+import chetan from "@images/people/chetaniitd.jpg";
+import Yegna from "@images/people/Yegna.jpg";
 import sanjaykumarsingh from "@images/people/sanjaykumarsingh.jpg";
 import ProfRamBilasPachori from "@images/people/ProfRamBilasPachori.jpg";
 import ProfJayantaMukhopadhyay from "@images/people/ProfJayantaMukhopadhyay.png";
@@ -85,5 +87,17 @@ export const members: ProfileCard[] = [
     image: sanjaykumarsingh,
     description: "IIT BHU, India",
     href: "https://iitbhu.ac.in/dept/cse/people/skscse",
+  },
+  {
+    name: "Prof. Chetan Arora",
+    image: chetan,
+    description: "IIT Delhi, India",
+    href: "https://www.cse.iitd.ac.in/~chetan/",
+  },
+  {
+    name: "Prof. Yegnanarayana B",
+    image: Yegna,
+    description: "IIIT Hyderabad, India",
+    href: "https://www.iiit.ac.in/people/faculty/Yegna/",
   },
 ];
