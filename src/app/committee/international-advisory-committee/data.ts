@@ -2,6 +2,8 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import ProfFabio from "@images/people/ProfFabio.jpg";
+import omair from "@images/people/omair.jpg";
+import zhu from "@images/people/zhu.jpg";
 import DrYongminLi from "@images/people/DrYongminLi.jpg";
 import ProfRangarajMRangayyan from "@images/people/ProfRangarajMRangayyan.jpg";
 import ProfGauravSharma from "@images/people/ProfGauravSharma.jpg";
@@ -124,7 +126,19 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. Xiaoyi Jiang",
     image: XiaoyiJiang,
-    description: "University of Münster, Germany",
+    description: "University of Munster, Germany",
     href: "https://www.uni-muenster.de/PRIA/en/personen/jiang.shtml",
+  },
+  {
+    name: "Prof. M. Omair Ahmad",
+    image: omair,
+    description: "Concordia University, Canada",
+    href: "https://www.concordia.ca/faculty/omair-ahmad.html",
+  },
+  {
+    name: "Prof. Xingquan (Hill) Zhu",
+    image: zhu,
+    description: "Florida Atlantic University, Florida, USA",
+    href: "https://www.fau.edu/engineering/directory/faculty/zhu/",
   },
 ];
