@@ -13,23 +13,6 @@ import CCIS from "@images/logos/ccis.png";
 import Form from "./Form";
 
 export default function Home() {
-  const endorsers = [
-    {
-      src: Institute,
-      alt: "iiitdm-logo",
-      href: "https://iiitdm.ac.in/",
-    },
-    {
-      src: Springer,
-      alt: "springer-logo",
-      href: "http://www.springer.com/series/7899",
-    },
-    {
-      src: CCIS,
-      alt: "ccis-logo",
-      href: "http://www.springer.com/series/7899",
-    },
-  ];
   return (
     <Main className="scroll-smooth">
       <section className="flex min-h-container flex-col justify-evenly">
@@ -70,16 +53,34 @@ export default function Home() {
           <h1 className="text-center text-3xl font-bold">Endorsed By</h1>
           <div className="mb-3 h-[2px] w-20 bg-accent"></div>
           <div className="flex w-full items-center justify-evenly gap-10 -md:flex-wrap">
-            {endorsers.map(({ href, alt, src }, index) => (
-              <a key={index} href={href}>
-                <Image
-                  src={src}
-                  alt={alt}
-                  width="150"
-                  className="w-32 transition-transform duration-300 hover:scale-110"
-                />
-              </a>
-            ))}
+            <a
+              href="https://iiitdm.ac.in/"
+              className="h-full rounded-lg bg-zinc-200 p-5 transition-transform duration-300 hover:scale-110"
+            >
+              <Image
+                src={Institute}
+                alt="Institute Logo"
+                width="150"
+                className="w-32"
+              />
+            </a>
+            <a
+              href="http://www.springer.com/series/7899"
+              className="h-full rounded-lg bg-zinc-200 p-5 transition-transform duration-300 hover:scale-110"
+            >
+              <Image
+                src={Springer}
+                alt="Springer Logo"
+                width="250"
+                className="h-24"
+              />
+            </a>
+            <a
+              href="http://www.springer.com/series/7899"
+              className="h-full rounded-lg bg-zinc-200 p-5 transition-transform duration-300 hover:scale-110"
+            >
+              <Image src={CCIS} alt="CCIS Logo" width="150" className="w-32" />
+            </a>
           </div>
         </div>
       </section>
@@ -138,7 +139,7 @@ export default function Home() {
         </div>
         <div className="my-6 grid grid-cols-2 text-lg -sm:grid-cols-1">
           <ul className=" ml-5 list-disc space-y-2">
-           <li>Activity Detection/ Recognition</li>
+            <li>Activity Detection/ Recognition</li>
             <li>Biometrics, Forensics, Content Protection</li>
             <li>Compressed Image/ Video Analytics</li>
             <li>Computational Imaging</li>
@@ -151,16 +152,16 @@ export default function Home() {
             <li>Image/ Video Processing for Autonomous Vehicles</li>
           </ul>
           <ul className=" ml-5 list-disc space-y-2">
-          <li>Image/ Video Retrieval</li>
-          <li>Image/ Video Scene Understanding</li>
-          <li>Image/ Video Security</li>
-          <li>Medical Image Analysis</li>
-          <li>Motion and Tracking</li>
-          <li>Remote Sensing, Hyperspectral Image Processing</li>
-          <li>Segmentation and Shape Representation</li>
-          <li>Vision based Human Gait Analysis</li>
-          <li>Visual Sensor Hardware, Visual Surveillance</li>
-          <li>3D Image/ Video Processing</li>
+            <li>Image/ Video Retrieval</li>
+            <li>Image/ Video Scene Understanding</li>
+            <li>Image/ Video Security</li>
+            <li>Medical Image Analysis</li>
+            <li>Motion and Tracking</li>
+            <li>Remote Sensing, Hyperspectral Image Processing</li>
+            <li>Segmentation and Shape Representation</li>
+            <li>Vision based Human Gait Analysis</li>
+            <li>Visual Sensor Hardware, Visual Surveillance</li>
+            <li>3D Image/ Video Processing</li>
           </ul>
         </div>
       </section>
@@ -192,7 +193,12 @@ export default function Home() {
                 <h2 className="text-lg font-semibold text-heading">
                   Address:{" "}
                 </h2>
-                <p>Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kancheepuram (An Institute of National Importance established by GoI), Melakottaiyur, Off Vandalur-Kelambakkam Road, Chennai - 600 127, India</p>
+                <p>
+                  Indian Institute of Information Technology, Design and
+                  Manufacturing (IIITDM), Kancheepuram (An Institute of National
+                  Importance established by GoI), Melakottaiyur, Off
+                  Vandalur-Kelambakkam Road, Chennai - 600 127, India
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-2 break-all">
