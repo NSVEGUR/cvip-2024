@@ -7,9 +7,29 @@ import Video from "@/app/Video";
 import ImportantDates from "@/components/ImportantDates";
 import Envelope from "@/components/svg/Envelope";
 import MapPin from "@components/svg/MapPin";
+import Institute from "@images/logo.webp";
+import Springer from "@images/logos/springer.png";
+import CCIS from "@images/logos/ccis.png";
 import Form from "./Form";
 
 export default function Home() {
+  const endorsers = [
+    {
+      src: Institute,
+      alt: "iiitdm-logo",
+      href: "https://iiitdm.ac.in/",
+    },
+    {
+      src: Springer,
+      alt: "springer-logo",
+      href: "http://www.springer.com/series/7899",
+    },
+    {
+      src: CCIS,
+      alt: "ccis-logo",
+      href: "http://www.springer.com/series/7899",
+    },
+  ];
   return (
     <Main className="scroll-smooth">
       <section className="flex min-h-container flex-col justify-evenly">
@@ -46,6 +66,24 @@ export default function Home() {
             <Video />
           </div>
         </div>
+        <div className="flex w-full flex-col items-center rounded-md bg-zinc-50 p-5 pb-10">
+          <h1 className="text-center text-3xl font-bold">Endorsed By</h1>
+          <div className="mb-3 h-[2px] w-20 bg-accent"></div>
+          <div className="flex w-full items-center justify-evenly gap-10 -md:flex-wrap">
+            {endorsers.map(({ href, alt, src }, index) => (
+              <a key={index} href={href}>
+                <Image
+                  src={src}
+                  alt={alt}
+                  width="150"
+                  className="w-32 transition-transform duration-300 hover:scale-110"
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section>
         <div className=" my-10 grid grid-cols-2 gap-5 rounded-lg bg-accent-soft p-5 text-center text-lg shadow-md -md:grid-cols-1">
           <div className="flex flex-col items-center">
             <h1 className="mb-1 text-2xl font-medium">About CVIP 2024</h1>
