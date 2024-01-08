@@ -22,8 +22,8 @@ export default function Page() {
             competitive advantage of Indian products in global markets.
           </p>
           <p>
-            It is one of the two IIITDMs, the other one being located in
-            Jabalpur. The institute, which was operating from its temporary
+            It is one of the three IIITDMs, the other two are being located in
+            Jabalpur and Kurnool. The institute, which was operating from its temporary
             campus within the Indian Institute of Technology Madras, which was
             also its mentor institute, has moved to its permanent campus at
             Kelambakkam-Vandalur road near Chennai in 2011. The institute offers

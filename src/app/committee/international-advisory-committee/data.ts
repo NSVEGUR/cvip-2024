@@ -2,6 +2,8 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import ProfFabio from "@images/people/ProfFabio.jpg";
+import omair from "@images/people/omair.jpg";
+import zhu from "@images/people/zhu.jpg";
 import DrYongminLi from "@images/people/DrYongminLi.jpg";
 import ProfRangarajMRangayyan from "@images/people/ProfRangarajMRangayyan.jpg";
 import ProfGauravSharma from "@images/people/ProfGauravSharma.jpg";
@@ -32,13 +34,13 @@ export const members: ProfileCard[] = [
     href: "http://zoi.utia.cas.cz/zitova",
   },
   {
-    name: "Prof. Fabio DELL'ACQUA",
+    name: "Prof. Fabio Dellacqua",
     image: ProfFabio,
     description: "University of Pavia, Pavia",
     href: "http://tlcrs.unipv.it/index.php/people/the-team/23-people/75-fabio-dell-acqua",
   },
   {
-    name: "Dr Yongmin Li",
+    name: "Dr. Yongmin Li",
     image: DrYongminLi,
     description: "Brunel University, London",
     href: "https://www.brunel.ac.uk/people/yongmin-li",
@@ -88,7 +90,7 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. B.S. Manjunath",
     image: ProfBSManjunath,
-    description: "University of California. Santa Barbara",
+    description: "University of California, Santa Barbara, USA",
     href: "https://vision.ece.ucsb.edu/",
   },
   {
@@ -104,7 +106,7 @@ export const members: ProfileCard[] = [
     href: "https://engineering.jhu.edu/vpatel36/vishal-patel/",
   },
   {
-    name: "Richard Hartley",
+    name: "Dr. Richard Hartley",
     image: RichardHartley,
     description: "Australian National University, AUSTRALIA",
     href: "https://users.cecs.anu.edu.au/~hartley/",
@@ -124,7 +126,19 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. Xiaoyi Jiang",
     image: XiaoyiJiang,
-    description: "University of Münster, Germany",
+    description: "University of Munster, Germany",
     href: "https://www.uni-muenster.de/PRIA/en/personen/jiang.shtml",
+  },
+  {
+    name: "Prof. M. Omair Ahmad",
+    image: omair,
+    description: "Concordia University, Canada",
+    href: "https://www.concordia.ca/faculty/omair-ahmad.html",
+  },
+  {
+    name: "Prof. Xingquan (Hill) Zhu",
+    image: zhu,
+    description: "Florida Atlantic University, Florida, USA",
+    href: "https://www.fau.edu/engineering/directory/faculty/zhu/",
   },
 ];

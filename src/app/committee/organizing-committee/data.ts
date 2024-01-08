@@ -1,4 +1,8 @@
 import ProfBBChaudhuri from "@images/people/ProfBBChaudhuri.jpeg";
+import mohan from "@images/people/mohan.jpg";
+import satish from "@images/people/Satish.png";
+import sathyababu from "@images/people/sathyababu.jpeg";
+import sriparna from "@images/people/sriparna.jpg";
 import ProfMVKarthikeyan from "@images/people/ProfMVKartikeyan.webp";
 import ProfPKBiswas from "@images/people/ProfPKBiswas.jpeg";
 import ProfUmapadaPal from "@images/people/ProfUmapadaPal.jpeg";
@@ -73,20 +77,21 @@ export const members: {
     {
       name: "Prof. P. K. Biswas",
       image: ProfPKBiswas,
-      description: "IIT Khargpur, India",
+      description: "IIT Kharagpur, India",
       href: "https://www.iitkgp.ac.in/department/EC/faculty/ec-pkb",
     },
     {
       name: "Prof. Umapada Pal",
       image: ProfUmapadaPal,
-      description: "Indian Statistical Institute, KolKata",
+      description: "Indian Statistical Institute, Kolkata, India",
       href: "https://www.isical.ac.in/~umapada/",
     },
-    // {
-    //   name: "Prof. B. S. Manjunath",
-    //   image: ProfBSManjunath,
-    //   description: "Distinguished Professor, University of California",
-    // },
+     {
+       name: "Prof. Mohan Kankanhalli",
+       image: mohan,
+       description: "National University of Singapore, Singapore",
+       href: "https://www.comp.nus.edu.sg/cs/people/mohan/",
+     },
   ],
   "General Co-Chairs": [
     {
@@ -121,20 +126,27 @@ export const members: {
       description: "IIT Roorkee, India",
       href: "https://www.iitr.ac.in/~MA/Malikfma",
     },
+    {
+      name: "Dr. Sriparna Saha",
+      image: sriparna,
+      description: "IIT Patna, India",
+      href: "https://www.iitp.ac.in/~sriparna/",
+    },
   ],
   "Conference Co-Chairs": [
-    {
-      name: "Dr. Ram Prasad Padhy",
-      image: DrRamPrasadPadhy,
-      description: "IIITDM Kancheepuram, India",
-      href: "https://www.iiitdm.ac.in/people/faculty/rampadhy@iiitdm.ac.in",
-    },
     {
       name: "Dr. Priyanka Kokil",
       image: DrPriyankaKokil,
       description: "IIITDM Kancheepuram, India",
       href: "https://www.iiitdm.ac.in/people/faculty/priyanka@iiitdm.ac.in",
     },
+    {
+      name: "Dr. Ram Prasad Padhy",
+      image: DrRamPrasadPadhy,
+      description: "IIITDM Kancheepuram, India",
+      href: "https://www.iiitdm.ac.in/people/faculty/rampadhy@iiitdm.ac.in",
+    },
+    
     {
       name: "Dr. Santosh Vipparthi",
       image: DrSantoshVipparthi,
@@ -162,6 +174,18 @@ export const members: {
       href: "https://cse-iiitdmj-ac-in.translate.goog/faculty_page.php?id=aojha@iiitdmj.ac.in&_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc",
     },
     {
+      name: "Prof. Pritee Khanna",
+      image: ProfPriteeKhanna,
+      description: "IIITDM Jabalpur, India",
+      href: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
+    },
+    {
+      name: "Dr.Satish Kumar Singh",
+      image: satish,
+      description: "IIIT Allahabad, India",
+      href: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
+    },
+    {
       name: "Dr. Masilamani V",
       image: DrMasilamaniV,
       description: "IIITDM Kancheepuram, India",
@@ -173,12 +197,7 @@ export const members: {
       description: "IIIT Allahabad, India",
       href: "https://it.iiita.ac.in/?pg=facultypage&uid=srdubey",
     },
-    {
-      name: "Prof. Pritee Khanna",
-      image: ProfPriteeKhanna,
-      description: "IIITDM Jabalpur, India",
-      href: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
-    },
+    
     {
       name: "Dr. Deep Gupta",
       image: DrDeepGupta,
@@ -250,27 +269,27 @@ export const members: {
       href: "https://www.cit.ac.in/profile-cse-dr-pankaj-pratap-singh",
     },
     {
-      name: "Dr. Surendiran . B",
+      name: "Dr. B. Surendiran",
       image: DrSurendrianB,
       description: "NIT Puducherry, India",
       href: "https://sites.google.com/view/surendiran/home",
     },
     {
-      name: "Dr. U.Srinivasulu Reddy",
+      name: "Dr. U. Srinivasulu Reddy",
       image: DrUSrinivasuluReddy,
-      description: "NIT Trichy, India",
+      description: "NIT Tiruchirappalli, India",
       href: "https://www.nitt.edu/home/academics/departments/ca/facultymca/dr_u_srinivasulu_reddy/",
     },
     {
-      name: "Prof. Yogameena",
+      name: "Prof. B. Yogameena",
       image: DrYogameena,
-      description: "Thiagarajar College of Engineering, India",
+      description: "Thiagarajar College of Engineering, Madurai, India",
       href: "https://www.tce.edu/staff_profile/faculty/BEECE/ymece.html",
     },
     {
       name: "Prof. P. Uma Maheswari",
       image: DrPUmaMaheswari,
-      description: "Anna University, India",
+      description: "Anna University, Chennai, India",
       href: "https://annauniv.irins.org/profile/117747",
     },
   ],
@@ -278,7 +297,7 @@ export const members: {
     {
       name: "Prof. Deepak Mishra",
       image: DrDeepakMishra,
-      description: "IIST Trivanduram, India",
+      description: "IIST Trivandrum, India",
       href: "https://www.iist.ac.in/avionics/deepak.mishra",
     },
     {
@@ -337,10 +356,17 @@ export const members: {
       href: "https://www.sggs.ac.in/home/page/electronics-and-telecommunication-engineering",
     },
     {
-      name: "Dr. Vivekraj V K",
+      name: "Dr. Vivekraj V.  K.",
       image: Vivekraj,
       description: "IIIT Dharwad, India",
       href: "https://www.iiitdwd.ac.in/Dr.vivekraj.php",
+    },
+    
+    {
+      name: "Dr. Korra Sathya Babu",
+      image: sathyababu,
+      description: "IIITDM Kurnool, India",
+      href: "https://iiitk.ac.in/Dr.-K.-Sathya-Babu/page",
     },
     {
       name: "Dr. Amitesh Singh Rajput",

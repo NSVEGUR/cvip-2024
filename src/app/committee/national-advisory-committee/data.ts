@@ -1,5 +1,11 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
+import gpanda from "@images/people/PandaSir.jpg";
+import ss from "@images/people/ss.jpg";
+import ujjwal from "@images/people/ujjwal.jpg";
+import chetan from "@images/people/chetaniitd.jpg";
+import Yegna from "@images/people/Yegna.jpg";
+import sanjaykumarsingh from "@images/people/sanjaykumarsingh.jpg";
 import ProfRamBilasPachori from "@images/people/ProfRamBilasPachori.jpg";
 import ProfJayantaMukhopadhyay from "@images/people/ProfJayantaMukhopadhyay.png";
 import ProfSushmitaMitra from "@images/people/ProfSushmitaMitra.jpeg";
@@ -11,13 +17,25 @@ import Channappayya from "@images/people/Sumohana.S.Channappayya.jpeg";
 
 export const members: ProfileCard[] = [
   {
-    name: "Prof A G Ramakrishnan",
+    name: "Prof. S Sadagopan",
+    image: ss,
+    description: "Founder Director, IIIT-Bangalore, India",
+    href: "https://www.iiitb.ac.in/prof-s-sadagopan",
+  },
+  {
+    name: "Prof. Ganapati Panda",
+    image: gpanda,
+    description: "IIT Bhubaneswar, India",
+    href: "https://scholar.google.fi/citations?user=ooCsX-UAAAAJ&hl=fi",
+  },
+  {
+    name: "Prof. A. G. Ramakrishnan",
     image: ProfAGRamakrishnan,
-    description: "IISC Banglore, India",
+    description: "IISc Banglore, India",
     href: "http://mile.ee.iisc.ac.in/AGR/index.htm",
   },
   {
-    name: "Prof Ram Bilas Pachori",
+    name: "Prof. Ram Bilas Pachori",
     image: ProfRamBilasPachori,
     description: "IIT Indore, India",
     href: "https://www.iiti.ac.in/people/~pachori/",
@@ -25,7 +43,7 @@ export const members: ProfileCard[] = [
   {
     name: "Prof. Jayanta Mukhopadhyay",
     image: ProfJayantaMukhopadhyay,
-    description: "IIT Khargpur, India",
+    description: "IIT Kharagpur, India",
     href: "https://www.iitkgp.ac.in/department/CS/faculty/cs-jay",
   },
   {
@@ -48,7 +66,7 @@ export const members: ProfileCard[] = [
     href: "https://www.icegov.org/people/sundar-balakrishna/",
   },
   {
-    name: "Prof. V M Gadre",
+    name: "Prof. V. M. Gadre",
     image: VMGadre,
     description: "IIT Bombay, India",
     href: "https://www.ee.iitb.ac.in/wiki/faculty/vmgadre",
@@ -64,5 +82,29 @@ export const members: ProfileCard[] = [
     image: Channappayya,
     description: "IIT Hyderabad, India",
     href: "https://people.iith.ac.in/sumohana/",
+  },
+  {
+    name: "Prof. Sanjay Kumar Singh",
+    image: sanjaykumarsingh,
+    description: "IIT BHU, India",
+    href: "https://iitbhu.ac.in/dept/cse/people/skscse",
+  },
+  {
+    name: "Prof. Chetan Arora",
+    image: chetan,
+    description: "IIT Delhi, India",
+    href: "https://www.cse.iitd.ac.in/~chetan/",
+  },
+  {
+    name: "Prof. Yegnanarayana B",
+    image: Yegna,
+    description: "IIIT Hyderabad, India",
+    href: "https://www.iiit.ac.in/people/faculty/Yegna/",
+  },
+  {
+    name: "Prof. Ujjwal Maulik",
+    image: ujjwal,
+    description: "Jadavpur Univeristy, India",
+    href: "https://sites.google.com/site/drujjwalmaulik",
   },
 ];

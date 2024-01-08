@@ -42,7 +42,7 @@ export default function Home() {
               Computer Vision & Image Processing
             </h1>
             <div className="font-bold text-accent">
-              06-08 December, 2024{" "}
+              19-21 December, 2024{" "}
               <p className="font-normal text-muted">
                 |{" "}
                 <span className="font-bold text-heading">
@@ -107,7 +107,7 @@ export default function Home() {
                 - 600127, India
               </span>
             </p>
-            <p className="mt-2 font-bold text-heading">06-08 December, 2024</p>
+            <p className="mt-2 font-bold text-heading">19-21 December, 2024</p>
             <DateCounter />
           </div>
         </div>
@@ -117,13 +117,13 @@ export default function Home() {
         <p className="text-justify text-lg text-dominant">
           CVIP 2024, the 9th International Conference on Computer Vision & Image
           Processing will be held at Indian Institute of Information Technology
-          Design and Manufacturing ( IIITDM), Chennai, Tamilnadu, INDIA from
-          December 06-08, 2024. CVIP is a premier annual conference focused on
+          Design and Manufacturing ( IIITDM), Chennai, Tamil Nadu, INDIA from
+          December 19-21, 2024. CVIP is a premier annual conference focused on
           Computer Vision and Image Processing, with its high quality; it
           provides a great platform to students, academia, researchers and
           industry persons. Previous editions of CVIP were held at IIT Jammu
           (2023), VNIT Nagpur ( 2022), IIT Ropar (CVIP 2021), IIIT Allahabad
-          (CVIP 2020), MNIT Jaipur (CVIP 2019), IIIT Jabalpur (CVIP 2018), and
+          (CVIP 2020), MNIT Jaipur (CVIP 2019), IIITDM Jabalpur (CVIP 2018), and
           IIT Roorkee (CVIP 2017 and CVIP 2016). Papers in the main technical
           program must describe high-quality original research. Prospective
           authors are invited to submit their original research contribution in
@@ -133,34 +133,34 @@ export default function Home() {
       <section className="mt-10 rounded-lg bg-muted p-5 shadow-md">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-center text-2xl font-bold text-accent">
-            Conference Talks
+            Conference Tracks
           </h1>
         </div>
         <div className="my-6 grid grid-cols-2 text-lg -sm:grid-cols-1">
           <ul className=" ml-5 list-disc space-y-2">
+           <li>Activity Detection/ Recognition</li>
             <li>Biometrics, Forensics, Content Protection</li>
-            <li>Medical Image Analysis</li>
-            <li>3D Image/ Video Processing</li>
+            <li>Compressed Image/ Video Analytics</li>
+            <li>Computational Imaging</li>
+            <li>Datasets and Evaluation</li>
+            <li>Document and Synthetic Visual Processing</li>
+            <li>Document Image Analysis</li>
+            <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
+            <li>Human Computer Interaction</li>
             <li>Image Enhancement /Super Resolution / Restoration</li>
             <li>Image/ Video Processing for Autonomous Vehicles</li>
-            <li>Activity Detection/ Recognition</li>
-            <li>Segmentation and Shape Representation</li>
-            <li>Human Computer Interaction</li>
-            <li>Computational Imaging</li>
-            <li>Visual Sensor Hardware</li>
           </ul>
           <ul className=" ml-5 list-disc space-y-2">
-            <li>Document Image Analysis</li>
-            <li>Motion and Tracking</li>
-            <li>Image/ Video Scene Understanding</li>
-            <li>Image/ Video Retrieval</li>
-            <li>Image/ Video Security</li>
-            <li>Vision based Human GAIT Analysis</li>
-            <li>Document and Synthetic Visual Processing</li>
-            <li>Remote Sensing, Hyperspectral Image Processing</li>
-            <li>Datasets and Evaluation</li>
-            <li>Compressed Image/ Video Analytics</li>
-            <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
+          <li>Image/ Video Retrieval</li>
+          <li>Image/ Video Scene Understanding</li>
+          <li>Image/ Video Security</li>
+          <li>Medical Image Analysis</li>
+          <li>Motion and Tracking</li>
+          <li>Remote Sensing, Hyperspectral Image Processing</li>
+          <li>Segmentation and Shape Representation</li>
+          <li>Vision based Human Gait Analysis</li>
+          <li>Visual Sensor Hardware, Visual Surveillance</li>
+          <li>3D Image/ Video Processing</li>
           </ul>
         </div>
       </section>
@@ -192,7 +192,7 @@ export default function Home() {
                 <h2 className="text-lg font-semibold text-heading">
                   Address:{" "}
                 </h2>
-                <p>IIITDM Kancheepuram, Chennai-600127, INDIA</p>
+                <p>Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kancheepuram (An Institute of National Importance established by GoI), Melakottaiyur, Off Vandalur-Kelambakkam Road, Chennai - 600 127, India</p>
               </div>
             </div>
             <div className="flex items-center gap-2 break-all">
