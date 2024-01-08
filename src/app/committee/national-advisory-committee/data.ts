@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import ss from "@images/people/ss.jpg";
+import ujjwal from "@images/people/ujjwal.jpg";
 import chetan from "@images/people/chetaniitd.jpg";
 import Yegna from "@images/people/Yegna.jpg";
 import sanjaykumarsingh from "@images/people/sanjaykumarsingh.jpg";
@@ -99,5 +100,11 @@ export const members: ProfileCard[] = [
     image: Yegna,
     description: "IIIT Hyderabad, India",
     href: "https://www.iiit.ac.in/people/faculty/Yegna/",
+  },
+  {
+    name: "Prof. Ujjwal Maulik",
+    image: ujjwal,
+    description: "Jadavpur Univeristy, India",
+    href: "https://sites.google.com/site/drujjwalmaulik",
   },
 ];
