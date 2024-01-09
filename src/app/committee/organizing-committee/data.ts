@@ -1,5 +1,6 @@
 import ProfBBChaudhuri from "@images/people/ProfBBChaudhuri.jpeg";
 import mohan from "@images/people/mohan.jpg";
+import prakash from "@images/people/prakash.jpg";
 import satish from "@images/people/Satish.png";
 import sathyababu from "@images/people/sathyababu.jpeg";
 import sriparna from "@images/people/sriparna.jpg";
@@ -286,11 +287,12 @@ export const members: {
       description: "Thiagarajar College of Engineering, Madurai, India",
       href: "https://www.tce.edu/staff_profile/faculty/BEECE/ymece.html",
     },
+    
     {
-      name: "Prof. P. Uma Maheswari",
-      image: DrPUmaMaheswari,
-      description: "Anna University, Chennai, India",
-      href: "https://annauniv.irins.org/profile/117747",
+      name: "Prof. P. Prakash",
+      image: prakash,
+      description: "Madras Institute of Technology, Chennai, India",
+      href: "https://mitindia.edu/en/ece-faculty?id=416",
     },
   ],
   "TPC Chairs": [
