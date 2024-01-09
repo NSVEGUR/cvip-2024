@@ -297,7 +297,7 @@ export const members: {
     {
       name: "Prof. P. Prakash",
       image: prakash,
-      description: "Madras Institute of Technology, Chennai, India",
+      description: "MIT, Anna University,  Chennai, India",
       href: "https://mitindia.edu/en/ece-faculty?id=416",
     },
   ],
