@@ -281,13 +281,19 @@ export const members: {
       description: "NIT Tiruchirappalli, India",
       href: "https://www.nitt.edu/home/academics/departments/ca/facultymca/dr_u_srinivasulu_reddy/",
     },
+    
     {
       name: "Prof. B. Yogameena",
       image: DrYogameena,
       description: "Thiagarajar College of Engineering, Madurai, India",
       href: "https://www.tce.edu/staff_profile/faculty/BEECE/ymece.html",
     },
-    
+    {
+      name: "Prof. P. Uma Maheswari",
+      image: DrPUmaMaheswari,
+      description: "Anna University, Chennai, India",
+      href: "https://annauniv.irins.org/profile/117747",
+    },    
     {
       name: "Prof. P. Prakash",
       image: prakash,
