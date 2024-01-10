@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import guru from "@images/people/guru.jpg";
 import sanatanu from "@images/people/sanatanu.jpg";
 import rajeev from "@images/people/rajeev.jpg";
 import ss from "@images/people/ss.jpg";
@@ -120,5 +121,11 @@ export const members: ProfileCard[] = [
     image: rajeev,
     description: "IIT (BHU), Varanasi, India",
     href: "https://www.iitbhu.ac.in/dept/cse/people/rajeevcse",
+  },
+  {
+    name: "Prof. D. S. Guru",
+    image: guru,
+    description: "UNIVERSITY OF MYSORE, India",
+    href: "https://www.uni-mysore.ac.in/english-version/computer-science-0/faculty/dr-ds-guru",
   },
 ];
