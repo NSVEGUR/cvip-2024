@@ -1,6 +1,8 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import sanatanu from "@images/people/sanatanu.jpg";
+import rajeev from "@images/people/rajeev.jpg";
 import ss from "@images/people/ss.jpg";
 import ujjwal from "@images/people/ujjwal.jpg";
 import chetan from "@images/people/chetaniitd.jpg";
@@ -27,6 +29,12 @@ export const members: ProfileCard[] = [
     image: gpanda,
     description: "IIT Bhubaneswar, India",
     href: "https://scholar.google.fi/citations?user=ooCsX-UAAAAJ&hl=fi",
+  },
+  {
+    name: "Prof. Santanu Choudhary",
+    image: sanatanu,
+    description: "Director, IIT Jodhpur, India",
+    href: "https://iitj.ac.in/institute/index.php?id=director",
   },
   {
     name: "Prof. A. G. Ramakrishnan",
@@ -106,5 +114,11 @@ export const members: ProfileCard[] = [
     image: ujjwal,
     description: "Jadavpur Univeristy, India",
     href: "https://sites.google.com/site/drujjwalmaulik",
+  },
+  {
+    name: "Prof. Rajeev Srivastava",
+    image: rajeev,
+    description: "IIT (BHU), Varanasi, India",
+    href: "https://www.iitbhu.ac.in/dept/cse/people/rajeevcse",
   },
 ];
