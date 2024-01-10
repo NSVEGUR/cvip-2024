@@ -122,4 +122,10 @@ export const members: ProfileCard[] = [
     description: "IIT (BHU), Varanasi, India",
     href: "https://www.iitbhu.ac.in/dept/cse/people/rajeevcse",
   },
+  {
+    name: "Prof. D. S. Guru",
+    image: guru,
+    description: "University of Mysore, India",
+    href: "https://www.uni-mysore.ac.in/english-version/computer-science-0/faculty/dr-ds-guru",
+  },
 ];
