@@ -2,7 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import ProfFabio from "@images/people/ProfFabio.jpg";
-import anup from "@images/people/anup.jpg";
+import anup from "@images/people/anup.JPG";
 import omair from "@images/people/omair.jpg";
 import zhu from "@images/people/zhu.jpg";
 import DrYongminLi from "@images/people/DrYongminLi.jpg";
