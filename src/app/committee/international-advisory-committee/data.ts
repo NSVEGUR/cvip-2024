@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import ProfFabio from "@images/people/ProfFabio.jpg";
+import anup from "@images/people/anup.jpg";
 import omair from "@images/people/omair.jpg";
 import zhu from "@images/people/zhu.jpg";
 import DrYongminLi from "@images/people/DrYongminLi.jpg";
@@ -140,5 +141,11 @@ export const members: ProfileCard[] = [
     image: zhu,
     description: "Florida Atlantic University, Florida, USA",
     href: "https://www.fau.edu/engineering/directory/faculty/zhu/",
+  },
+  {
+    name: "Prof. Anup Basu",
+    image: anup,
+    description: "University of Alberta, Canada",
+    href: "https://apps.ualberta.ca/directory/person/basu",
   },
 ];
