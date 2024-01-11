@@ -2,6 +2,9 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import guru from "@images/people/guru.jpg";
+import tarun from "@images/people/tarun.jpg";
+import pravendra from "@images/people/pravendra.jpg";
+import kote from "@images/people/kote.png";
 import alok from "@images/people/alok.jpg";
 import dharmendra from "@images/people/dharmendra.jpg";
 import sanatanu from "@images/people/sanatanu.jpg";
@@ -137,10 +140,29 @@ export const members: ProfileCard[] = [
     description: "Univeristy of Mysore, India",
     href: "https://www.uni-mysore.ac.in/english-version/computer-science-0/faculty/dr-ds-guru",
   },
+  
   {
     name: "Dr. Bhardwaj Alok",
     image: alok,
     description: "IIT Roorkee, India",
     href: "https://civil.iitr.ac.in/CE?Uid=alok.bhardwaj",
   },
+  {
+    name: "Dr. Koteswar Rao Jerripthula",
+    image: kote,
+    description: "IIT Kanpur, India",
+    href: "https://sites.google.com/site/koteswarraojerripothula/",
+  },
+  {
+    name: "Dr. Pravendra Singh",
+    image: pravendra,
+    description: "IIT Roorkee, India",
+    href: "https://www.iitr.ac.in/~CSE/Pravendra_Singh",
+  },
+  {
+  name: "Dr. Tharun Kumar Reddy",
+  image: tarun,
+  description: "IIT Roorkee, India",
+  href: "https://tharuniitk.github.io/",
+},
 ];
