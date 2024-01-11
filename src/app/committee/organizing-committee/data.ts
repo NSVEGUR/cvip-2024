@@ -254,7 +254,7 @@ export const members: {
     {
       name: "Dr. Manisha Verma",
       image: DrManishaVerma,
-      description: "IIT Dhanbad, India",
+      description: "IIT (ISM) Dhanbad, India",
       href: "https://sites.google.com/site/manishaverma89/",
     },
     {
