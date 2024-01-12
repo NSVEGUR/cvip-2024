@@ -7,10 +7,8 @@ import Video from "@/app/Video";
 import ImportantDates from "@/components/ImportantDates";
 import Envelope from "@/components/svg/Envelope";
 import MapPin from "@components/svg/MapPin";
-import Institute from "@images/logo.webp";
-import Springer from "@images/logos/springer.png";
-import CCIS from "@images/logos/ccis.png";
 import Form from "./Form";
+import { Endorsers } from "./Endorsers";
 
 export default function Home() {
   return (
@@ -49,40 +47,7 @@ export default function Home() {
             <Video />
           </div>
         </div>
-        <div className="flex w-full flex-col items-center rounded-md bg-zinc-50 p-5 pb-10">
-          <h1 className="text-center text-3xl font-bold">Endorsed By</h1>
-          <div className="mb-3 h-[2px] w-20 bg-accent"></div>
-          <div className="flex w-full items-center justify-evenly gap-10 -md:flex-wrap">
-            <a
-              href="https://iiitdm.ac.in/"
-              className="h-full rounded-lg bg-zinc-200 p-5 transition-transform duration-300 hover:scale-110"
-            >
-              <Image
-                src={Institute}
-                alt="Institute Logo"
-                width="150"
-                className="w-32"
-              />
-            </a>
-            <a
-              href="http://www.springer.com/series/7899"
-              className="h-full rounded-lg bg-zinc-200 p-5 transition-transform duration-300 hover:scale-110"
-            >
-              <Image
-                src={Springer}
-                alt="Springer Logo"
-                width="250"
-                className="h-24"
-              />
-            </a>
-            <a
-              href="http://www.springer.com/series/7899"
-              className="h-full rounded-lg bg-zinc-200 p-5 transition-transform duration-300 hover:scale-110"
-            >
-              <Image src={CCIS} alt="CCIS Logo" width="150" className="w-32" />
-            </a>
-          </div>
-        </div>
+        <Endorsers />
       </section>
       <section>
         <div className=" my-10 grid grid-cols-2 gap-5 rounded-lg bg-accent-soft p-5 text-center text-lg shadow-md -md:grid-cols-1">
@@ -175,6 +140,17 @@ export default function Home() {
         <div className="w-[90vw] max-w-[600px]">
           <ImportantDates />
         </div>
+      </section>
+      <section className="my-3 text-justify text-lg">
+        <p>
+          As in previous years, CVIP 2024 will employ a two-round review
+          process. New papers can be submitted in either the first or the second
+          round. The primary benefit of submitting in First round is that
+          submissions which are not accepted early in the first round can be
+          revised and resubmitted along with a rebuttal, enabling authors to
+          address reviewer concerns. Second round submissions will not have a
+          rebuttal.
+        </p>
       </section>
       <section
         className="my-10 flex flex-col items-center justify-center px-3"
