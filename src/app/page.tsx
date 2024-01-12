@@ -116,9 +116,9 @@ export default function Home() {
             <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
             <li>Generative AI for Computer Vision</li>
             <li>Human Computer Interaction</li>
-            <li>Image Enhancement /Super Resolution / Restoration</li>
           </ul>
           <ul className=" ml-5 list-disc space-y-2">
+          <li>Image Enhancement /Super Resolution / Restoration</li>
           <li>Image/ Video Processing for Autonomous Vehicles</li>
             <li>Image/ Video Retrieval</li>
             <li>Image/ Video Scene Understanding</li>
