@@ -112,6 +112,7 @@ export default function Home() {
             <li>Document and Synthetic Visual Processing</li>
             <li>Document Image Analysis</li>
             <li>Deep Learning for Computer Vision</li>
+            <li>Explainable AI for Computer Vision</li>
             <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
             <li>Generative AI for Computer Vision</li>
             <li>Human Computer Interaction</li>
@@ -121,7 +122,7 @@ export default function Home() {
           <li>Image/ Video Processing for Autonomous Vehicles</li>
             <li>Image/ Video Retrieval</li>
             <li>Image/ Video Scene Understanding</li>
-            <li>Image/ Video Security</li>
+            <li>Image/ Video Security and Quality Assessment</li>
             <li>Medical Image Analysis</li>
             <li>Motion and Tracking</li>
             <li>Remote Sensing, Hyperspectral Image Processing</li>
