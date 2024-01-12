@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import kalidas from "@images/people/kalidas.jpg";
 import kmohan from "@images/people/kmohan.webp";
 import rajagopalan from "@images/people/rajagopalan.jpg";
 import guru from "@images/people/guru.jpg";
@@ -179,6 +180,12 @@ export const members: ProfileCard[] = [
     image: pravendra,
     description: "IIT Roorkee, India",
     href: "https://www.iitr.ac.in/~CSE/Pravendra_Singh",
+  },
+   {
+    name: "Dr. Kalidas Yeturu",
+    image: kalidas,
+    description: "IIT Tirupati, India",
+    href: "https://iittp.ac.in/dr-kalidas-yeturu",
   },
   {
   name: "Dr. Tharun Kumar Reddy",
