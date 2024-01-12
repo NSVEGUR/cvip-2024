@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import guru from "@images/people/guru.jpg";
+import vinod from "@images/people/vinod.png";
 import tarun from "@images/people/tarun.jpg";
 import pravendra from "@images/people/pravendra.jpg";
 import kote from "@images/people/kote.png";
@@ -139,6 +140,12 @@ export const members: ProfileCard[] = [
     image: guru,
     description: "Univeristy of Mysore, India",
     href: "https://www.uni-mysore.ac.in/english-version/computer-science-0/faculty/dr-ds-guru",
+  },
+  {
+    name: "Dr. Vinod Pankajakshan",
+    image: vinod,
+    description: "IIT Roorkee, Indi",
+    href: "http://ece.iitr.ac.in/vinod_pankajakshan",
   },
   
   {
