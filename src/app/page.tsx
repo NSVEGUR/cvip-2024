@@ -109,9 +109,9 @@ export default function Home() {
             <li>Compressed Image/ Video Analytics</li>
             <li>Computational Imaging</li>
             <li>Datasets and Evaluation</li>
+            <li>Deep Learning for Computer Vision</li>
             <li>Document and Synthetic Visual Processing</li>
             <li>Document Image Analysis</li>
-            <li>Deep Learning for Computer Vision</li>
             <li>Explainable AI for Computer Vision</li>
             <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
             <li>Generative AI for Computer Vision</li>
