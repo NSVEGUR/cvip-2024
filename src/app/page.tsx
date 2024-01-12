@@ -111,12 +111,14 @@ export default function Home() {
             <li>Datasets and Evaluation</li>
             <li>Document and Synthetic Visual Processing</li>
             <li>Document Image Analysis</li>
+            <li>Deep Learning for Computer Vision</li>
             <li>Face, Iris, Emotion, Sign Language and Gesture Recognition</li>
+            <li>Generative AI for Computer Vision</li>
             <li>Human Computer Interaction</li>
             <li>Image Enhancement /Super Resolution / Restoration</li>
-            <li>Image/ Video Processing for Autonomous Vehicles</li>
           </ul>
           <ul className=" ml-5 list-disc space-y-2">
+          <li>Image/ Video Processing for Autonomous Vehicles</li>
             <li>Image/ Video Retrieval</li>
             <li>Image/ Video Scene Understanding</li>
             <li>Image/ Video Security</li>
