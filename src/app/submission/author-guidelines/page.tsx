@@ -27,7 +27,7 @@ export default function Page() {
             in pdf format only and the file size of your manuscript should not
             exceed 10 MB as per guidelines of Springer-CCIS Series{" "}
             <a
-              href="www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
+              href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
               className="font-bold text-accent underline"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,7 +76,7 @@ export default function Page() {
             will be typeset at CVIP. The PDF of the Authors Guidelines can be
             downloaded here{" "}
             <a
-              href="www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
+              href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
               className="font-bold text-accent underline"
               target="_blank"
               rel="noopener noreferrer"
