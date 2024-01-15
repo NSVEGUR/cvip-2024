@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import ProfFabio from "@images/people/ProfFabio.jpg";
+import jonathan from "@images/people/jonathan.jpg";
 import anup from "@images/people/anup.JPG";
 import omair from "@images/people/omair.jpg";
 import zhu from "@images/people/zhu.jpg";
@@ -27,6 +28,12 @@ export const members: ProfileCard[] = [
     image: ProfRaghavendraRamachandra,
     description: "NTNU, Norway",
     href: "https://www.ntnu.edu/employees/raghavendra.ramachandra",
+  },
+  {
+    name: "Prof. Jonathan Wu",
+    image: jonathan,
+    description: "University of Windsor, Canada",
+    href: "https://www.uwindsor.ca/engineering/electrical/317/dr-jonathan-wu",
   },
   {
     name: "Dr. Barbara Zitova",
@@ -88,6 +95,7 @@ export const members: ProfileCard[] = [
     description: "University of Calgary, Alberta, Canada",
     href: "https://www.ucalgary.ca/aerospace/leung",
   },
+
   {
     name: "Prof. B.S. Manjunath",
     image: ProfBSManjunath,
