@@ -72,7 +72,7 @@ export default function Page() {
       <Cover heading="Sponsorship" className="flex-col gap-2">
         <div className="flex flex-col">
           <p className="mb-10 text-sm text-zinc-100">
-            EXHIBIT AND SPONSOR WACV 2024
+            EXHIBIT AND SPONSOR CVIP 2024
           </p>
           <button className="rounded-md bg-white px-4 py-2 text-lg hover:bg-zinc-100">
             Become a sponsor
@@ -85,14 +85,14 @@ export default function Page() {
         </h1>
         <p>
           Whether you are showcasing new products and services or recruiting new
-          talent, WACV 2024 is where the international computing and
+          talent, CVIP 2024 is where the international computing and
           applications community convenes – providing an opportunity to
           highlight what your company has to offer and reach decision-makers
           with real buying power.
         </p>
         <section className="space-y-5">
           <h1 className="my-20 border-b pb-3 text-2xl text-heading">
-            Reasons Why You Should Take Part In WACV24
+            Reasons Why You Should Take Part In CVIP 2024
           </h1>
           <div className="flex flex-wrap justify-evenly space-x-3 text-base">
             {reasons.map(({ title, description, icon }, index) => (
@@ -114,9 +114,9 @@ export default function Page() {
             Download The Prospectus
           </button>
           <p>
-            WACV24 attracts decision-makers looking for the next generation of
+            CVIP 2024 attracts decision-makers looking for the next generation of
             products, solutions, networking, and advanced-industry perspectives.
-            Put yourself in the position to meet them by supporting WACV 2024!
+            Put yourself in the position to meet them by supporting CVIP 2024!
           </p>
           <h2>Secure your sponsorship today.</h2>
         </section>
