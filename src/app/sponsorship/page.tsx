@@ -104,7 +104,7 @@ export default function Page() {
               </div>
             ))}
           </div>
-          <h2>
+          <h2 className="rounded-md bg-accent-soft px-3 py-2 font-bold text-heading shadow-md">
             Platinum, Gold, Silver, and Bronze level packages are available now.
             <span className="font-black text-accent">*</span>
           </h2>
@@ -112,7 +112,7 @@ export default function Page() {
             <Table
               headings={[
                 "Type of Sponsorship",
-                "Fund",
+                "Fund (₹)",
                 "Complimentary Stall",
                 "Table/Stall",
                 "Website/Branding",
@@ -155,6 +155,29 @@ export default function Page() {
             supporting CVIP 2024!
           </p>
           <h2>Secure your sponsorship today.</h2>
+        </section>
+        <section className="flex w-full items-center justify-center">
+          <div className=" min-w-max space-y-3 rounded-md border bg-zinc-50 p-5 shadow-md">
+            <h1 className="text-xl font-bold text-accent">Contact</h1>
+            <p className="text-heading">
+              Dr. Jagadeesh Kakarla | Conference Chair{" "}
+            </p>
+            <div className="flex items-center space-x-2">
+              <a
+                href="mailto:jagadeeshk@iiitdm.ac.in"
+                className="hover:underline"
+              >
+                jagadeeshk@iiitdm.ac.in
+              </a>
+              <span className="text-heading">or</span>
+              <a
+                href="mailto:cvip2024@iiitdm.ac.in"
+                className="hover:underline"
+              >
+                cvip2024@iiitdm.ac.in
+              </a>
+            </div>
+          </div>
         </section>
       </Main>
     </>
