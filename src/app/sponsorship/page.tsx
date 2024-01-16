@@ -160,7 +160,7 @@ export default function Page() {
           <div className=" min-w-max space-y-3 rounded-md border bg-zinc-50 p-5 shadow-md">
             <h1 className="text-xl font-bold text-accent">Contact</h1>
             <p className="text-heading">
-              Dr. Jagadeesh Kakarla | Conference Chair{" "}
+              Dr. Jagadeesh Kakarla, Conference Chair{" "}
             </p>
             <div className="flex items-center space-x-2">
               <a
