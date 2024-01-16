@@ -83,7 +83,7 @@ export default function Home() {
         <p className="text-justify text-lg text-dominant">
           CVIP 2024, the 9th International Conference on Computer Vision & Image
           Processing will be held at Indian Institute of Information Technology
-          Design and Manufacturing ( IIITDM), Chennai, Tamil Nadu, INDIA from
+          Design and Manufacturing, Kancheepuram ( IIITDM Kancheepuram), Chennai, Tamil Nadu, INDIA from
           December 19-21, 2024. CVIP is a premier annual conference focused on 
           Computer Vision and Image Processing, with its high quality; it provides a great platform to students, academia, researchers and industry persons. Previous editions of CVIP were held at IIT Jammu
           (2023), VNIT Nagpur (2022), IIT Ropar (2021), IIIT Allahabad
@@ -149,8 +149,8 @@ export default function Home() {
           round. The primary benefit of submitting in First round is that
           submissions which are not accepted early in the first round can be
           revised and resubmitted along with a rebuttal, enabling authors to
-          address reviewer concerns. Second round submissions will not have a
-          rebuttal.
+          address reviewer concerns. Second round submissions will not be considered for revisions.
+
         </p>
       </section>
       <section
