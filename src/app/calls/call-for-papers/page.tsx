@@ -9,15 +9,18 @@ export default function Page() {
     "Compressed Image/ Video Analytics",
     "Computational Imaging",
     "Datasets and Evaluation",
+    "Deep Learning for Computer Vision",
     "Document and Synthetic Visual Processing",
     "Document Image Analysis",
+    "Explainable AI for Computer Vision",
     "Face, Iris, Emotion, Sign Language and Gesture Recognition",
+    "Generative AI for Computer Vision",
     "Human Computer Interaction",
     "Image Enhancement /Super Resolution / Restoration",
     "Image/ Video Processing for Autonomous Vehicles",
     "Image/ Video Retrieval",
     "Image/ Video Scene Understanding",
-    "Image/ Video Security",
+    "Image/ Video Security and Quality Assessment",
     "Medical Image Analysis",
     "Motion and Tracking",
     "Remote Sensing, Hyperspectral Image Processing",
@@ -58,7 +61,7 @@ export default function Page() {
         </p>
         <div className="mt-10">
           <a
-            href="/docs/call-for-papers.pdf"
+            href="/docs/CFP_CVIP_2024.pdf"
             target="_blank"
             rel="noreferrer noopener"
             className="text-accent hover:underline"
