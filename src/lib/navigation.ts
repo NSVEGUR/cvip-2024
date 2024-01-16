@@ -37,21 +37,21 @@ export const header: {
         href: "/committee/organizing-committee",
         children: null,
       },
-     "Advisory Committe": {
-      title: "Advisory Committee",
-      children: {
-        "International Advisory Committee": {
-          title: "International Advisory Committee",
-          href: "/committee/international-advisory-committee",
-          children: null,
+      "Advisory Committe": {
+        title: "Advisory Committee",
+        children: {
+          "International Advisory Committee": {
+            title: "International Advisory Committee",
+            href: "/committee/international-advisory-committee",
+            children: null,
+          },
+          "National Advisory Committee": {
+            title: "National Advisory Committee",
+            href: "/committee/national-advisory-committee",
+            children: null,
+          },
         },
-        "National Advisory Committee": {
-          title: "National Advisory Committee",
-          href: "/committee/national-advisory-committee",
-          children: null,
-        },
-      }
-     }
+      },
     },
   },
   Keynotes: {
@@ -145,16 +145,11 @@ export const header: {
     base: "/registration",
     children: null,
   },
-  Expo: {
-    title: "Expo",
-    base: "/expo",
-    children: {
-      Sponsorship: {
-        title: "Sponsorship",
-        href: "/expo/sponsorship",
-        children: null,
-      },
-    },
+  Sponsorship: {
+    title: "Sponsorship",
+    href: "/sponsorship",
+    base: "/sponsorship",
+    children: null,
   },
   Years: {
     title: "Years",

@@ -40,19 +40,41 @@ export default function Page() {
           Prospective authors are invited to submit their original contribution.
           Tracks for CVIP 2024 include, but not limited to
         </p>
-        <section className="my-5 grid grid-cols-2 gap-5 rounded-md bg-muted p-5 text-base">
-          <ul className="ml-5 list-disc space-y-2">
-            {tracks.slice(0, 11).map((track) => (
-              <li key={track}>{track}</li>
-            ))}
-          </ul>
-          <ul className="ml-5 list-disc space-y-2">
-            {tracks.slice(11).map((track) => (
-              <li key={track}>{track}</li>
-            ))}
-          </ul>
+        <section className="mt-10 rounded-lg bg-muted p-5 shadow-md">
+          <div className="my-6 grid grid-cols-2 text-lg -sm:grid-cols-1">
+            <ul className=" ml-5 list-disc space-y-2">
+              <li>Activity Detection/ Recognition</li>
+              <li>Biometrics, Forensics, Content Protection</li>
+              <li>Compressed Image/ Video Analytics</li>
+              <li>Computational Imaging</li>
+              <li>Datasets and Evaluation</li>
+              <li>Deep Learning for Computer Vision</li>
+              <li>Document and Synthetic Visual Processing</li>
+              <li>Document Image Analysis</li>
+              <li>Explainable AI for Computer Vision</li>
+              <li>
+                Face, Iris, Emotion, Sign Language and Gesture Recognition
+              </li>
+              <li>Generative AI for Computer Vision</li>
+              <li>Human Computer Interaction</li>
+            </ul>
+            <ul className=" ml-5 list-disc space-y-2">
+              <li>Image Enhancement /Super Resolution / Restoration</li>
+              <li>Image/ Video Processing for Autonomous Vehicles</li>
+              <li>Image/ Video Retrieval</li>
+              <li>Image/ Video Scene Understanding</li>
+              <li>Image/ Video Security and Quality Assessment</li>
+              <li>Medical Image Analysis</li>
+              <li>Motion and Tracking</li>
+              <li>Remote Sensing, Hyperspectral Image Processing</li>
+              <li>Segmentation and Shape Representation</li>
+              <li>Vision based Human Gait Analysis</li>
+              <li>Visual Sensor Hardware, Visual Surveillance</li>
+              <li>3D Image/ Video Processing</li>
+            </ul>
+          </div>
         </section>
-        <p>
+        <p className="mt-10">
           All previous editions of CVIP have been successfully published in
           Springer, Communications in Computer and Information Science series
           (CCIS). Conference Proceedings will be abstracted and indexed in DBLP,

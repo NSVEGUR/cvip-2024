@@ -1,5 +1,6 @@
 import { Cover } from "@/components/ui/Cover.Heading";
 import { Main } from "@/components/ui/Main";
+import { Table } from "@/components/ui/Table";
 
 export default function Page() {
   const reasons = [
@@ -14,7 +15,7 @@ export default function Page() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="h-6 w-6"
+          className="h-9 w-9"
         >
           <path
             strokeLinecap="round"
@@ -35,7 +36,7 @@ export default function Page() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="h-6 w-6"
+          className="h-9 w-9"
         >
           <path
             strokeLinecap="round"
@@ -56,7 +57,7 @@ export default function Page() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="h-6 w-6"
+          className="h-9 w-9"
         >
           <path
             strokeLinecap="round"
@@ -69,18 +70,15 @@ export default function Page() {
   ];
   return (
     <>
-      <Cover heading="Sponsorship" className="flex-col gap-2">
+      <Cover heading="Become A Sponsor" className="flex-col gap-2">
         <div className="flex flex-col">
-          <p className="mb-10 text-sm text-zinc-100">
+          <p className="mb-10 text-lg text-zinc-100">
             EXHIBIT AND SPONSOR CVIP 2024
           </p>
-          <button className="rounded-md bg-white px-4 py-2 text-lg hover:bg-zinc-100">
-            Become a sponsor
-          </button>
         </div>
       </Cover>
       <Main className="space-y-5 text-center  text-lg">
-        <h1 className="text-2xl text-accent">
+        <h1 className="border-b pb-2 text-2xl font-bold text-accent">
           Exhibitor and Sponsorship Opportunities
         </h1>
         <p>
@@ -91,7 +89,7 @@ export default function Page() {
           with real buying power.
         </p>
         <section className="space-y-5">
-          <h1 className="my-20 border-b pb-3 text-2xl text-heading">
+          <h1 className="my-20 border-b pb-2 text-2xl font-bold text-accent">
             Reasons Why You Should Take Part In CVIP 2024
           </h1>
           <div className="flex flex-wrap justify-evenly space-x-3 text-base">
@@ -110,13 +108,51 @@ export default function Page() {
             Platinum, Gold, Silver, and Bronze level packages are available now.
             <span className="font-black text-accent">*</span>
           </h2>
-          <button className=" rounded-md bg-accent px-3 py-2 text-base text-inverted">
-            Download The Prospectus
-          </button>
+          <div className="py-10">
+            <Table
+              headings={[
+                "Type of Sponsorship",
+                "Fund",
+                "Complimentary Stall",
+                "Table/Stall",
+                "Website/Branding",
+                "Brochure Branding",
+                "Participation in industry session",
+                "Branding during breaks",
+              ]}
+              rows={[
+                [
+                  "Platinum",
+                  "5 Lacs",
+                  "7",
+                  "Stall",
+                  "Yes",
+                  "Yes",
+                  "Yes",
+                  "Yes",
+                ],
+                ["Diamond", "3 Lacs", "4", "Stall", "Yes", "Yes", "Yes", "No"],
+                ["Gold", "2 Lacs", "3", "Table", "Yes", "Yes", "Yes", "No"],
+                ["Silver", "1 Lacs", "2", "Table", "Yes", "No", "No", "No"],
+                ["Bronze", "50 K", "1", "No", "Yes", "No", "No", "No"],
+                [
+                  "Awards and Session Sponsorship",
+                  "Discussion with organizers",
+                  "1",
+                  "No",
+                  "Yes",
+                  "No",
+                  "No",
+                  "No",
+                ],
+              ]}
+            />
+          </div>
           <p>
-            CVIP 2024 attracts decision-makers looking for the next generation of
-            products, solutions, networking, and advanced-industry perspectives.
-            Put yourself in the position to meet them by supporting CVIP 2024!
+            CVIP 2024 attracts decision-makers looking for the next generation
+            of products, solutions, networking, and advanced-industry
+            perspectives. Put yourself in the position to meet them by
+            supporting CVIP 2024!
           </p>
           <h2>Secure your sponsorship today.</h2>
         </section>
