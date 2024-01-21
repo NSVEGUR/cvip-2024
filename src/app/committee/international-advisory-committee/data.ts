@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
+import ishwar from "@images/people/ishwar.jpg";
 import ProfFabio from "@images/people/ProfFabio.jpg";
 import jonathan from "@images/people/jonathan.jpg";
 import anup from "@images/people/anup.JPG";
@@ -23,6 +24,12 @@ import SudeepSarkar from "@images/people/ProfSudeepSarkar.jpg";
 import XiaoyiJiang from "@images/people/ProfXiaoyiJiang.jpg";
 
 export const members: ProfileCard[] = [
+  {
+    name: "Prof. Ishwar K. Sethi",
+    image: ishwar,
+    description: "Oakland University, USA",
+    href: "https://oakland.edu/secs/directory/sethi",
+  },
   {
     name: "Prof. Raghavendra Ramachandra",
     image: ProfRaghavendraRamachandra,
