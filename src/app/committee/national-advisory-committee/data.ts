@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import brajesh from "@images/people/brajesh.jpg";
 import kalidas from "@images/people/kalidas.jpg";
 import kmohan from "@images/people/kmohan.webp";
 import rajagopalan from "@images/people/rajagopalan.jpg";
@@ -148,6 +149,12 @@ export const members: ProfileCard[] = [
     image: dharmendra,
     description: "IIT Roorkee, India",
     href: "https://www.iitr.ac.in/~ECE/Singh__Dharmendra",
+  }, 
+  {
+    name: "Prof. Brajesh Kumar Kaushik",
+    image: brajesh,
+    description: "IIT Roorkee, India",
+    href: "https://www.iitr.ac.in/~ECE/Brajesh_Kumar_Kaushik",
   }, 
   
   {
