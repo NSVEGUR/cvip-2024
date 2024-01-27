@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import sharat from "@images/people/sharatchandra.jpg";
 import brajesh from "@images/people/brajesh.jpg";
 import kalidas from "@images/people/kalidas.jpg";
 import kmohan from "@images/people/kmohan.webp";
@@ -54,10 +55,10 @@ export const members: ProfileCard[] = [
     href: "http://mile.ee.iisc.ac.in/AGR/index.htm",
   },
   {
-    name: "Prof. Ram Bilas Pachori",
-    image: ProfRamBilasPachori,
-    description: "IIT Indore, India",
-    href: "https://www.iiti.ac.in/people/~pachori/",
+    name: "Prof. Sharat Chandran",
+    image: Sharat,
+    description: "IIT Bombay, India",
+    href: "https://www.cse.iitb.ac.in/~sharat/",
   },
   {
     name: "Prof. A. N. Rajagopalan",
