@@ -56,7 +56,7 @@ export const members: ProfileCard[] = [
   },
   {
     name: "Prof. Sharat Chandran",
-    image: Sharat,
+    image: sharat,
     description: "IIT Bombay, India",
     href: "https://www.cse.iitb.ac.in/~sharat/",
   },
