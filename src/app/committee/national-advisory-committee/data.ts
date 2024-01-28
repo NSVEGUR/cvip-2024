@@ -5,6 +5,7 @@ import sharat from "@images/people/sharatchandra.jpg";
 import brajesh from "@images/people/brajesh.jpg";
 import kalidas from "@images/people/kalidas.jpg";
 import kmohan from "@images/people/kmohan.webp";
+import ssuresh from "@images/people/suresh.webp";
 import rajagopalan from "@images/people/rajagopalan.jpg";
 import guru from "@images/people/guru.jpg";
 import vinod from "@images/people/vinod.png";
@@ -164,10 +165,16 @@ export const members: ProfileCard[] = [
     description: "Univeristy of Mysore, India",
     href: "https://www.uni-mysore.ac.in/english-version/computer-science-0/faculty/dr-ds-guru",
   },
+   {
+    name: "Dr. Suresh Sundaram",
+    image: ssuresh,
+    description: "IIT Guwahati, India",
+    href: "https://www.iitg.ac.in/iitg_faculty_details?fac=aXl5RzlWTUxpTkJJYlhldEF3cWNDZz09",
+  },
   {
     name: "Dr. Vinod Pankajakshan",
     image: vinod,
-    description: "IIT Roorkee, Indi",
+    description: "IIT Roorkee, India",
     href: "http://ece.iitr.ac.in/vinod_pankajakshan",
   },
   
