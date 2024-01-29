@@ -8,7 +8,7 @@ export function Endorsers() {
   return (
     <div className="flex w-full flex-col items-center rounded-md bg-zinc-50 p-5 pb-10">
       <div className="my-5 flex w-full items-center justify-evenly gap-10 -lg:flex-col">
-        <div className="flex flex-col items-start gap-3">
+        <div className="flex flex-col items-center gap-3">
           <h1 className="mb-3 text-center text-3xl font-bold">Endorsed By</h1>
           <a
             href="https://iapr.org/"

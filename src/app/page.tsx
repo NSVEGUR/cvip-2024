@@ -9,6 +9,7 @@ import Envelope from "@/components/svg/Envelope";
 import MapPin from "@components/svg/MapPin";
 import Form from "./Form";
 import { Endorsers } from "./Endorsers";
+import { Submission } from "./Submission";
 
 export default function Home() {
   return (
@@ -83,15 +84,17 @@ export default function Home() {
         <p className="text-justify text-lg text-dominant">
           CVIP 2024, the 9th International Conference on Computer Vision & Image
           Processing will be held at Indian Institute of Information Technology
-          Design and Manufacturing, Kancheepuram ( IIITDM Kancheepuram), Chennai, Tamil Nadu, INDIA from
-          December 19-21, 2024. CVIP is a premier annual conference focused on 
-          Computer Vision and Image Processing, with its high quality; it provides a great platform to students, academia, researchers and industry persons. Previous editions of CVIP were held at IIT Jammu
-          (2023), VNIT Nagpur (2022), IIT Ropar (2021), IIIT Allahabad
-          (CVIP 2020), MNIT Jaipur (2019), IIITDM Jabalpur (2018), and
-          IIT Roorkee (2017 and 2016). Papers in the main technical
-          program must describe high-quality original research. Prospective
-          authors are invited to submit their original research contribution in
-          the following tracks:
+          Design and Manufacturing, Kancheepuram ( IIITDM Kancheepuram),
+          Chennai, Tamil Nadu, INDIA from December 19-21, 2024. CVIP is a
+          premier annual conference focused on Computer Vision and Image
+          Processing, with its high quality; it provides a great platform to
+          students, academia, researchers and industry persons. Previous
+          editions of CVIP were held at IIT Jammu (2023), VNIT Nagpur (2022),
+          IIT Ropar (2021), IIIT Allahabad (CVIP 2020), MNIT Jaipur (2019),
+          IIITDM Jabalpur (2018), and IIT Roorkee (2017 and 2016). Papers in the
+          main technical program must describe high-quality original research.
+          Prospective authors are invited to submit their original research
+          contribution in the following tracks:
         </p>
       </section>
       <section className="mt-10 rounded-lg bg-muted p-5 shadow-md">
@@ -116,8 +119,8 @@ export default function Home() {
             <li>Human Computer Interaction</li>
           </ul>
           <ul className=" ml-5 list-disc space-y-2">
-          <li>Image Enhancement /Super Resolution / Restoration</li>
-          <li>Image/ Video Processing for Autonomous Vehicles</li>
+            <li>Image Enhancement /Super Resolution / Restoration</li>
+            <li>Image/ Video Processing for Autonomous Vehicles</li>
             <li>Image/ Video Retrieval</li>
             <li>Image/ Video Scene Understanding</li>
             <li>Image/ Video Security and Quality Assessment</li>
@@ -149,10 +152,11 @@ export default function Home() {
           round. The primary benefit of submitting in First round is that
           submissions which are not accepted early in the first round can be
           revised and resubmitted along with a rebuttal, enabling authors to
-          address reviewer concerns. Second round submissions will not be considered for revisions.
-
+          address reviewer concerns. Second round submissions will not be
+          considered for revisions.
         </p>
       </section>
+      <Submission />
       <section
         className="my-10 flex flex-col items-center justify-center px-3"
         id="more"
