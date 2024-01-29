@@ -85,11 +85,10 @@ export default function Home() {
           CVIP 2024, the 9th International Conference on Computer Vision & Image
           Processing will be held at Indian Institute of Information Technology
           Design and Manufacturing, Kancheepuram ( IIITDM Kancheepuram),
-          Chennai, Tamil Nadu, INDIA from December 19-21, 2024. CVIP is a
-          premier annual conference focused on Computer Vision and Image
-          Processing, with its high quality; it provides a great platform to
-          students, academia, researchers and industry persons. Previous
-          editions of CVIP were held at IIT Jammu (2023), VNIT Nagpur (2022),
+          Chennai, Tamil Nadu, INDIA from December 19-21, 2024. CVIP is a premier annual 
+          conference focused on Computer Vision and Image Processing. It provides a great platform for 
+          students, and people across academia and industry to present their research results and foster 
+          collaborations Previous editions of CVIP were held at IIT Jammu (2023), VNIT Nagpur (2022),
           IIT Ropar (2021), IIIT Allahabad (CVIP 2020), MNIT Jaipur (2019),
           IIITDM Jabalpur (2018), and IIT Roorkee (2017 and 2016). Papers in the
           main technical program must describe high-quality original research.
