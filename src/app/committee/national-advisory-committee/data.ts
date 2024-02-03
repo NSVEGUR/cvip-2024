@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import ravi from "@images/people/ravi.jpg";
 import sivapu from "@images/people/sivapu.jpg";
 import sharat from "@images/people/sharatchandra.jpg";
 import brajesh from "@images/people/brajesh.jpg";
@@ -67,6 +68,12 @@ export const members: ProfileCard[] = [
     image: rajagopalan,
     description: "IIT Madras, India",
     href: "https://www.ee.iitm.ac.in/~raju/",
+  },
+  {
+    name: "Prof. Balaraman Ravindran",
+    image: ravi,
+    description: "IIT Madras, India",
+    href: "http://www.cse.iitm.ac.in/~ravi/",
   },
   {
     name: "Prof. C Krishna Mohan",
