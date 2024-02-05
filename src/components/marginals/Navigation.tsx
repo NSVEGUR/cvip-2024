@@ -93,7 +93,7 @@ function Link({ link: { title, href, children } }: { link: Link }) {
             </span>
           </button>
           <div
-            className={`hidden origin-top-left bg-transparent pl-3 group-hover/sub:block -mobile:group-hover/sub:animate-slide-right mobile:origin-top mobile:pl-0 mobile:group-hover/sub:animate-slide-down -mobile:absolute -mobile:-top-3 -mobile:left-full ${
+            className={`hidden origin-top-left bg-transparent pl-3 group-hover/sub:block mobile:origin-top mobile:pl-0 mobile:group-hover/sub:animate-slide-down -mobile:absolute -mobile:-top-3 -mobile:left-full -mobile:group-hover/sub:animate-slide-right ${
               toggleMenu ? "block" : "hidden"
             }`}
           >
@@ -114,12 +114,25 @@ function Link({ link: { title, href, children } }: { link: Link }) {
           </div>
         </menu>
       ) : (
-        <a
-          href={href}
-          className="m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant hover:text-muted"
-        >
-          {title}
-        </a>
+        <>
+          {href?.startsWith("https") ? (
+            <a
+              href={href}
+              className="m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant hover:text-muted"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {title}
+            </a>
+          ) : (
+            <a
+              href={href}
+              className="m-0 block h-full w-full rounded-md px-2 py-1 hover:bg-dominant hover:text-muted"
+            >
+              {title}
+            </a>
+          )}
+        </>
       )}
     </li>
   );

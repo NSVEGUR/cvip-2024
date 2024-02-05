@@ -80,6 +80,11 @@ export const header: {
         href: "/calls/call-for-special-sessions",
         children: null,
       },
+      "Invitation for Reviewers": {
+        title: "Invitation for Reviewers",
+        href: "https://forms.gle/STWiYdvDPZZL7rSx6",
+        children: null,
+      },
     },
   },
   Submission: {
