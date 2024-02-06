@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import ishwar from "@images/people/ishwar.jpg";
+import kk from "@images/people/kk.jpg";
 import ProfFabio from "@images/people/ProfFabio.jpg";
 import jonathan from "@images/people/jonathan.jpg";
 import anup from "@images/people/anup.JPG";
@@ -162,5 +163,11 @@ export const members: ProfileCard[] = [
     image: anup,
     description: "University of Alberta, Canada",
     href: "https://apps.ualberta.ca/directory/person/basu",
+  },
+  {
+    name: "Dr. Pitikhate Sooraksa",
+    image: kk,
+    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
+    href: "http://eneng.kmitl.ac.th/people/pitikhate-sooraksa/",
   },
 ];
