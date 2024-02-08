@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import ravi from "@images/people/ravi.jpg";
+import rajak from "@images/people/rajak.jpg";
 import sivapu from "@images/people/sivapu.jpg";
 import sharat from "@images/people/sharatchandra.jpg";
 import brajesh from "@images/people/brajesh.jpg";
@@ -171,6 +172,12 @@ export const members: ProfileCard[] = [
     image: sivapu,
     description: "Pondicherry University, India",
     href: "https://backup.pondiuni.edu.in/PU_Establishment/profile_view/?node=799",
+  },
+  {
+    name: "Dr. D. Ram Rajak",
+    image: rajak,
+    description: "Indian Space Research Organisation (ISRO), India",
+    href: "https://scholar.google.com/citations?hl=en&user=UWMl7kgAAAAJ&view_op=list_works&sortby=pubdate",
   },
   
   {
