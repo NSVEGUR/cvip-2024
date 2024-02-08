@@ -90,8 +90,7 @@ export default function Home() {
           Processing. It provides a great platform for students, and people
           across academia and industry to present their research results and
           foster collaborations Previous editions of CVIP were held at IIT Jammu
-          (2023), VNIT Nagpur (2022), IIT Ropar (2021), IIIT Allahabad (CVIP
-          2020), MNIT Jaipur (2019), IIITDM Jabalpur (2018), and IIT Roorkee
+          (2023), VNIT Nagpur (2022), IIT Ropar (2021), IIIT Allahabad (2020), MNIT Jaipur (2019), IIITDM Jabalpur (2018), and IIT Roorkee
           (2017 and 2016). Papers in the main technical program must describe
           high-quality original research. Prospective authors are invited to
           submit their original research contribution in the following tracks:
@@ -158,7 +157,6 @@ export default function Home() {
       </section>
       <section>
         <div className="my-10 space-y-2 rounded-lg border bg-muted p-3">
-          <h1 className="text-xl font-bold">Note: </h1>
           <h2 className="text-xl text-accent">Invitation for reviewers</h2>
           <p className="text-lg">
             If you are interested to be part of cvip 2024 as a Reviewer.{" "}
