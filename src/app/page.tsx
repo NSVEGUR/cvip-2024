@@ -85,15 +85,16 @@ export default function Home() {
           CVIP 2024, the 9th International Conference on Computer Vision & Image
           Processing will be held at Indian Institute of Information Technology
           Design and Manufacturing, Kancheepuram ( IIITDM Kancheepuram),
-          Chennai, Tamil Nadu, INDIA from December 19-21, 2024. CVIP is a premier annual 
-          conference focused on Computer Vision and Image Processing. It provides a great platform for 
-          students, and people across academia and industry to present their research results and foster 
-          collaborations Previous editions of CVIP were held at IIT Jammu (2023), VNIT Nagpur (2022),
-          IIT Ropar (2021), IIIT Allahabad (CVIP 2020), MNIT Jaipur (2019),
-          IIITDM Jabalpur (2018), and IIT Roorkee (2017 and 2016). Papers in the
-          main technical program must describe high-quality original research.
-          Prospective authors are invited to submit their original research
-          contribution in the following tracks:
+          Chennai, Tamil Nadu, INDIA from December 19-21, 2024. CVIP is a
+          premier annual conference focused on Computer Vision and Image
+          Processing. It provides a great platform for students, and people
+          across academia and industry to present their research results and
+          foster collaborations Previous editions of CVIP were held at IIT Jammu
+          (2023), VNIT Nagpur (2022), IIT Ropar (2021), IIIT Allahabad (CVIP
+          2020), MNIT Jaipur (2019), IIITDM Jabalpur (2018), and IIT Roorkee
+          (2017 and 2016). Papers in the main technical program must describe
+          high-quality original research. Prospective authors are invited to
+          submit their original research contribution in the following tracks:
         </p>
       </section>
       <section className="mt-10 rounded-lg bg-muted p-5 shadow-md">
@@ -154,6 +155,23 @@ export default function Home() {
           address reviewer concerns. Second round submissions will not be
           considered for revisions.
         </p>
+      </section>
+      <section>
+        <div className="my-10 space-y-2 rounded-lg border bg-muted p-3">
+          <h1 className="text-xl font-bold">Note: </h1>
+          <h2 className="text-xl text-accent">Invitation for reviewers</h2>
+          <p className="text-lg">
+            If you are interested to be part of cvip 2024 as a Reviewer.{" "}
+            <a
+              href="https://forms.gle/STWiYdvDPZZL7rSx6"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-accent underline"
+            >
+              Please fill the form
+            </a>
+          </p>
+        </div>
       </section>
       <Submission />
       <section
