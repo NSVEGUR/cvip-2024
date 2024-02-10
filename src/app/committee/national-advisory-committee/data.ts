@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import ravi from "@images/people/ravi.jpg";
+import ramsarkar from "@images/people/ramsarkar.jpeg";
 import rajak from "@images/people/rajak.jpg";
 import sivapu from "@images/people/sivapu.jpg";
 import sharat from "@images/people/sharatchandra.jpg";
@@ -166,13 +167,19 @@ export const members: ProfileCard[] = [
     image: brajesh,
     description: "IIT Roorkee, India",
     href: "https://www.iitr.ac.in/~ECE/Brajesh_Kumar_Kaushik",
+  },
+  {
+    name: "Prof. Ram Sarkar",
+    image: ramsarkar,
+    description: "Jadavpur University, India",
+    href: "http://www.jaduniv.edu.in/profile.php?uid=686",
   }, 
   {
     name: "Prof. S. Sivasathya",
     image: sivapu,
     description: "Pondicherry University, India",
     href: "https://backup.pondiuni.edu.in/PU_Establishment/profile_view/?node=799",
-  },
+  }, 
   {
     name: "Dr. D. Ram Rajak",
     image: rajak,
