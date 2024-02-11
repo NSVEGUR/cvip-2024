@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
+import aniljain from "@images/people/aniljain.jpeg";
 import ishwar from "@images/people/ishwar.jpg";
 import chanda from "@images/people/chanda.jpg";
 import kk from "@images/people/kk.jpg";
@@ -26,6 +27,12 @@ import SudeepSarkar from "@images/people/ProfSudeepSarkar.jpg";
 import XiaoyiJiang from "@images/people/ProfXiaoyiJiang.jpg";
 
 export const members: ProfileCard[] = [
+  {
+    name: "Prof. Anil K Jain",
+    image: aniljain,
+    description: "Michigan State University, USA",
+    href: "https://msu.edu/honoredfaculty/directory/jain-anil.html",
+  },
   {
     name: "Prof. Ishwar K. Sethi",
     image: ishwar,
