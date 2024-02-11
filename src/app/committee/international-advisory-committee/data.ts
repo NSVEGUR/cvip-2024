@@ -3,6 +3,7 @@ import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandr
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import aniljain from "@images/people/aniljain.jpeg";
 import ishwar from "@images/people/ishwar.jpg";
+import dilipk from "@images/people/dilipk.jpg";
 import chanda from "@images/people/chanda.jpg";
 import kk from "@images/people/kk.jpg";
 import ProfFabio from "@images/people/ProfFabio.jpg";
@@ -92,6 +93,12 @@ export const members: ProfileCard[] = [
     image: NaliniKRatna,
     description: "State University of New York at Buffalo, USA",
     href: "https://www.buffalo.edu/cubs/members.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/ratha-nalini.html",
+  },
+  {
+    name: "Dr. Dilip K. Prasad",
+    image: dilipk,
+    description: "UiT The Arctic University of Norway, Norway",
+    href: "https://sites.google.com/site/dilipprasad/home?authuser=0",
   },
   {
     name: "Dr. Satish E. Viswanath",
