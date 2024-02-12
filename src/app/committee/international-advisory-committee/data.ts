@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import aniljain from "@images/people/aniljain.jpeg";
+import pradeepk from "@images/people/pradeepk.jpg";
 import ishwar from "@images/people/ishwar.jpg";
 import dilipk from "@images/people/dilipk.jpg";
 import chanda from "@images/people/chanda.jpg";
@@ -184,6 +185,12 @@ export const members: ProfileCard[] = [
     image: chanda,
     description: "Østfold University College, Norway",
     href: "https://www.hiof.no/iio/itk/english/people/aca/sukalpac/index.html",
+  },
+  {
+    name: "Dr. Pradeep K. Atrey",
+    image: pradeepk,
+    description: "University at Albany, USA",
+    href: "https://www.albany.edu/computer-science/faculty/pradeep-k-atrey",
   },
   {
     name: "Dr. Pitikhate Sooraksa",
