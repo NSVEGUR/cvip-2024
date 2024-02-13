@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import aniljain from "@images/people/aniljain.jpeg";
+import kkfrance from "@images/people/kkfrance.jpeg";
 import pradeepk from "@images/people/pradeepk.jpg";
 import ishwar from "@images/people/ishwar.jpg";
 import dilipk from "@images/people/dilipk.jpg";
@@ -179,6 +180,12 @@ export const members: ProfileCard[] = [
     image: anup,
     description: "University of Alberta, Canada",
     href: "https://apps.ualberta.ca/directory/person/basu",
+  },
+  {
+    name: "Prof. Kidiyo Kpalma",
+    image: kkfrance,
+    description: "Institut national des sciences appliquées (INSA), France",
+    href: "https://kpalma.perso.insa-rennes.fr/",
   },
   {
     name: "Dr. Sukalpa Chanda",
