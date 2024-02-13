@@ -2,7 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import aniljain from "@images/people/aniljain.jpeg";
-import kkfrance from "@images/people/kkfrance.jpeg";
+import kknew from "@images/people/kknew.jpg";
 import pradeepk from "@images/people/pradeepk.jpg";
 import ishwar from "@images/people/ishwar.jpg";
 import dilipk from "@images/people/dilipk.jpg";
@@ -183,7 +183,7 @@ export const members: ProfileCard[] = [
   },
   {
     name: "Prof. Kidiyo Kpalma",
-    image: kkfrance,
+    image: kknew,
     description: "Institut national des sciences appliquées (INSA), France",
     href: "https://kpalma.perso.insa-rennes.fr/",
   },
