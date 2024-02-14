@@ -3,6 +3,7 @@ import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandr
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import aniljain from "@images/people/aniljain.jpeg";
 import kknew from "@images/people/kknew.jpg";
+import xia from "@images/people/xia.jpeg";
 import pradeepk from "@images/people/pradeepk.jpg";
 import ishwar from "@images/people/ishwar.jpg";
 import dilipk from "@images/people/dilipk.jpg";
@@ -204,5 +205,11 @@ export const members: ProfileCard[] = [
     image: kk,
     description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     href: "http://eneng.kmitl.ac.th/people/pitikhate-sooraksa/",
+  },
+  {
+    name: "Dr. Xiaobai Li",
+    image: xia,
+    description: "Zhejiang University, China",
+    href: "https://scholar.google.com/citations?user=JTFfexYAAAAJ&hl=en",
   },
 ];
