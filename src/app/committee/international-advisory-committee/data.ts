@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
+import yogeshr from "@images/people/yogeshr.jpg";
 import aniljain from "@images/people/aniljain.jpeg";
 import kknew from "@images/people/kknew.jpg";
 import xia from "@images/people/xia.jpeg";
@@ -211,5 +212,11 @@ export const members: ProfileCard[] = [
     image: xia,
     description: "Zhejiang University, China",
     href: "https://scholar.google.com/citations?user=JTFfexYAAAAJ&hl=en",
+  },
+  {
+    name: "Dr. Yogesh S Rawat",
+    image: yogeshr,
+    description: "University of Central Florida, USA",
+    href: "https://www.crcv.ucf.edu/person/rawat/",
   },
 ];
