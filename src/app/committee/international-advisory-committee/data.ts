@@ -3,6 +3,7 @@ import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandr
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import yogeshr from "@images/people/yogeshr.jpg";
 import aniljain from "@images/people/aniljain.jpeg";
+import shivauk from "@images/people/shivauk.jpeg";
 import kknew from "@images/people/kknew.jpg";
 import jinc from "@images/people/jinc.png";
 import xia from "@images/people/xia.jpeg";
@@ -225,5 +226,11 @@ export const members: ProfileCard[] = [
     image: yogeshr,
     description: "University of Central Florida, USA",
     href: "https://www.crcv.ucf.edu/person/rawat/",
+  },
+  {
+    name: "Dr. Shivakumara Palaiahnakote",
+    image: shivauk,
+    description: "University of Salford, Manchester, United Kingdom",
+    href: "hhttps://www.salford.ac.uk/our-staff/shivakumara-palaiahnakote",
   },
 ];
