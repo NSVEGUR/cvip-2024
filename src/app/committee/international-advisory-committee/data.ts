@@ -4,6 +4,7 @@ import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import yogeshr from "@images/people/yogeshr.jpg";
 import aniljain from "@images/people/aniljain.jpeg";
 import kknew from "@images/people/kknew.jpg";
+import jinc from "@images/people/jinc.png";
 import xia from "@images/people/xia.jpeg";
 import pradeepk from "@images/people/pradeepk.jpg";
 import ishwar from "@images/people/ishwar.jpg";
@@ -128,6 +129,12 @@ export const members: ProfileCard[] = [
     image: ProfBSManjunath,
     description: "University of California, Santa Barbara, USA",
     href: "https://vision.ece.ucsb.edu/",
+  },
+  {
+    name: "Prof. Lianwen Jin",
+    image: jinc,
+    description: "South China University of Technology, China",
+    href: "http://www.dlvc-lab.net/lianwen/",
   },
   {
     name: "Prof. Kiran Raja",
