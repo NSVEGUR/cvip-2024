@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import ravi from "@images/people/ravi.jpg";
+import majhi from "@images/people/majhi.png";
 import ramsarkar from "@images/people/ramsarkar.jpeg";
 import rajak from "@images/people/rajak.jpg";
 import sivapu from "@images/people/sivapu.jpg";
@@ -52,6 +53,12 @@ export const members: ProfileCard[] = [
     image: sanatanu,
     description: "Director, IIT Jodhpur, India",
     href: "https://iitj.ac.in/institute/index.php?id=director",
+  },
+  {
+    name: "Prof. Banshidhar Majhi",
+    image: majhi,
+    description: "Vice Chancellor, VSSUT, Burla, India",
+    href: "https://www.vssut.ac.in/vice-chancellor-s-message.php",
   },
   {
     name: "Prof. A. G. Ramakrishnan",
