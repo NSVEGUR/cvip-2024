@@ -4,6 +4,7 @@ import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import yogeshr from "@images/people/yogeshr.jpg";
 import aniljain from "@images/people/aniljain.jpeg";
 import shivauk from "@images/people/shivauk.jpeg";
+import taposh from "@images/people/taposh.jpeg";
 import kknew from "@images/people/kknew.jpg";
 import jinc from "@images/people/jinc.png";
 import xia from "@images/people/xia.jpeg";
@@ -231,6 +232,12 @@ export const members: ProfileCard[] = [
     name: "Dr. Shivakumara Palaiahnakote",
     image: shivauk,
     description: "University of Salford, Manchester, United Kingdom",
-    href: "hhttps://www.salford.ac.uk/our-staff/shivakumara-palaiahnakote",
+    href: "https://www.salford.ac.uk/our-staff/shivakumara-palaiahnakote",
+  },
+  {
+    name: "Dr. Taposh Banerjee",
+    image: taposh,
+    description: "University of Pittsburgh, USA",
+    href: "https://www.engineering.pitt.edu/people/faculty/taposh-banerjee/",
   },
 ];
