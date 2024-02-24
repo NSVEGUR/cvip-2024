@@ -4,6 +4,7 @@ import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import yogeshr from "@images/people/yogeshr.jpg";
 import aniljain from "@images/people/aniljain.jpeg";
 import shivauk from "@images/people/shivauk.jpeg";
+import aparna from "@images/people/aparna.jpeg";
 import taposh from "@images/people/taposh.jpeg";
 import kknew from "@images/people/kknew.jpg";
 import jinc from "@images/people/jinc.png";
@@ -239,5 +240,11 @@ export const members: ProfileCard[] = [
     image: taposh,
     description: "University of Pittsburgh, USA",
     href: "https://www.engineering.pitt.edu/people/faculty/taposh-banerjee/",
+  },
+  {
+    name: "Dr. Aparna Bharati",
+    image: aparna,
+    description: "Lehigh University, USA",
+    href: "https://www.aparnabharati.com/",
   },
 ];
