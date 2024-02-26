@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandra.jpg";
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import yogeshr from "@images/people/yogeshr.jpg";
+import george from "@images/people/george.png";
 import aniljain from "@images/people/aniljain.jpeg";
 import shivauk from "@images/people/shivauk.jpeg";
 import aparna from "@images/people/aparna.jpeg";
@@ -242,9 +243,16 @@ export const members: ProfileCard[] = [
     href: "https://www.engineering.pitt.edu/people/faculty/taposh-banerjee/",
   },
   {
+    name: "Dr. George Azzopardi",
+    image: george,
+    description: "University of Groningen, Netherlands",
+    href: "https://www.cs.rug.nl/~george/",
+  },
+  {
     name: "Dr. Aparna Bharati",
     image: aparna,
     description: "Lehigh University, USA",
     href: "https://www.aparnabharati.com/",
   },
+  
 ];

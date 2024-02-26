@@ -2,6 +2,7 @@ import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import ravi from "@images/people/ravi.jpg";
+import somabiswas from "@images/people/SomaBiswas.jpg";
 import majhi from "@images/people/majhi.png";
 import ramsarkar from "@images/people/ramsarkar.jpeg";
 import rajak from "@images/people/rajak.jpg";
@@ -187,6 +188,12 @@ export const members: ProfileCard[] = [
     description: "Pondicherry University, India",
     href: "https://backup.pondiuni.edu.in/PU_Establishment/profile_view/?node=799",
   }, 
+  {
+    name: "Dr. Soma Biswas",
+    image: somabiswas,
+    description: "Indian Institute of Science, Bangalore, India",
+    href: "https://ee.iisc.ac.in/soma-biswas/",
+  },
   {
     name: "Dr. D. Ram Rajak",
     image: rajak,
