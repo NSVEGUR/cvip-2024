@@ -1,6 +1,7 @@
 import type { ProfileCard } from "@/lib/types";
 import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
+import soma from "@images/people/soma.webp";
 import ravi from "@images/people/ravi.jpg";
 import somabiswas from "@images/people/SomaBiswas.jpg";
 import majhi from "@images/people/majhi.png";
@@ -60,6 +61,12 @@ export const members: ProfileCard[] = [
     image: majhi,
     description: "Vice Chancellor, VSSUT, Burla, India",
     href: "https://www.vssut.ac.in/vice-chancellor-s-message.php",
+  },
+  {
+    name: "Prof. D V L N Somayajulu",
+    image: soma,
+    description: "Director, IIITDM Kurnool, India",
+    href: "https://iiitk.ac.in/Director's-Profile/page",
   },
   {
     name: "Prof. A. G. Ramakrishnan",
