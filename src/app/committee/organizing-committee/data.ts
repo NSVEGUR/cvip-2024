@@ -2,10 +2,12 @@ import ProfBBChaudhuri from "@images/people/ProfBBChaudhuri.jpeg";
 import mohan from "@images/people/mohan.jpg";
 import prakash from "@images/people/prakash.jpg";
 import satish from "@images/people/Satish.png";
+import chandrakala from "@images/people/chandrakala.webp";
 import sathyababu from "@images/people/sathyababu.jpeg";
 import sriparna from "@images/people/sriparna.jpg";
 import ProfMVKarthikeyan from "@images/people/ProfMVKartikeyan.webp";
 import ProfPKBiswas from "@images/people/ProfPKBiswas.jpeg";
+import nagarajan from "@images/people/nagarajan.webp";
 import ProfUmapadaPal from "@images/people/ProfUmapadaPal.jpeg";
 import DrJagadeeshKakarla from "@images/people/DrJagadeeshKakarla.jpeg";
 import DrSubramanyamMurala from "@images/people/DrSubrahmanyamMurala.jpeg";
@@ -18,6 +20,7 @@ import DrAparajitaOjha from "@images/people/DrAparajithaOjha.jpeg";
 import DrMasilamaniV from "@images/people/DrMasilamaniV.webp";
 import DrShivRamDubey from "@images/people/DrShivRamDubey.jpeg";
 import DrPuneetGoyal from "@images/people/DrPuneetGoyal.png";
+import jiji from "@images/people/jiji.webp";
 import DrParthaPratimRoy from "@images/people/DrParthaPratimRoy.jpeg";
 import ProfPriteeKhanna from "@images/people/ProfPriteeKhanna.jpg";
 import DrDeepGupta from "@images/people/DrDeepGupta.jpeg";
@@ -237,6 +240,18 @@ export const members: {
       description: "IIITDM Kancheepuram, India",
       href: "https://www.iiitdm.ac.in/people/faculty/krishnapriya@iiitdm.ac.in",
     },
+    {
+      name: "Dr. Jiji",
+      image: jiji,
+      description: "Shiv Nadar University, India",
+      href: "https://www.snuchennai.edu.in/faculty/dr-jiji",
+    },
+    {
+      name: "Dr. S. Chandrakala",
+      image: chandrakala,
+      description: "Shiv Nadar University, India",
+      href: "https://www.snuchennai.edu.in/faculty/dr-s-chandrakala",
+    },
   ],
   "Publicity Chairs": [
     {
@@ -299,6 +314,12 @@ export const members: {
       image: prakash,
       description: "MIT, Anna University,  Chennai, India",
       href: "https://mitindia.edu/en/ece-faculty?id=416",
+    },
+    {
+      name: "Dr. T. Nagarajan",
+      image: nagarajan,
+      description: "Shiv Nadar University, India",
+      href: "https://www.snuchennai.edu.in/faculty/dr-t-nagarajan",
     },
   ],
   "TPC Chairs": [
