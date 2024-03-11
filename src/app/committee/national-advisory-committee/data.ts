@@ -3,7 +3,7 @@ import ProfAGRamakrishnan from "@images/people/ProfAGRamakrishnan.jpg";
 import gpanda from "@images/people/PandaSir.jpg";
 import soma from "@images/people/soma.webp";
 import ravi from "@images/people/ravi.jpg";
-import unnamed from "@images/people/unnamed.webp";
+import sathyajit from "@images/people/sathyajit.jpeg";
 import somabiswas from "@images/people/SomaBiswas.jpg";
 import majhi from "@images/people/majhi.png";
 import ramsarkar from "@images/people/ramsarkar.jpeg";
@@ -260,7 +260,7 @@ export const members: ProfileCard[] = [
 },
 {
   name: "Dr. Satyajit Nayak",
-  image: unnamed,
+  image: sathyajit,
   description: "R&D Lead, Valeo India Private Limited India",
 },
 ];
