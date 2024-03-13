@@ -152,9 +152,19 @@ export const header: {
   },
   Sponsorship: {
     title: "Sponsorship",
-    href: "/sponsorship",
     base: "/sponsorship",
-    children: null,
+    children: {
+      "Call For Sponsors": {
+        title: "Call For Sponsors",
+        href: "/sponsorship/call-for-sponsors",
+        children: null,
+      },
+      "Sponsors": {
+        title: "Sponsors",
+        href: "/sponsorship/sponsors",
+        children: null,
+      },
+    },
   },
   Years: {
     title: "Years",
