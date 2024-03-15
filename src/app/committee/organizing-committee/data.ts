@@ -28,6 +28,7 @@ import DrNoorMahammad from "@images/people/DrNoorMahammad.jpeg";
 import DrUmaraniJayaraman from "@images/people/DrUmaraniJayaraman.jpeg";
 import DrSanjeethKumarNayak from "@images/people/DrSanjeetKumarNayak.webp";
 import DrPreethR from "@images/people/DrPreethR.webp";
+import juneja from "@images/people/juneja.jpeg";
 import DrJaishreeMayank from "@images/people/DrJaishreeMayank.webp";
 import DrRahulRaman from "@images/people/DrRahulRaman.webp";
 import DrSadagopanN from "@images/people/DrSadagopanN.webp";
@@ -408,6 +409,12 @@ export const members: {
       image: DrPushpendraKumar,
       description: "MANIT Bhopal, India",
       href: "http://www.manit.ac.in/content/dr-pushpendra-kumar",
+    },
+    {
+      name: "Prof. Mamta Juneja",
+      image: juneja,
+      description: "Panjab University, India",
+      href: "https://scholar.google.co.in/citations?user=kMUYufYAAAAJ&hl=en",
     },
   ],
   "Local Organizing Committee": [
