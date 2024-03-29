@@ -34,7 +34,7 @@ import DrRahulRaman from "@images/people/DrRahulRaman.webp";
 import DrSadagopanN from "@images/people/DrSadagopanN.webp";
 import DrBChittiBabu from "@images/people/DrBChittiBabu.webp";
 import DrBhukyaKrishnaPriya from "@images/people/DrBhukyaKrishnaPriya.webp";
-import DrSambitBakshi from "@images/people/newsambit.jpg";
+import DrSambitBakshi from "@images/people/DrSambitBakshi.png";
 import DrManishaVerma from "@images/people/DrManishaVerma.webp";
 import DrPrashantPatil from "@images/people/DrPrashantPatil.jpg";
 import DrPUmaMaheswari from "@images/people/DrPUmaMaheswari.png";
@@ -259,7 +259,7 @@ export const members: {
       name: "Dr. Sambit Bakshi",
       image: DrSambitBakshi,
       description: "NIT Rourkela, India",
-      href: "https://nitrkl.ac.in/FacultyStaff/FacultyProfile/bakshisambit",
+      href: "https://website.nitrkl.ac.in/FProfile.aspx?e=bakshisambit",
     },
     {
       name: "Dr. Noor Mahammad",
