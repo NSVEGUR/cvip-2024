@@ -185,16 +185,16 @@ export const members: {
       href: "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in",
     },
     {
-      name: "Dr.Satish Kumar Singh",
-      image: satish,
-      description: "IIIT Allahabad, India",
-      href: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
-    },
-    {
       name: "Prof. Masilamani V",
       image: DrMasilamaniV,
       description: "IIITDM Kancheepuram, India",
       href: "https://www.iiitdm.ac.in/administration/department-heads/computer-science",
+    },
+    {
+      name: "Dr.Satish Kumar Singh",
+      image: satish,
+      description: "IIIT Allahabad, India",
+      href: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
     },
     {
       name: "Dr. Shiv Ram Dubey",
