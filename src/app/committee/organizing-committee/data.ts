@@ -191,7 +191,7 @@ export const members: {
       href: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
     },
     {
-      name: "Dr. Masilamani V",
+      name: "Prof. Masilamani V",
       image: DrMasilamaniV,
       description: "IIITDM Kancheepuram, India",
       href: "https://www.iiitdm.ac.in/administration/department-heads/computer-science",
