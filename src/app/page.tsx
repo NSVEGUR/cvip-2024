@@ -35,9 +35,17 @@ export default function Home() {
                 India
               </p>
             </div>
-            <Link href="#more" className="mt-4">
-              Explore More
-            </Link>
+            <div className="flex items-center space-x-3 -sm:flex-col">
+              <Link href="#more" className="mt-4">
+                Explore More
+              </Link>
+              <Link
+                href="/submission/author-guidelines"
+                className="mt-4 bg-accent"
+              >
+                Click Here to Submit Paper
+              </Link>
+            </div>
           </div>
           <div className="group relative">
             <Image
