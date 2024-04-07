@@ -3,6 +3,7 @@ import ProfRaghavendraRamachandra from "@images/people/ProfRaghavendraRamachandr
 import DrBarbaraZitova from "@images/people/DrBarbaraZitova.png";
 import yogeshr from "@images/people/yogeshr.jpg";
 import george from "@images/people/george.png";
+import vin from "@images/people/vin.jpeg";
 import aniljain from "@images/people/aniljain.jpeg";
 import shivauk from "@images/people/shivauk.jpeg";
 import aparna from "@images/people/aparna.jpeg";
@@ -49,6 +50,13 @@ export const members: ProfileCard[] = [
     description: "Oakland University, USA",
     href: "https://oakland.edu/secs/directory/sethi",
   },
+  {
+    name: "Prof. Vincenzo Piuri",
+    image: vin,
+    description: "University of Milan, Italy",
+    href: "https://piuri.di.unimi.it/index.php?pageid=home",
+  },
+  
   {
     name: "Prof. Raghavendra Ramachandra",
     image: ProfRaghavendraRamachandra,
