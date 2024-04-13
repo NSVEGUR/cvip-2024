@@ -167,7 +167,7 @@ export const members: {
     {
       name: "Dr. Puneet Goyal",
       image: DrPuneetGoyal,
-      description: "IIT Ropar, India",
+      description: "IIT Ropar and NIMS University, India",
       href: "https://www.iitrpr.ac.in/hi/node/2045",
     },
   ],
