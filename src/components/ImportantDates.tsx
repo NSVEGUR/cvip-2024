@@ -28,7 +28,12 @@ export default function ImportantDates() {
             <td className="border-r border-accent px-6 py-4">
               Paper Submission Deadline
             </td>
-            <td className="px-6 py-4 font-bold">April 15, 2024</td>
+            <td className="px-6 py-4 font-bold">
+              <span className="mr-2 text-sm font-normal text-muted line-through">
+                April 15, 2024
+              </span>
+              <span>April 30, 2024</span>
+            </td>
           </tr>
           <tr className="border-b border-accent">
             <td className="border-r border-accent px-6 py-4">
