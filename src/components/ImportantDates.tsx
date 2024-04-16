@@ -11,7 +11,7 @@ export default function ImportantDates() {
             >
               Paper Submission Starts
             </th>
-            <th scope="col" className="px-6 py-3 font-bold">
+            <th scope="col" className="whitespace-nowrap px-6 py-3 font-bold">
               February 1st, 2024
             </th>
           </tr>
@@ -28,7 +28,7 @@ export default function ImportantDates() {
             <td className="border-r border-accent px-6 py-4">
               Paper Submission Deadline
             </td>
-            <td className="px-6 py-4 font-bold">
+            <td className="whitespace-nowrap px-6 py-4 font-bold">
               <span className="mr-2 text-sm font-normal text-muted line-through">
                 April 15, 2024
               </span>
@@ -39,7 +39,9 @@ export default function ImportantDates() {
             <td className="border-r border-accent px-6 py-4">
               Notification of Paper Acceptance
             </td>
-            <td className="px-6 py-4 font-bold">June 15, 2024</td>
+            <td className="whitespace-nowrap px-6 py-4 font-bold">
+              June 15, 2024
+            </td>
           </tr>
           <tr className="border-b border-accent bg-accent-soft">
             <th
@@ -52,25 +54,33 @@ export default function ImportantDates() {
             <td className="border-r border-accent px-6 py-4">
               Paper Submission Deadline
             </td>
-            <td className="px-6 py-4 font-bold">August 15, 2024</td>
+            <td className="whitespace-nowrap px-6 py-4 font-bold">
+              August 15, 2024
+            </td>
           </tr>
           <tr className="border-b border-accent bg-accent-soft">
             <td className="border-r border-accent px-6 py-4">
               Notification of Paper Acceptance
             </td>
-            <td className="px-6 py-4 font-bold">October 15, 2024</td>
+            <td className="whitespace-nowrap px-6 py-4 font-bold">
+              October 15, 2024
+            </td>
           </tr>
           <tr className="border-b border-accent">
             <td className="border-r border-accent px-6 py-4" colSpan={2}>
               Camera Ready Submission Deadline
             </td>
-            <td className="px-6 py-4 font-bold">October 30, 2024</td>
+            <td className="whitespace-nowrap px-6 py-4 font-bold">
+              October 30, 2024
+            </td>
           </tr>
           <tr className="border-b border-accent bg-accent-soft">
             <td className="border-r border-accent px-6 py-4" colSpan={2}>
               Early Bird Registration Deadline
             </td>
-            <td className="px-6 py-4 font-bold">November 15, 2024</td>
+            <td className="whitespace-nowrap px-6 py-4 font-bold">
+              November 15, 2024
+            </td>
           </tr>
           <tr>
             <td className="border-r border-accent px-6 py-4" colSpan={2}>

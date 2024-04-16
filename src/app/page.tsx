@@ -1,7 +1,5 @@
 import { Main } from "@ui/Main";
 import { Link } from "@ui/Link";
-import InstitutePoster from "@images/institute.webp";
-import Image from "next/image";
 import DateCounter from "@/app/DateCounter";
 import Video from "@/app/Video";
 import ImportantDates from "@/components/ImportantDates";
@@ -11,12 +9,19 @@ import Form from "./Form";
 import { Endorsers } from "./Endorsers";
 import { Submission } from "./Submission";
 import Sponsors from "./Sponsors";
+import { LatestNews } from "./LatestNews";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
     <Main className="scroll-smooth">
+      <Marquee>
+        <h1 className="px-5 text-xl font-semibold text-complement">
+          First Round Paper Submission Deadline is Extended until April 30, 2024
+        </h1>
+      </Marquee>
       <section className="flex min-h-container flex-col justify-evenly">
-        <div className="flex min-h-[50vh] items-center justify-evenly gap-5 -lg:flex-col-reverse -sm:min-h-container">
+        <div className="flex min-h-[50vh] items-center justify-evenly gap-5 -lg:my-20 -lg:flex-col">
           <div className="flex flex-col items-start gap-1 text-left text-lg -lg:items-center -lg:text-center">
             <p className="text-3xl text-accent">
               9th International Conference on
@@ -35,7 +40,7 @@ export default function Home() {
                 India
               </p>
             </div>
-            <div className="flex items-center space-x-3 -sm:flex-col">
+            <div className="grid grid-cols-2 gap-3">
               <Link href="#more" className="mt-4">
                 Explore More
               </Link>
@@ -45,16 +50,11 @@ export default function Home() {
               >
                 Click Here to Submit Paper
               </Link>
+              <Video />
             </div>
           </div>
-          <div className="group relative">
-            <Image
-              src={InstitutePoster}
-              alt="institute-image"
-              height="350"
-              className="rounded-lg object-cover shadow-lg -sm:h-80"
-            />
-            <Video />
+          <div className="group relative -lg:mt-20">
+            <LatestNews />
           </div>
         </div>
         <Endorsers />

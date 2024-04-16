@@ -1,5 +1,7 @@
 "use client";
 
+import { linkVariants } from "@/components/ui/Link";
+import { cn } from "@/lib/utils";
 import Play from "@components/svg/Play";
 import { useEffect, useState } from "react";
 
@@ -20,30 +22,27 @@ export default function Player() {
     <>
       <button
         id="video-btn"
-        className="absolute inset-0 flex h-full w-full items-center justify-center rounded-lg bg-black/20 text-inverted"
+        className={cn(linkVariants(), "col-span-2 bg-zinc-300 text-black")}
         onClick={() => setVideo(true)}
       >
-        <div className="rounded-full bg-white/30 p-2 transition-transform duration-300 group-hover:scale-125">
-          <Play />
-        </div>
+        IIITDM Kancheepuram Campus Tour
       </button>
       {video ? (
         <>
-          <div className="fixed inset-0 h-screen w-screen bg-black/40 backdrop-blur-lg" />
+          <div className="fixed inset-0 z-30 h-screen w-screen bg-black/40 backdrop-blur-lg" />
           <div
-            className="fixed left-1/2 top-1/2 flex w-[50%] -translate-x-1/2 -translate-y-1/2 items-center justify-center -lg:w-[75%] -sm:w-[95%]"
+            className="fixed left-1/2 top-1/2 z-40 flex w-[50%] -translate-x-1/2 -translate-y-1/2 items-center justify-center -lg:w-[75%] -sm:w-[95%]"
             id="video"
           >
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              controls
-              className="rounded-lg object-cover object-center"
-            >
-              <source src="/intro.mp4" />
-            </video>
+            <div className="flex w-[600px] items-center justify-center">
+              <iframe
+                className="h-[300px] w-[500px] rounded-md -sm:h-[200px] -sm:w-[300px]"
+                src="https://www.youtube.com/embed/ujtUyW30P60"
+                title="Campus Tour Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
           </div>
         </>
       ) : (

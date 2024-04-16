@@ -41,7 +41,7 @@ export function Submission() {
               }}
               className="border-base w-full rounded-md border-[1px] bg-dominant p-2 shadow"
             >
-              <div className="flex items-center space-x-3 text-lg font-medium">
+              <div className="flex items-center justify-start space-x-3 text-left text-lg font-medium">
                 <span>
                   {state[index] ? (
                     <svg

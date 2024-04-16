@@ -1,6 +1,5 @@
 import Image from "next/image";
 import IAPR from "@images/logos/iapr.png";
-import Institute from "@images/logo.webp";
 import Springer from "@images/logos/springer.png";
 import CCIS from "@images/logos/ccis.png";
 
