@@ -83,7 +83,7 @@ export default function Page() {
         </p>
         <div className="mt-10">
           <a
-            href="/docs/CFP_CVIP_2024.pdf"
+            href="/docs/CFP-CVIP2024-Updated.pdf"
             target="_blank"
             rel="noreferrer noopener"
             className="text-accent hover:underline"
