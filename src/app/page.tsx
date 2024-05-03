@@ -17,7 +17,7 @@ export default function Home() {
     <Main className="scroll-smooth">
       <Marquee>
         <h1 className="px-5 text-xl font-semibold text-complement">
-          First Round Paper Submission Deadline is Extended until April 30, 2024
+          Submissions for the first round are closed 
         </h1>
       </Marquee>
       <section className="flex min-h-container flex-col justify-evenly">
