@@ -59,6 +59,7 @@ import DrAmiteshRajput from "@images/people/DrAmiteshSinghRajput.jpg";
 import RVenkateshBabu from "@images/people/RVenkateshBabu.jpg";
 import DrPushpendraKumar from "@images/people/DrPushpendraKumar.jpeg";
 import DrRaghavanS from "@images/people/DrRaghavanS.webp";
+import Suvendu from '@images/people/DrSuvenduRup.jpeg';
 import type { ProfileCard } from "@/lib/types";
 
 export const members: {
@@ -91,12 +92,12 @@ export const members: {
       description: "Indian Statistical Institute, Kolkata, India",
       href: "https://www.isical.ac.in/~umapada/",
     },
-     {
-       name: "Prof. Mohan Kankanhalli",
-       image: mohan,
-       description: "National University of Singapore, Singapore",
-       href: "https://www.comp.nus.edu.sg/cs/people/mohan/",
-     },
+    {
+      name: "Prof. Mohan Kankanhalli",
+      image: mohan,
+      description: "National University of Singapore, Singapore",
+      href: "https://www.comp.nus.edu.sg/cs/people/mohan/",
+    },
   ],
   "General Co-Chairs": [
     {
@@ -151,7 +152,7 @@ export const members: {
       description: "IIITDM Kancheepuram, India",
       href: "https://www.iiitdm.ac.in/people/faculty/rampadhy@iiitdm.ac.in",
     },
-    
+
     {
       name: "Dr. Santosh Vipparthi",
       image: DrSantoshVipparthi,
@@ -202,7 +203,7 @@ export const members: {
       description: "IIIT Allahabad, India",
       href: "https://it.iiita.ac.in/?pg=facultypage&uid=srdubey",
     },
-    
+
     {
       name: "Dr. Deep Gupta",
       image: DrDeepGupta,
@@ -297,7 +298,7 @@ export const members: {
       description: "NIT Tiruchirappalli, India",
       href: "https://www.nitt.edu/home/academics/departments/ca/facultymca/dr_u_srinivasulu_reddy/",
     },
-    
+
     {
       name: "Prof. B. Yogameena",
       image: DrYogameena,
@@ -309,7 +310,7 @@ export const members: {
       image: DrPUmaMaheswari,
       description: "Anna University, Chennai, India",
       href: "https://annauniv.irins.org/profile/117747",
-    },    
+    },
     {
       name: "Prof. P. Prakash",
       image: prakash,
@@ -391,7 +392,7 @@ export const members: {
       description: "IIIT Dharwad, India",
       href: "https://www.iiitdwd.ac.in/Dr.vivekraj.php",
     },
-    
+
     {
       name: "Dr. Korra Sathya Babu",
       image: sathyababu,
@@ -415,6 +416,12 @@ export const members: {
       image: juneja,
       description: "Panjab University, India",
       href: "https://scholar.google.co.in/citations?user=kMUYufYAAAAJ&hl=en",
+    },
+    {
+      name: "Dr. Suvendu Rup",
+      image: Suvendu,
+      description: "National Institute of Technology, Raipur , India",
+      href: "https://nitrr.ac.in/viewdetails.php?q=it.srup",
     },
   ],
   "Local Organizing Committee": [

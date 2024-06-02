@@ -3,80 +3,68 @@ import { Main } from "@ui/Main";
 import { Cover } from "@ui/Cover.Heading";
 import { hostel } from "./data";
 import Hotels from "./Hotels";
+import { RoomCard } from "./Room-Card";
+import { HotelsWithImages } from "./Hotels-With-Images";
 
 export default function Page() {
   return (
     <>
       <Cover heading="Accommodation Details" />
       <Main className="pt-0">
-        <h2 className="my-5 text-center text-xl font-medium text-accent">
-          Available facilities in the institute
-        </h2>
-        <Table headings={hostel.headings} rows={hostel.rows} />
-        <h2 className="my-5 text-center text-xl font-medium text-accent">
-          Guest House Facility in the institute
-        </h2>
-        <div className="relative overflow-x-auto rounded-lg border shadow">
-          <table className="w-full text-left text-sm text-muted">
-            <thead className="bg-muted text-xs uppercase text-dominant">
-              <tr>
-                <th scope="col" className="px-6 py-3">
-                  Guest House
-                </th>
-                <th scope="col" className="px-6 py-3">
-                  Number of Rooms
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b bg-white">
-                <th
-                  scope="row"
-                  className="whitespace-nowrap px-6 py-4 font-medium text-dominant"
-                >
-                  Jasmine (Girls Hostel)
-                </th>
-                <td className="px-6 py-4">Non AC: 10</td>
-              </tr>
-              <tr className="border-b bg-white">
-                <th
-                  scope="row"
-                  className="whitespace-nowrap px-6 py-4 font-medium text-dominant"
-                  rowSpan={4}
-                >
-                  Ashwatha Guest House
-                </th>
-                <td className="px-6 py-4">VIP Rooms: 3</td>
-              </tr>
-              <tr className="border-b bg-white">
-                <td className="px-6 py-4">A/C Rooms: 5</td>
-              </tr>
-              <tr className="border-b bg-white">
-                <td className="px-6 py-4">Non A/C Rooms: 8</td>
-              </tr>
-              <tr className="border-b bg-white">
-                <td className="px-6 py-4">Dining Hall: 1</td>
-              </tr>
-              <tr className="border-b bg-white">
-                <th
-                  scope="row"
-                  className="whitespace-nowrap px-6 py-4 font-medium text-dominant"
-                >
-                  Gulmohar Enclave
-                </th>
-                <td className="px-6 py-4">2 ( 2 BHK Houses)</td>
-              </tr>
-            </tbody>
-          </table>
+        <p>
+          Dear delegate, as far as accommodation is concerned, we shall try to
+          accommodate out-station participants at IIITDM Hostel/Guest Rooms
+          after payment as per rules of the Institute. These shall be available
+          at "First Come First Served" basis.
+        </p>
+        {/* <h2 className="my-5">
+          To reserve your accommodation, please fill the{" "}
+          <a href="" className="font-medium text-accent">
+            ACCOMMODATION FORM
+          </a>
+          . Payment can be made in advance/onsite.
+        </h2> */}
+        <h1>
+          Rooms at IIITDM Hostel/ Guest Rooms (if available) are available as
+          per following rates:
+        </h1>
+        <div className="flex flex-wrap justify-center gap-5 p-10">
+          <RoomCard
+            title="Hostel"
+            details={[
+              {
+                title: "Banyan and Lotus hostels for student participants",
+                description: "INR 300 per day per person",
+              },
+            ]}
+          />
+          <RoomCard
+            title="Guest House"
+            details={[
+              {
+                title: "AC attached bathroom",
+                description: "(INR 1500 per day)",
+              },
+              {
+                title: "AC non attached bathroom",
+                description: "(INR 1000 per day)",
+              },
+              {
+                title: "Non-AC non attached bathroom",
+                description: "(INR 600 per day)",
+              },
+            ]}
+          />
         </div>
-        <h2 className="my-5 text-center text-xl font-medium text-accent">
-          Near by hotels
-        </h2>
-        <Hotels />
-        <h1 className="my-10 text-center text-xl font-bold">
+        <h1 className="my-10 text-xl font-bold">
           <sup className="text-accent">*</sup>Please note that prices may
           slightly vary.
         </h1>
+        <p>
+          If you wish to stay outside, then please make your own accommodation
+          and conveyance arrangements.
+        </p>
+        <HotelsWithImages />
       </Main>
     </>
   );
