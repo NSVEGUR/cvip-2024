@@ -33,7 +33,7 @@ export default function Page() {
             title="Hostel"
             details={[
               {
-                title: "Banyan and Lotus hostels for student participants",
+                title: "Boys and Girls Hostels for student participants",
                 description: "INR 300 per day per person",
               },
             ]}

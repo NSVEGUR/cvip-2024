@@ -17,7 +17,7 @@ export default function Home() {
     <Main className="scroll-smooth">
       <Marquee>
         <h1 className="px-5 text-xl font-semibold text-complement">
-          Submissions for the first round are closed 
+          Submissions for the first round are closed
         </h1>
       </Marquee>
       <section className="flex min-h-container flex-col justify-evenly">
@@ -40,17 +40,19 @@ export default function Home() {
                 India
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-3">
-              <Link href="#more" className="mt-4">
-                Explore More
-              </Link>
-              <Link
-                href="/submission/author-guidelines"
-                className="mt-4 bg-accent"
-              >
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <Video />
+              <Link href="/submission/author-guidelines" className="bg-accent">
                 Click Here to Submit Paper
               </Link>
-              <Video />
+              <Link
+                href="https://youtu.be/_UbVX4w-VLM"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="col-span-2"
+              >
+                Highlights CVIP 2016-2023
+              </Link>
             </div>
           </div>
           <div className="group relative -lg:mt-20">

@@ -22,10 +22,10 @@ export default function Player() {
     <>
       <button
         id="video-btn"
-        className={cn(linkVariants(), "col-span-2 bg-zinc-300 text-black")}
+        className={cn(linkVariants(), "bg-zinc-300 text-black")}
         onClick={() => setVideo(true)}
       >
-        IIITDM Kancheepuram Campus Tour
+        IIITDM Campus Tour
       </button>
       {video ? (
         <>
