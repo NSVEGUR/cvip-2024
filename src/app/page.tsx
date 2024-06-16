@@ -17,7 +17,8 @@ export default function Home() {
     <Main className="scroll-smooth">
       <Marquee>
         <h1 className="px-5 text-xl font-semibold text-complement">
-          Submissions for the first round are closed
+        The second round of submissions is now open.
+
         </h1>
       </Marquee>
       <section className="flex min-h-container flex-col justify-evenly">

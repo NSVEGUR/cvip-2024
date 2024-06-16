@@ -1,4 +1,5 @@
 const news = [
+  "First round results are notified to authors",
   "Submissions for the first round is closed",
   "First Round Paper Submission Deadline is Extended until April 30, 2024",
   // {
