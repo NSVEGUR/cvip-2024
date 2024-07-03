@@ -30,9 +30,9 @@ export default function ImportantDates() {
             </td>
             <td className="whitespace-nowrap px-6 py-4 font-bold">
               <span className="mr-2 text-sm font-normal text-muted line-through">
-                April 15, 2024
+                April 30, 2024
               </span>
-              <span>April 30, 2024</span>
+              <span>Closed</span>
             </td>
           </tr>
           <tr className="border-b border-accent">
@@ -40,7 +40,10 @@ export default function ImportantDates() {
               Notification of Paper Acceptance
             </td>
             <td className="whitespace-nowrap px-6 py-4 font-bold">
-              June 15, 2024
+              <span className="mr-2 text-sm font-normal text-muted line-through">
+                June 15, 2024
+              </span>
+              <span>Closed</span>
             </td>
           </tr>
           <tr className="border-b border-accent bg-accent-soft">
@@ -79,7 +82,7 @@ export default function ImportantDates() {
               Early Bird Registration Deadline
             </td>
             <td className="whitespace-nowrap px-6 py-4 font-bold">
-              November 15, 2024
+              November 05, 2024
             </td>
           </tr>
           <tr>

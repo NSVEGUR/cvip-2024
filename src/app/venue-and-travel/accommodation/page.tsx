@@ -24,7 +24,7 @@ export default function Page() {
           </a>
           . Payment can be made in advance/onsite.
         </h2> */}
-        <h1>
+        <h1 className="mt-5 text-xl font-bold text-black">
           Rooms at IIITDM Hostel/ Guest Rooms (if available) are available as
           per following rates:
         </h1>

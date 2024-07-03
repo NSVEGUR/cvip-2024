@@ -106,6 +106,11 @@ export const header: {
         href: "/submission/author-guidelines",
         children: null,
       },
+      "Camera Ready Submission": {
+        title: "Camera Ready Submission",
+        href: "/submission/camera-ready-submission",
+        children: null,
+      },
       "Accepted Paper List": {
         title: "Accepted Paper List",
         href: "/submission/accepted-paper-list",
@@ -159,7 +164,7 @@ export const header: {
         href: "/sponsorship/call-for-sponsors",
         children: null,
       },
-      "Sponsors": {
+      Sponsors: {
         title: "Sponsors",
         href: "/sponsorship/sponsors",
         children: null,
