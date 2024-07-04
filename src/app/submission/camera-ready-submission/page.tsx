@@ -9,7 +9,7 @@ export default function Page() {
         <ol className="mb-5 font-bold text-complement">
           <li>
             Registration and camera-ready submission portals open (Round 1):{" "}
-            <span className="text-red-500">July 01, 2024</span>
+            <span className="text-red-500">July 05, 2024</span>
           </li>
           <li>
             Deadline for camera-ready submission (Round 1):{" "}
