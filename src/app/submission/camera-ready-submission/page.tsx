@@ -139,6 +139,13 @@ export default function Page() {
           <li>
             Copyright form can be downloaded here ({" "}
             <a
+              href="/docs/camera-ready-copy-right.docx"
+              className="text-blue-500 hover:text-blue-800"
+            >
+              Word
+            </a>
+            {" / "}
+            <a
               href="/docs/camera-ready-copy-right.pdf"
               className="text-blue-500 hover:text-blue-800"
             >
